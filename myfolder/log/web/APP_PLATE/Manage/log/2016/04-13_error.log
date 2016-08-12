@@ -1,0 +1,54 @@
+[error][2016-04-13 11:10:36] action file not exist : E:\www\yhsci\myfolder\Lib/Action/Manage/CustomMenuAction.class.phpEOF;
+[error][2016-04-13 11:10:36] _run error: action not exist, action: CustomMenu, method: update
+<<var data>> : array (
+  'a' => 'CustomMenu',
+  'm' => 'update',
+  'is_thread' => '0',
+  'menuId' => '19',
+  'menuName' => '外链',
+  'menuOrder' => '1',
+  'parentId' => '17',
+  'msgType' => '',
+  'content' => '',
+  'materialId' => '',
+  'url' => '',
+)EOF;
+[error][2016-04-13 11:13:37] action file not exist : E:\www\yhsci\myfolder\Lib/Action/Manage/CustomMenuAction.class.phpEOF;
+[error][2016-04-13 11:13:37] _run error: action not exist, action: CustomMenu, method: update
+<<var data>> : array (
+  'a' => 'CustomMenu',
+  'm' => 'update',
+  'is_thread' => '0',
+  'menuId' => '19',
+  'menuName' => '外链',
+  'menuOrder' => '1',
+  'parentId' => '17',
+  'msgType' => '',
+  'content' => '',
+  'materialId' => '',
+  'url' => '',
+)EOF;
+[error][2016-04-13 14:17:47] action file not exist : E:\www\yhsci\myfolder\Lib/Action/Manage/WxMaterialNewsAction.class.phpEOF;
+[error][2016-04-13 14:17:47] _run error: action not exist, action: WxMaterialNews, method: showMaterial
+<<var data>> : array (
+  'a' => 'WxMaterialNews',
+  'm' => 'showMaterial',
+  'p' => '1',
+  'callback' => 'materialSelecter.loadNewsData',
+)EOF;
+[error][2016-04-13 15:24:45] action file not exist : E:\www\yhsci\myfolder\Lib/Action/Manage/WxMaterialMusicAction.class.phpEOF;
+[error][2016-04-13 15:24:45] _run error: action not exist, action: WxMaterialMusic, method: showMaterial
+<<var data>> : array (
+  'a' => 'WxMaterialMusic',
+  'm' => 'showMaterial',
+  'p' => '1',
+  'callback' => 'materialSelecter.loadMusicData',
+)EOF;
+[error][2016-04-13 19:04:05] action file not exist : E:\www\yhsci\myfolder\Lib/Action/Manage/WxMaterialMusicAction.class.phpEOF;
+[error][2016-04-13 19:04:05] _run error: action not exist, action: WxMaterialMusic, method: showMaterial
+<<var data>> : array (
+  'a' => 'WxMaterialMusic',
+  'm' => 'showMaterial',
+  'p' => '1',
+  'callback' => 'materialSelecter.loadMusicData',
+)EOF;

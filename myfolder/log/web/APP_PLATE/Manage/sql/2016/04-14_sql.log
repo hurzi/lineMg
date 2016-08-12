@@ -1,0 +1,323 @@
+[2016-04-14 10:13:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:135.33997535706] connect db
+[2016-04-14 10:13:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0740] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 10:13:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.3311] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 10:13:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:146.47483825684] connect db
+[2016-04-14 10:13:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.1620] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 10:13:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8298] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 10:13:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.1789] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 10:13:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:43.1571] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 10:13:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.5821] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 10:15:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:114.79520797729] connect db
+[2016-04-14 10:15:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.5708] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 10:15:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.0290] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 10:15:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.7482] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 10:15:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.6120] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 10:15:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.9909] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 10:15:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:105.65090179443] connect db
+[2016-04-14 10:15:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.7388] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 10:15:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.1279] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 10:15:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0451] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 10:15:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0048] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 10:15:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9960] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 10:16:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:103.56783866882] connect db
+[2016-04-14 10:16:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8921] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 10:16:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.4119] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 10:17:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:137.40706443787] connect db
+[2016-04-14 10:17:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.1599] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 10:17:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:31.7111] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 10:17:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:30.0181] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 10:17:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.6301] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 10:17:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.5779] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 10:17:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:104.91394996643] connect db
+[2016-04-14 10:17:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8050] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 10:17:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9901] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 10:17:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:146.75307273865] connect db
+[2016-04-14 10:17:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.4450] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 10:17:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:29.6860] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 10:17:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:29.8622] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 10:17:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:29.7282] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 10:17:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:29.5391] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 10:17:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:114.85290527344] connect db
+[2016-04-14 10:17:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.1861] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 10:17:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.1981] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 10:17:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.7399] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 10:17:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.3590] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 10:17:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.0061] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 10:17:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:84.88392829895] connect db
+[2016-04-14 10:17:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.0269] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 10:17:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.2672] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 10:17:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.1110] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 10:17:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.9639] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 10:17:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.5850] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 10:17:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:136.24215126038] connect db
+[2016-04-14 10:17:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.9949] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 10:17:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.4491] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 10:17:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.9531] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 10:17:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.3761] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 10:17:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.3511] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 10:46:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:91.694116592407] connect db
+[2016-04-14 10:46:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.8270] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 10:46:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.7350] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 10:46:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:111.73415184021] connect db
+[2016-04-14 10:46:27][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.3039] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 10:46:27][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2641] UPDATE `wx_custom_menu` SET `url` = 'http://www.baidu.com/a.php',`name` = '外链',`order` = 1,`parent` = 17,`type` = 2,`material_id` = 0,`use_oauth` = 0,`last_update_time` = '2016-04-14 10:46:27' WHERE  id = 19 
+[2016-04-14 10:46:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:104.77900505066] connect db
+[2016-04-14 10:46:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8930] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 10:46:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9700] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 10:47:19][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:106.51588439941] connect db
+[2016-04-14 10:47:19][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8570] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 10:47:19][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0768] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 10:47:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:99.880933761597] connect db
+[2016-04-14 10:47:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.7491] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 10:47:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.0381] UPDATE `wx_custom_menu` SET `url` = 'http://www.baidu.com/a.php',`name` = '外链',`order` = 1,`parent` = 17,`type` = 2,`material_id` = 0,`use_oauth` = 0,`last_update_time` = '2016-04-14 10:47:23' WHERE  id = 19 
+[2016-04-14 10:47:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:84.254026412964] connect db
+[2016-04-14 10:47:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.6859] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 10:47:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.5779] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 10:48:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:139.13702964783] connect db
+[2016-04-14 10:48:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.6779] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 10:48:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.6260] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:38:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:96.448183059692] connect db
+[2016-04-14 13:38:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.7681] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:38:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.5900] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:38:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:106.36401176453] connect db
+[2016-04-14 13:38:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.5491] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:38:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.1390] UPDATE `wx_custom_menu` SET `url` = 'http://www.baidu.com/b.php',`name` = '外链',`order` = 1,`parent` = 17,`type` = 2,`material_id` = 0,`use_oauth` = 0,`last_update_time` = '2016-04-14 13:38:57' WHERE  id = 19 
+[2016-04-14 13:38:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:90.785026550293] connect db
+[2016-04-14 13:38:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.0721] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:38:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.1710] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:41:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:83.550214767456] connect db
+[2016-04-14 13:41:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.8479] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:41:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.7461] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:42:04][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:127.65502929688] connect db
+[2016-04-14 13:42:04][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.8009] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:42:04][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.7941] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:44:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:113.61908912659] connect db
+[2016-04-14 13:44:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0230] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:44:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8868] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:44:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:120.60284614563] connect db
+[2016-04-14 13:44:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.8382] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:44:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.0201] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:44:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:102.78701782227] connect db
+[2016-04-14 13:44:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.6512] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:44:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.7181] UPDATE `wx_custom_menu` SET `content` = 'asfdwe',`msg_type` = 'text',`name` = '外链',`order` = 1,`parent` = 17,`type` = 1,`material_id` = -1,`use_oauth` = 0,`last_update_time` = '2016-04-14 13:44:33' WHERE  id = 19 
+[2016-04-14 13:44:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:114.18414115906] connect db
+[2016-04-14 13:44:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.2079] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:44:35][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.3910] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:45:06][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:108.93797874451] connect db
+[2016-04-14 13:45:06][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0401] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:45:06][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8391] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:45:46][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:196.31910324097] connect db
+[2016-04-14 13:45:46][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:43.5820] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:45:46][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.6789] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:47:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:115.9029006958] connect db
+[2016-04-14 13:47:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.9298] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:47:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.9699] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:48:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:107.10406303406] connect db
+[2016-04-14 13:48:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.5661] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:48:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:43.3872] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:48:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:102.4329662323] connect db
+[2016-04-14 13:48:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.5940] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:48:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.6939] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:48:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:90.555906295776] connect db
+[2016-04-14 13:48:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8799] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:48:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.6250] UPDATE `wx_custom_menu` SET `content` = 'asfdwedwe',`msg_type` = 'text',`name` = '外链',`order` = 1,`parent` = 17,`type` = 1,`material_id` = -1,`use_oauth` = 0,`last_update_time` = '2016-04-14 13:48:34' WHERE  id = 19 
+[2016-04-14 13:48:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:98.798036575317] connect db
+[2016-04-14 13:48:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.6151] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:48:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.7150] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:49:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:141.88408851624] connect db
+[2016-04-14 13:49:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.7079] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:49:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.4729] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:49:12][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:103.27816009521] connect db
+[2016-04-14 13:49:12][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2002] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:49:12][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.9501] UPDATE `wx_custom_menu` SET `content` = 'asfdwedwe测试一下',`msg_type` = 'text',`name` = '外链',`order` = 1,`parent` = 17,`type` = 1,`material_id` = -1,`use_oauth` = 0,`last_update_time` = '2016-04-14 13:49:12' WHERE  id = 19 
+[2016-04-14 13:49:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:106.99701309204] connect db
+[2016-04-14 13:49:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.3250] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:49:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.8550] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:49:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:138.86594772339] connect db
+[2016-04-14 13:49:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.0349] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 13:49:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.6860] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 13:49:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.8999] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 13:49:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.8301] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 13:49:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.4920] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 13:49:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:141.23106002808] connect db
+[2016-04-14 13:49:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.6690] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:50:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:87.455034255981] connect db
+[2016-04-14 13:50:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.1651] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:50:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.3370] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:50:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:120.79381942749] connect db
+[2016-04-14 13:50:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.2739] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 13:50:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.6792] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 13:50:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.2249] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 13:50:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.5490] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 13:50:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.6170] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 13:50:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:102.23889350891] connect db
+[2016-04-14 13:50:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.5311] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:50:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.4222] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 13:50:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.5359] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 13:50:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.4199] UPDATE `wx_custom_menu` SET `msg_type` = 'news',`name` = '外链',`order` = 1,`parent` = 17,`type` = 1,`material_id` = 21,`use_oauth` = 0,`last_update_time` = '2016-04-14 13:50:29' WHERE  id = 19 
+[2016-04-14 13:50:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:135.60485839844] connect db
+[2016-04-14 13:50:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.6470] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:50:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.6840] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 13:50:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.7069] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 13:50:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.9851] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:50:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:100.8632183075] connect db
+[2016-04-14 13:50:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.8619] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 13:50:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.2670] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 13:50:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.7610] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 13:50:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.6201] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 13:50:49][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:110.13221740723] connect db
+[2016-04-14 13:50:49][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.5161] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 13:50:49][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.2051] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 13:50:49][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.1200] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 13:50:49][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.3180] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 13:50:49][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.1570] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 21:55:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:105.88502883911] connect db
+[2016-04-14 21:55:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.3231] SELECT * FROM wx_custom_menu WHERE id = 19
+[2016-04-14 21:55:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.7890] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 21:55:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.0220] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 21:55:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.9621] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 21:55:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:79.003810882568] connect db
+[2016-04-14 21:55:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.6781] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 21:55:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.3720] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 21:55:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.9249] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 21:55:27][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.7161] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 21:55:27][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.7020] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 21:55:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:79.210996627808] connect db
+[2016-04-14 21:55:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.5561] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 21:55:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.4700] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 21:55:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.3882] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 21:55:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.0279] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 21:55:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.3779] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 21:56:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:87.189912796021] connect db
+[2016-04-14 21:56:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.8341] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-04-14 21:56:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.3730] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 21:56:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.5210] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 21:56:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.2290] SELECT * FROM wx_material WHERE id = 7
+[2016-04-14 21:56:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.7971] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-04-14 21:56:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.1760] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-04-14 21:56:46][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:81.12096786499] connect db
+[2016-04-14 21:56:46][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.0201] SELECT * FROM wx_custom_menu WHERE 1=1  and parent = 0 
+[2016-04-14 21:57:07][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:78.187942504883] connect db
+[2016-04-14 21:57:07][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.4760] SELECT * FROM wx_custom_menu WHERE 1=1  and parent = 0 
+[2016-04-14 21:58:03][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:78.658103942871] connect db
+[2016-04-14 21:58:03][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.1410] SELECT * FROM wx_custom_menu WHERE 1=1  and parent = 0 
+[2016-04-14 21:58:27][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:81.007957458496] connect db
+[2016-04-14 21:58:27][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.4941] SELECT * FROM wx_custom_menu WHERE 1=1  and parent = 0 
+[2016-04-14 21:58:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:80.716848373413] connect db
+[2016-04-14 21:58:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.0690] SELECT * FROM wx_custom_menu WHERE 1=1  and parent = 0 
+[2016-04-14 21:59:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:77.171087265015] connect db
+[2016-04-14 21:59:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.4128] SELECT * FROM wx_custom_menu WHERE 1=1  and parent = 0 
+[2016-04-14 22:00:10][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:85.752964019775] connect db
+[2016-04-14 22:00:10][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.4788] SELECT * FROM wx_custom_menu WHERE 1=1  and parent = 0 
+[2016-04-14 22:00:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:80.189943313599] connect db
+[2016-04-14 22:00:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.0189] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 22:00:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.1011] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 22:00:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.5849] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 22:00:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.4759] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 22:00:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.6289] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 22:01:41][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:82.859992980957] connect db
+[2016-04-14 22:01:41][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.3159] SELECT * FROM wx_custom_menu WHERE 1=1  and parent = 0 
+[2016-04-14 22:01:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:79.741954803467] connect db
+[2016-04-14 22:01:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.3830] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 22:01:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.7719] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 22:01:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.5761] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 22:01:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.9681] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 22:01:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.3749] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 22:02:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:78.94492149353] connect db
+[2016-04-14 22:02:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.9550] select count(*) from wx_custom_menu  where 1=1  and  `parent`= 18 
+[2016-04-14 22:02:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.9850] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 22:02:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.6531] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 22:02:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.7900] INSERT INTO `wx_custom_menu`  (`msg_type`,`name`,`order`,`parent`,`type`,`material_id`,`use_oauth`,`create_time`,`last_update_time`) VALUES ('news','子菜单',2,18,1,21,0,'2016-04-14 22:02:02','2016-04-14 22:02:02')
+[2016-04-14 22:02:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.7969] select * from  wx_ent_setting where ent_id=1 and set_key='custom_menu_last_update_time'
+[2016-04-14 22:02:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.8350] UPDATE `wx_ent_setting` SET `set_value` = '2016-04-14 22:02:02' WHERE   ent_id=1 and set_key='custom_menu_last_update_time' 
+[2016-04-14 22:02:04][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:104.53796386719] connect db
+[2016-04-14 22:02:04][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.9819] SELECT * FROM wx_custom_menu WHERE 1=1  and parent = 0 
+[2016-04-14 22:02:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:78.946113586426] connect db
+[2016-04-14 22:02:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.2309] SELECT * FROM wx_custom_menu WHERE 1=1  and parent = 0 
+[2016-04-14 22:02:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:81.608057022095] connect db
+[2016-04-14 22:02:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.0291] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-14 22:02:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.9841] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  LIMIT 0,10 
+[2016-04-14 22:02:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.0291] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 21 
+[2016-04-14 22:02:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.1950] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 20 
+[2016-04-14 22:02:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.1991] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-14 22:02:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:87.172985076904] connect db
+[2016-04-14 22:02:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.6300] select count(*) from wx_custom_menu  where 1=1  and  `parent`= 18 
+[2016-04-14 22:02:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.9119] SELECT * FROM wx_material WHERE id = 20
+[2016-04-14 22:02:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.7280] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 20 
+[2016-04-14 22:02:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.5169] INSERT INTO `wx_custom_menu`  (`msg_type`,`name`,`order`,`parent`,`type`,`material_id`,`use_oauth`,`create_time`,`last_update_time`) VALUES ('news','aaa',4,18,1,20,0,'2016-04-14 22:02:59','2016-04-14 22:02:59')
+[2016-04-14 22:02:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.6791] select * from  wx_ent_setting where ent_id=1 and set_key='custom_menu_last_update_time'
+[2016-04-14 22:02:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.4118] UPDATE `wx_ent_setting` SET `set_value` = '2016-04-14 22:02:59' WHERE   ent_id=1 and set_key='custom_menu_last_update_time' 
+[2016-04-14 22:03:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:81.367969512939] connect db
+[2016-04-14 22:03:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.7239] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-04-14 22:03:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.5401] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 22:03:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.9290] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 22:03:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.6589] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 22:03:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.6651] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 22:03:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.3219] SELECT * FROM wx_material WHERE id = 20
+[2016-04-14 22:03:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.8811] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 20 
+[2016-04-14 22:03:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.5408] SELECT * FROM wx_material WHERE id = 7
+[2016-04-14 22:03:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.8989] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-04-14 22:03:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.1030] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-04-14 22:05:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:104.21705245972] connect db
+[2016-04-14 22:05:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.1990] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-04-14 22:05:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.5561] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 22:05:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.6140] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 22:05:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.0421] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 22:05:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.5571] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 22:05:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.1719] SELECT * FROM wx_material WHERE id = 20
+[2016-04-14 22:05:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.0131] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 20 
+[2016-04-14 22:05:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.3899] SELECT * FROM wx_material WHERE id = 7
+[2016-04-14 22:05:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.4190] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-04-14 22:05:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.3062] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-04-14 22:07:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:78.655004501343] connect db
+[2016-04-14 22:07:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.7530] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-04-14 22:07:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.6920] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 22:07:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.5869] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 22:07:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.5380] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 22:07:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.8890] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 22:07:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.5621] SELECT * FROM wx_material WHERE id = 20
+[2016-04-14 22:07:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.6400] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 20 
+[2016-04-14 22:07:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.4800] SELECT * FROM wx_material WHERE id = 7
+[2016-04-14 22:07:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.5661] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-04-14 22:07:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.9640] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-04-14 22:08:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:78.603982925415] connect db
+[2016-04-14 22:08:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.1741] SELECT * FROM wx_custom_menu WHERE id = 23
+[2016-04-14 22:08:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.1109] SELECT * FROM wx_material WHERE id = 20
+[2016-04-14 22:08:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.4068] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 20 
+[2016-04-14 22:08:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.9249] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-04-14 22:09:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:99.027156829834] connect db
+[2016-04-14 22:09:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.3221] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-04-14 22:09:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:14.9231] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 22:09:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:32.3641] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 22:09:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.7889] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 22:09:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.8750] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 22:09:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.4999] SELECT * FROM wx_material WHERE id = 20
+[2016-04-14 22:09:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:31.9901] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 20 
+[2016-04-14 22:09:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.1520] SELECT * FROM wx_material WHERE id = 7
+[2016-04-14 22:09:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.8021] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-04-14 22:09:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.6450] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-04-14 22:27:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:103.64294052124] connect db
+[2016-04-14 22:27:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.1152] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-04-14 22:27:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.3191] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 22:27:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:39.4449] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 22:27:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.1230] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 22:27:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.2280] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 22:27:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.6870] SELECT * FROM wx_material WHERE id = 20
+[2016-04-14 22:27:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.8820] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 20 
+[2016-04-14 22:27:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.4221] SELECT * FROM wx_material WHERE id = 7
+[2016-04-14 22:27:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.6941] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-04-14 22:27:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.3370] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-04-14 22:27:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:81.172943115234] connect db
+[2016-04-14 22:27:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.1631] select * from wx_custom_menu where 1=1  and id = 23  
+[2016-04-14 22:27:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.5859] DELETE FROM `wx_custom_menu` WHERE  id = 23 OR `parent`= 23 
+[2016-04-14 22:27:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.8570] select * from  wx_ent_setting where ent_id=1 and set_key='custom_menu_last_update_time'
+[2016-04-14 22:27:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.5559] UPDATE `wx_ent_setting` SET `set_value` = '2016-04-14 22:27:58' WHERE   ent_id=1 and set_key='custom_menu_last_update_time' 
+[2016-04-14 22:27:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:80.61408996582] connect db
+[2016-04-14 22:27:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.3119] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-04-14 22:27:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.6880] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 22:27:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.0409] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 22:27:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.7520] SELECT * FROM wx_material WHERE id = 21
+[2016-04-14 22:27:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.1169] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 21 
+[2016-04-14 22:27:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:16.2160] SELECT * FROM wx_material WHERE id = 7
+[2016-04-14 22:27:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:15.8868] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-04-14 22:28:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.6131] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'

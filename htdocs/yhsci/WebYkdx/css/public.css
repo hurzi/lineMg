@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-seri,"微软雅黑";
+}
+ul,li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    vertical-align: middle;
+    border: none;
+    display: inline-block;
+}
+i,em{
+    font-style:normal;
+}
+body{
+    background: #f5f5f5;
+}
+body{
+}
+input,select,button{
+	outline: none;
+	-webkit-appearance: none;
+}
+#wrap{
+    position: relative;
+}
+
+/*============清除浮动===========*/
+.clear{
+	clear: both;
+}
+.orange-color-size{
+/*=========黄色字体========*/
+	color: #f2621c;
+}
+/*=========浅灰色字体========*/
+.gra0_color_size{
+	color: #d0d0d0;
+}
+/*=========深灰色字体========*/
+.gra1_color_size{
+	color: #4a4949;
+}
+/*=========深灰色字体========*/
+.gra2_color_size{
+	color: #9a9a9a;
+}
+/*===========白色字体==========*/
+.white_color_size{
+	color: #ffffff;
+}
+/*========蓝色字体======*/
+.blue_color_size{
+	color: #699dd8;
+}
+/*========红色字体======*/
+.red_color_size{
+	color: #e50000;
+}
+.green_color_size{
+	color: #3EB24C;
+}
+/*======黄色边框======*/
+
+.orange-color-border{
+	border-color: #f2621c;
+}
+/*======黄色上部边框======*/
+.orange-color-border-top{
+	border-top: 1px solid #f2621c;
+}
+/*======黄色下部边框======*/
+.orange-color-border-bottom{
+	border-bottom: 1px solid #f2621c;
+}
+/*=======灰色边框============*/
+.gray-color-border{
+	border-color:#bfbfbf;
+}
+/*============灰色上部边框===========*/
+.gray-color-border-top{
+	border-top:1px solid #bfbfbf;
+}
+/*============灰色下部边框===========*/
+.gray-color-border-bottom{
+	border-bottom:1px solid #bfbfbf;
+}
+/*============灰色下部边框===========*/
+.gray-color-border-top{
+	border-bottom:1px solid #bfbfbf;
+}
+
+/*======头像圆角=========*/
+.radiu_pic{
+	border-radius: 100px;
+}
+.radiu_pic_orange_border{
+	border: 1px solid #f2621c;
+}
+
+/*=======字体大小=========*/
+.font-size8{
+	font-size: 8px;
+}
+.font-size10{
+	font-size: 10px;
+}
+.font-size12{
+	font-size: 12px;
+}
+.font-size14{
+	font-size: 14px;
+}
+.font-size16{
+	font-size: 16px;
+}
+
+/*==========margintop============*/
+.mar_top20{
+	margin-top: 20px;
+}
+.mar_top10{
+	margin-top: 10px;
+}
+.mar_top5{
+	margin-top: 5px;
+}
+.mar_top0{
+	margin-top: 0px;
+}
+.mar_top50{
+	margin-top:40%;
+}
+.mar_top30{
+	margin-top:30%;
+}
+.mar_top15{
+	margin-top: 15px;
+}
+.margin0{
+	margin: 0 auto;
+	text-align: center;
+	float: none;
+}
+/*===========padding========*/
+.pading5{
+	padding: 5px;	
+}
+.pad50{
+	padding: 7px 0;
+}
+.pad15{
+	padding: 15px 10px;
+}
+.pad10{
+	padding:10px;
+}
+.pad20{
+	padding:20px 0;
+}
+.paddbotm{
+	padding-bottom: 50px;
+}
+/*==========黄色背景色==========*/
+.orange_bj{
+	background: #f2621c;
+}
+/*==========白色背景色==========*/
+.white_bj{
+	background: #FFFFFF;
+}
+/*==========灰色背景色==========*/
+.gray_bj{
+	background: #b8b8b8;
+}
+.backnone{
+	background: none;
+}
+/*=========圆角======*/
+.borde-rad{
+	border-radius: 3px;
+}
+.min_wid96{
+	width: 96%;
+	margin:  0 auto;
+}
+/*===========文字下划线========*/
+.text_dec{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.qux_btn{
+	border: 1px solid #f2621c;
+	border-radius: 5px;
+}
+
+.wid_10{
+	width: 10%;
+}
+.wid_20{
+	width: 20%;
+}
+
+/*========隐藏占位=======*/
+
+.vibhid{
+	visibility: hidden;
+}
+
+/*==========底部固定===========*/
+.db_box{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+
+/*========字体不加粗======*/
+.font-we{
+	font-weight: 100;
+}
+
+
+

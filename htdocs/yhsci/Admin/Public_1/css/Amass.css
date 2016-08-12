@@ -1,0 +1,231 @@
+.qf_module{
+   display: inline-block;
+    width: 100%;
+	margin-bottom:10px;
+	}
+.qf_module .tab{
+	display:inline-block;
+	margin:0 0 -1px 5px;
+	}
+.qf_module .tab li{
+	float:left;
+	padding:0.3em 2em;
+	line-height:24px;
+	font-size:14px;
+	margin-right:5px;
+	border-radius:5px 5px 0 0;
+	background-color:#F3F3F3;
+	border:1px solid #BCC4CC;
+	}
+.qf_module .tab li:hover{
+	cursor:pointer;
+	background-color:#FFF!important;
+	border-bottom:1px solid #fff!important;
+	}	
+.tab_xz{
+	font-weight:bold;
+	background-color:#FFF!important;
+	border-bottom:1px solid #fff!important;
+	}		
+.qf_module .tab_n{
+    background-color: #FFFFFF;
+    border: 1px solid #BCC4CC;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 5px 5px;
+    min-height:50px;
+    overflow: hidden;
+	}
+.n_footer{
+	border-top:1px solid #DBDBDB;
+	}	
+.n_footer p{
+	padding:5px 10px;
+	}	
+.n_content{
+	display:none;
+	padding:20px 15px;
+	}
+.tab_ipt{
+	padding-left:12px;
+	margin-bottom:10px;
+	}	
+.tab_ipt.clear{
+	clear:both;
+	}		
+.lab{
+	float: left;
+	margin-right:10px;
+    font-size: 14px;
+    line-height: 30px;
+	}			
+/*-------------------------------------------*/
+
+.tab_z{
+	display:none;
+	padding:10px;
+	}	
+.n_content textarea{
+	resize:none;
+	}
+.qfText{
+	width:100%;
+	min-height:100px;
+	border:1px solid #ccc;
+	background:url(../images/input_bg.png) 0 0 no-repeat;
+	}
+.u_choose{
+	border:1px solid #ccc;
+	/*min-height:80px;*/
+	margin:10px;
+	} 
+.u_choose ul{
+	display:inline-block;
+} 
+.u_choose li{
+	float:left;
+	margin:1px;
+	}		
+.u_choose li a{
+	white-space: nowrap;
+	padding:0.5em 2em;
+	display:block;
+	}
+
+.u_choose li a:hover{
+	background-color:lightgray;
+	}	
+
+/*-------------------------------*/
+.zztag {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #B2D9F0;
+    border-radius: 2px 2px 2px 2px;
+    float: left;
+    margin: 4px;
+    white-space: nowrap;
+}
+.zztag a {
+    white-space: nowrap;
+}
+
+.zztag .a1 {
+    color: #666666 !important;
+    line-height: 19px;
+    padding: 2px 7px;
+}
+.zztag .a2 {
+    background: url("../images/closebg.gif") no-repeat scroll 9px -78px #EDFCFF;
+    border-left: 1px solid #B2D9F0;
+    height: 19px;
+    padding: 1px 10px;
+    width: 19px;
+}
+.zztag .a2:hover {
+    background: url("../images/closebg.gif") no-repeat scroll 9px -98px #548CC8;
+}		
+/*----------------模板群发---------------------------*/
+.template_content{
+	min-height:300px;
+}
+.template_list{
+	overflow: hidden;
+}
+.template_one {
+    border: 1px solid #B8B8B8;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    height: 170px;
+	width:150px;
+	float:left;
+	margin-right: 40px;
+	cursor: pointer;
+}
+.template_detail{
+	background-color: #83B847 !important;
+    border: 1px solid #B8B8B8;
+    border-radius: 5px;
+    color: #000000;
+    height: 120px;
+    margin: 0 10px 10px;
+    padding: 5px;
+}
+.template_detail_content {
+	height:118px;
+	overflow: hidden;
+	word-wrap: break-word;
+	font-size: 10px;
+}
+.template_edit{
+	border: 1px solid #B8B8B8;
+    border-radius: 5px;
+	min-height:400px;
+	margin-top: 10px;
+	word-wrap: break-word;
+	/*overflow: hidden;*/
+}
+.template_edit_l{
+	float: left;
+    width: 40%;
+}
+.template_edit_r{
+	float: right;
+    width: 60%;
+}
+.template_edit_l_c{
+	border: 1px solid #B8B8B8;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    margin: 20px 10px 20px 20px;
+    position: relative;
+}
+.template_edit_r_c{
+	border: 1px solid #B8B8B8;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    margin: 20px 20px 20px 10px;
+    min-height: 300px;
+    position: relative;
+	background-color: #F8F8F8;
+}
+.template_edit_r_a_out{
+	border-color: transparent #B8B8B8 transparent transparent;
+    border-width: 12px 14px 12px 0;
+    left: -14px;
+    top: 43px;
+}
+.template_edit_r_a_in{
+	border-color: transparent #F8F8F8 transparent transparent;
+    border-width: 11px 13px 11px 0;
+    left: -13px;
+    top: 44px;
+}
+.template_edit_editer{
+    padding: 20px;
+}
+.template_edit_editer_c{
+	margin-top:10px;
+	border: 1px solid #B8B8B8;
+    border-radius: 5px;
+	padding: 10px;
+	min-height: 200px;
+}
+.template_content_show{
+	margin:10px;
+	padding: 10px;
+    word-wrap: break-word;
+	background-color: #83B847 !important;
+	border: 1px solid #B8B8B8;
+    border-radius: 5px;
+    color: #000000;
+	min-height:150px;
+}
+.template_edit_input{
+	width:150px;
+}
+.template_edit_box{
+	display: none;
+	overflow: hidden;
+}
+.b_c_hui{
+	background-color: #bbb;
+}

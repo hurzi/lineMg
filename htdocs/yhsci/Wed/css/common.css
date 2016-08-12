@@ -1,0 +1,111 @@
+.botton_menu { position:absolute; left:0; bottom:0; height:40px; width:100%; overflow: hidden; background:rgba(0,0,0,0.5); }
+.botton_menu p { margin-right:10px; }
+.botton_menu p a { position: relative; font-size:14px; color:#fff; height:40px; line-height:40px; padding-left:15px; }
+.botton_menu p a span  { display: inline-block; width: 40px; height: 40px; position: absolute; top: 14px; left:15px; }
+
+.common_bg {background:url('../images/common_bg.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+
+.yaoqing_bg {background:url('../images/yaoqing_bg.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+
+/*背景音乐开关*/
+
+.bgsoundsw {
+    z-index: 98;
+    position:absolute;
+    top: 12px;
+    right: 10px;
+}
+
+.bgsoundsw dt, .bgsoundsw dd {
+    width: 32px;
+    height: 32px;
+}
+
+.bgsoundsw dd {
+    background: url("../images/m_close.png") no-repeat;
+    background-size: 32px 32px;
+    display: none;
+}
+
+.bgsoundsw dt {
+    background: url("../images/m_open.png") no-repeat;
+    background-size: 32px 32px;
+    -webkit-animation: soundswANI 1.5s infinite linear;
+}
+
+@-webkit-keyframes soundswANI {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.yaoqing_people { 
+	position:absolute; 
+	left:5%; top:5%; 
+	height:40px;  overflow: hidden; background:rgba(0,0,0,0.0);
+}
+
+.yaoqing_people .to_span{
+	font-size: 30px;
+	color: #DD5485;	
+	font-style:italic;	
+}
+
+.yaoqing_people .name_span{
+	font-size: 40px;
+	color: #DD5485;	
+	font-weight:bold;
+	text-shadow:#553300 2px 2px 4px;
+}
+
+
+/*==================默认表格样式============*/
+.default_table{
+    border: 1px solid #F0F0F0;
+    margin-top: 10px;
+	font-size: 12px;
+	width: 100%;
+}
+.default_table tr td{
+	height:25px;
+    border: none;
+	text-align:center;
+    border-color:#c0c0c0 ;
+    font-size: 12px;
+	padding:2px;
+    color: #7a7a7a;
+    border-top: 1px solid #F6F6F6;
+}
+.default_table tr:hover td{
+    background: #f9f9f9;
+}
+.default_table tr td .qq{
+    padding: 1px 0;
+    font-size: 12px;
+    width: 100px;
+}
+.default_table tr td a{
+    font-size: 12px;
+    color: #7a7a7a;
+}
+.default_table tr th{
+    border: none;
+    text-align: center;
+    height: 35px;
+    border-color:#F0F0F0 ;
+    font-size: 14px;
+    color: #7a7a7a;
+    background: #f9f9f9;
+}
+.default_table tr th a{
+    font-size: 14px;
+    color: #7a7a7a;
+    padding: 0 5px;
+}

@@ -1,0 +1,266 @@
+[2016-04-08 10:13:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:148.28205108643] connect db
+[2016-04-08 10:13:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0289] select * from zgykdx_evaluating where eval_id = 34
+[2016-04-08 10:13:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9750] select * from zgykdx_evaluating_topic where topic_id = 7
+[2016-04-08 10:13:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9629] select * from zgykdx_evaluating_item where topic_id = 7
+[2016-04-08 10:14:03][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:118.7059879303] connect db
+[2016-04-08 10:14:03][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.3291] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 10:14:03][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.8140] SELECT FOUND_ROWS()
+[2016-04-08 10:14:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:148.51403236389] connect db
+[2016-04-08 10:14:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:30.8630] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 10:14:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:29.5041] SELECT FOUND_ROWS()
+[2016-04-08 10:16:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:87.689161300659] connect db
+[2016-04-08 10:16:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.4910] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 10:16:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.1230] SELECT FOUND_ROWS()
+[2016-04-08 10:52:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:104.37083244324] connect db
+[2016-04-08 10:52:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2989] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 10:52:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.5072] SELECT FOUND_ROWS()
+[2016-04-08 10:57:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:100.53896903992] connect db
+[2016-04-08 10:57:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.7768] select * from zgykdx_evaluating_topic where eval_id = 25
+[2016-04-08 10:57:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.6450] select * from zgykdx_evaluating where eval_id = 25
+[2016-04-08 10:57:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:148.11110496521] connect db
+[2016-04-08 10:57:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.6429] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 10:57:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.7080] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 10:59:04][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:136.83795928955] connect db
+[2016-04-08 10:59:04][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9231] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 10:59:04][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9359] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 11:13:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:93.451976776123] connect db
+[2016-04-08 11:13:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.8489] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 11:13:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.5869] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 11:14:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:110.97717285156] connect db
+[2016-04-08 11:14:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.3331] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 11:14:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.1730] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 11:14:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.1910] select * from zgykdx_evaluating where eval_id = 34
+[2016-04-08 11:16:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:98.551988601685] connect db
+[2016-04-08 11:16:41][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.8721] select * from zgykdx_evaluating_topic where topic_id = 7
+[2016-04-08 11:16:41][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.6780] select * from zgykdx_evaluating_item where topic_id = 7
+[2016-04-08 11:16:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:96.099138259888] connect db
+[2016-04-08 11:16:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.0189] UPDATE `zgykdx_evaluating_topic` SET `eval_id` = '34',`topic_type` = '4',`topic_point` = '40',`topic_title` = '测试一下alter',`topic_tip` = '哈哈alter',`topic_content` = '<p><span class=\" newTimeFactor_before_abs m\" style=\"color: rgb(102, 102, 102); font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">2012年3月16日&nbsp;-&nbsp;</span><span style=\"font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">用</span><span style=\"color: rgb(204, 0, 0); font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">jQuery循环</span><span style=\"font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">遍历所有</span><span style=\"color: rgb(204, 0, 0); font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">子元素</span><span style=\"font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">&nbsp;标签: jqueryfunctiondiv jQuery(1) 作者同类文章X alert(obj.html());//弹出</span><span style=\"color: rgb(204, 0, 0); font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">子元素</span><span style=\"font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">标签上一篇jQuery双色表格 下一篇Sp...</span></p>',`last_update_time` = '2016-04-08 11:16:52',`create_time` = '2016-04-08 11:16:52' WHERE topic_id=7
+[2016-04-08 11:16:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.4179] delete from zgykdx_evaluating_item where topic_id=7
+[2016-04-08 11:16:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.6500] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('7','34','3','C','中国alter','30','2016-04-08 11:16:52','2016-04-08 11:16:52')
+[2016-04-08 11:16:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.5620] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('7','34','2','B','deralter','20','2016-04-08 11:16:52','2016-04-08 11:16:52')
+[2016-04-08 11:16:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.3191] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('7','34','1','A','adfalter','10','2016-04-08 11:16:52','2016-04-08 11:16:52')
+[2016-04-08 11:16:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.3820] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('7','34','4','D','de就alter','50','2016-04-08 11:16:52','2016-04-08 11:16:52')
+[2016-04-08 11:16:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:103.57093811035] connect db
+[2016-04-08 11:16:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0480] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 11:16:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8701] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 11:17:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:123.4769821167] connect db
+[2016-04-08 11:17:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.0592] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 11:17:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.4782] SELECT FOUND_ROWS()
+[2016-04-08 11:17:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:142.13013648987] connect db
+[2016-04-08 11:17:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.1412] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 11:17:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.7640] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 11:17:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:108.30402374268] connect db
+[2016-04-08 11:17:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.3380] select count(1) from zgykdx_user_eval_detail where topic_id=1
+[2016-04-08 11:17:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.1660] select * from zgykdx_evaluating_topic where topic_id = 1
+[2016-04-08 11:17:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.6048] DELETE FROM `zgykdx_evaluating_item` WHERE topic_id=1
+[2016-04-08 11:17:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.7958] DELETE FROM `zgykdx_evaluating_topic` WHERE topic_id=1
+[2016-04-08 11:17:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.0719] select count(1) from zgykdx_evaluating_topic where eval_id=34
+[2016-04-08 11:17:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.8540] update zgykdx_evaluating set topic_count=4 where eval_id=34
+[2016-04-08 11:17:56][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:102.88715362549] connect db
+[2016-04-08 11:17:56][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9970] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 11:17:56][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2071] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 11:17:56][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.3850] select * from zgykdx_evaluating where eval_id = 34
+[2016-04-08 11:18:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:97.947120666504] connect db
+[2016-04-08 11:18:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.8821] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 11:18:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.4299] SELECT FOUND_ROWS()
+[2016-04-08 11:18:09][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:86.210012435913] connect db
+[2016-04-08 11:18:09][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.5132] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 11:18:09][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.0520] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 11:18:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:97.543001174927] connect db
+[2016-04-08 11:18:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.6499] select * from zgykdx_evaluating_topic where topic_id = 2
+[2016-04-08 11:18:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.4091] select * from zgykdx_evaluating_item where topic_id = 2
+[2016-04-08 11:18:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:102.8299331665] connect db
+[2016-04-08 11:18:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.6521] UPDATE `zgykdx_evaluating_topic` SET `eval_id` = '34',`topic_type` = '2',`topic_point` = '100',`topic_title` = '测试001adf',`topic_tip` = '测试001asdf',`topic_content` = '<p>&lt;p&gt;asf&lt;/p&gt;</p>',`last_update_time` = '2016-04-08 11:18:36',`create_time` = '2016-04-08 11:18:36' WHERE topic_id=2
+[2016-04-08 11:18:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.2610] delete from zgykdx_evaluating_item where topic_id=2
+[2016-04-08 11:18:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.6609] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('2','34','1','A','苦',null,'2016-04-08 11:18:36','2016-04-08 11:18:36')
+[2016-04-08 11:18:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.5052] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('2','34','2','B','adfw',null,'2016-04-08 11:18:36','2016-04-08 11:18:36')
+[2016-04-08 11:18:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.5629] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('2','34','3','C','we',null,'2016-04-08 11:18:36','2016-04-08 11:18:36')
+[2016-04-08 11:18:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.4229] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('2','34','4','D','234',null,'2016-04-08 11:18:36','2016-04-08 11:18:36')
+[2016-04-08 11:18:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:87.12100982666] connect db
+[2016-04-08 11:18:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.0790] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 11:18:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.0930] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 11:20:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:110.36396026611] connect db
+[2016-04-08 11:20:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.0210] select * from zgykdx_evaluating_topic where topic_id = 2
+[2016-04-08 11:20:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.9700] select * from zgykdx_evaluating_item where topic_id = 2
+[2016-04-08 11:20:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:106.18710517883] connect db
+[2016-04-08 11:20:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.5690] UPDATE `zgykdx_evaluating_topic` SET `eval_id` = '34',`topic_type` = '2',`topic_point` = '100',`topic_title` = '测试001adf',`topic_tip` = '测试001asdf',`topic_content` = '<p>&lt;p&gt;asf&lt;/p&gt;</p>',`item_count` = 4,`last_update_time` = '2016-04-08 11:20:54',`create_time` = '2016-04-08 11:20:54' WHERE topic_id=2
+[2016-04-08 11:20:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:29.4449] delete from zgykdx_evaluating_item where topic_id=2
+[2016-04-08 11:20:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.3521] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('2','34','1','A','苦',null,'2016-04-08 11:20:54','2016-04-08 11:20:54')
+[2016-04-08 11:20:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.3189] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('2','34','2','B','adfw',null,'2016-04-08 11:20:54','2016-04-08 11:20:54')
+[2016-04-08 11:20:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.5180] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('2','34','3','C','we',null,'2016-04-08 11:20:54','2016-04-08 11:20:54')
+[2016-04-08 11:20:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.0330] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('2','34','4','D','234',null,'2016-04-08 11:20:54','2016-04-08 11:20:54')
+[2016-04-08 11:20:56][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:104.59613800049] connect db
+[2016-04-08 11:20:56][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.5680] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 11:20:56][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.5720] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 11:21:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:83.810091018677] connect db
+[2016-04-08 11:21:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.0161] select * from zgykdx_evaluating_topic where topic_id = 3
+[2016-04-08 11:21:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.9420] select * from zgykdx_evaluating_item where topic_id = 3
+[2016-04-08 11:21:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:92.90885925293] connect db
+[2016-04-08 11:21:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.6069] UPDATE `zgykdx_evaluating_topic` SET `eval_id` = '34',`topic_type` = '2',`topic_point` = '100',`topic_title` = '测试001adf',`topic_tip` = '测试001asdf',`topic_content` = '<p>asf</p>',`item_count` = 4,`last_update_time` = '2016-04-08 11:21:15',`create_time` = '2016-04-08 11:21:15' WHERE topic_id=3
+[2016-04-08 11:21:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.1611] delete from zgykdx_evaluating_item where topic_id=3
+[2016-04-08 11:21:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.2550] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('3','34','1','A','adf',null,'2016-04-08 11:21:16','2016-04-08 11:21:16')
+[2016-04-08 11:21:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.3649] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('3','34','2','B','adfe',null,'2016-04-08 11:21:16','2016-04-08 11:21:16')
+[2016-04-08 11:21:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.2161] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('3','34','3','C','2324',null,'2016-04-08 11:21:16','2016-04-08 11:21:16')
+[2016-04-08 11:21:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.5549] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('3','34','4','D','dde',null,'2016-04-08 11:21:16','2016-04-08 11:21:16')
+[2016-04-08 11:21:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:121.82807922363] connect db
+[2016-04-08 11:21:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.7280] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 11:21:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.7840] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 11:21:20][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:118.49093437195] connect db
+[2016-04-08 11:21:20][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.6859] select * from zgykdx_evaluating_topic where topic_id = 5
+[2016-04-08 11:21:20][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.5810] select * from zgykdx_evaluating_item where topic_id = 5
+[2016-04-08 11:21:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:104.94303703308] connect db
+[2016-04-08 11:21:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.4310] UPDATE `zgykdx_evaluating_topic` SET `eval_id` = '34',`topic_type` = '2',`topic_point` = '100',`topic_title` = '测试001adf',`topic_tip` = '测试001asdf',`topic_content` = '<p>asf</p>',`item_count` = 2,`last_update_time` = '2016-04-08 11:21:31',`create_time` = '2016-04-08 11:21:31' WHERE topic_id=5
+[2016-04-08 11:21:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.9420] delete from zgykdx_evaluating_item where topic_id=5
+[2016-04-08 11:21:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.7459] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('5','34','1','A','asd',null,'2016-04-08 11:21:31','2016-04-08 11:21:31')
+[2016-04-08 11:21:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.1570] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('5','34','2','B','er',null,'2016-04-08 11:21:31','2016-04-08 11:21:31')
+[2016-04-08 11:21:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:90.310096740723] connect db
+[2016-04-08 11:21:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.3701] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 11:21:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.3119] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 11:21:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:113.03400993347] connect db
+[2016-04-08 11:21:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.5999] select * from zgykdx_evaluating_topic where topic_id = 7
+[2016-04-08 11:21:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.5610] select * from zgykdx_evaluating_item where topic_id = 7
+[2016-04-08 11:21:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:101.93419456482] connect db
+[2016-04-08 11:21:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9858] UPDATE `zgykdx_evaluating_topic` SET `eval_id` = '34',`topic_type` = '4',`topic_point` = '40',`topic_title` = '测试一下alter',`topic_tip` = '哈哈alter',`topic_content` = '<p><span class=\" newTimeFactor_before_abs m\" style=\"color: rgb(102, 102, 102); font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">2012年3月16日&nbsp;-&nbsp;</span><span style=\"font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">用</span><span style=\"color: rgb(204, 0, 0); font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">jQuery循环</span><span style=\"font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">遍历所有</span><span style=\"color: rgb(204, 0, 0); font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">子元素</span><span style=\"font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">&nbsp;标签: jqueryfunctiondiv jQuery(1) 作者同类文章X alert(obj.html());//弹出</span><span style=\"color: rgb(204, 0, 0); font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">子元素</span><span style=\"font-family: arial; font-size: 13px; line-height: 20.02px; white-space: normal;\">标签上一篇jQuery双色表格 下一篇Sp...</span></p>',`item_count` = 4,`last_update_time` = '2016-04-08 11:21:42',`create_time` = '2016-04-08 11:21:42' WHERE topic_id=7
+[2016-04-08 11:21:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.5150] delete from zgykdx_evaluating_item where topic_id=7
+[2016-04-08 11:21:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.5970] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('7','34','4','D','de就alter','50','2016-04-08 11:21:43','2016-04-08 11:21:43')
+[2016-04-08 11:21:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.6201] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('7','34','1','A','adfalter','10','2016-04-08 11:21:43','2016-04-08 11:21:43')
+[2016-04-08 11:21:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.0409] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('7','34','2','B','deralter','20','2016-04-08 11:21:43','2016-04-08 11:21:43')
+[2016-04-08 11:21:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.4198] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('7','34','3','C','中国alter','30','2016-04-08 11:21:43','2016-04-08 11:21:43')
+[2016-04-08 11:21:44][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:91.948986053467] connect db
+[2016-04-08 11:21:44][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.1979] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 11:21:44][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.2580] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 11:21:49][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:102.67996788025] connect db
+[2016-04-08 11:21:49][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.5511] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 11:21:49][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.1619] SELECT FOUND_ROWS()
+[2016-04-08 11:21:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:105.01718521118] connect db
+[2016-04-08 11:21:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.1372] select * from zgykdx_evaluating_topic where eval_id = 33
+[2016-04-08 11:21:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.5039] select * from zgykdx_evaluating where eval_id = 33
+[2016-04-08 11:22:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:102.73599624634] connect db
+[2016-04-08 11:22:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.6510] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 11:22:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.5831] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 11:35:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:352.11777687073] connect db
+[2016-04-08 11:35:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.2581] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 11:35:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.0919] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 11:41:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:192.91400909424] connect db
+[2016-04-08 11:41:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.4942] select * from zgykdx_evaluating_topic where eval_id = 34
+[2016-04-08 11:41:51][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.2439] select * from zgykdx_evaluating_item where eval_id = 34 order by item_order
+[2016-04-08 11:43:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:122.53904342651] connect db
+[2016-04-08 11:43:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.8941] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 11:43:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.2559] SELECT FOUND_ROWS()
+[2016-04-08 11:46:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:102.16283798218] connect db
+[2016-04-08 11:46:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.3041] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 11:46:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.9771] SELECT FOUND_ROWS()
+[2016-04-08 11:46:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:90.054035186768] connect db
+[2016-04-08 11:46:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.5530] select * from zgykdx_evaluating_topic where eval_id = 33
+[2016-04-08 11:48:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:91.206073760986] connect db
+[2016-04-08 11:48:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.2540] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 11:48:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.9410] SELECT FOUND_ROWS()
+[2016-04-08 11:48:25][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:204.05602455139] connect db
+[2016-04-08 11:48:25][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.5070] select * from zgykdx_evaluating_topic where eval_id = 33
+[2016-04-08 13:33:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:108.638048172] connect db
+[2016-04-08 13:33:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0640] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 13:33:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.2439] SELECT FOUND_ROWS()
+[2016-04-08 13:33:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:157.25493431091] connect db
+[2016-04-08 13:33:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:31.5189] select * from zgykdx_evaluating_topic where eval_id = 33
+[2016-04-08 13:33:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:31.2130] select * from zgykdx_evaluating where eval_id = 33
+[2016-04-08 13:36:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:89.704036712646] connect db
+[2016-04-08 13:36:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.9708] INSERT INTO `zgykdx_evaluating_topic`  (`eval_id`,`topic_type`,`topic_point`,`topic_title`,`topic_tip`,`topic_content`,`item_count`,`last_update_time`,`create_time`) VALUES ('33','1',null,'测试001','测试001',null,4,'2016-04-08 13:35:59','2016-04-08 13:35:59')
+[2016-04-08 13:36:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.4491] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES (8,'33','1','A','1',null,'2016-04-08 13:36:00','2016-04-08 13:36:00')
+[2016-04-08 13:36:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.7629] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES (8,'33','2','B','2',null,'2016-04-08 13:36:00','2016-04-08 13:36:00')
+[2016-04-08 13:36:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.8142] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES (8,'33','3','C','3',null,'2016-04-08 13:36:00','2016-04-08 13:36:00')
+[2016-04-08 13:36:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.7009] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES (8,'33','4','D','4',null,'2016-04-08 13:36:00','2016-04-08 13:36:00')
+[2016-04-08 13:36:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.7782] select count(1) from zgykdx_evaluating_topic where eval_id=33
+[2016-04-08 13:36:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.6771] update zgykdx_evaluating set topic_count=1 where eval_id=33
+[2016-04-08 13:36:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:89.103937149048] connect db
+[2016-04-08 13:36:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.7759] select * from zgykdx_evaluating_topic where eval_id = 33
+[2016-04-08 13:36:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.3940] select * from zgykdx_evaluating_item where eval_id = 33 order by item_order
+[2016-04-08 13:36:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.5139] select * from zgykdx_evaluating where eval_id = 33
+[2016-04-08 13:36:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:111.68909072876] connect db
+[2016-04-08 13:36:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.9552] select * from zgykdx_evaluating_topic where topic_id = 8
+[2016-04-08 13:36:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.9809] select * from zgykdx_evaluating_item where topic_id = 8
+[2016-04-08 13:36:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:87.535858154297] connect db
+[2016-04-08 13:36:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.0451] UPDATE `zgykdx_evaluating_topic` SET `eval_id` = '33',`topic_type` = '1',`topic_point` = null,`topic_title` = '测试001',`topic_tip` = '测试001',`topic_content` = null,`item_count` = 4,`last_update_time` = '2016-04-08 13:36:11',`create_time` = '2016-04-08 13:36:11' WHERE topic_id=8
+[2016-04-08 13:36:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.5189] delete from zgykdx_evaluating_item where topic_id=8
+[2016-04-08 13:36:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.5259] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('8','33','1','A','1',null,'2016-04-08 13:36:11','2016-04-08 13:36:11')
+[2016-04-08 13:36:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.2970] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('8','33','2','B','2',null,'2016-04-08 13:36:11','2016-04-08 13:36:11')
+[2016-04-08 13:36:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.3609] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('8','33','3','C','333',null,'2016-04-08 13:36:11','2016-04-08 13:36:11')
+[2016-04-08 13:36:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.0552] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('8','33','4','D','4',null,'2016-04-08 13:36:11','2016-04-08 13:36:11')
+[2016-04-08 13:36:13][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:162.8589630127] connect db
+[2016-04-08 13:36:13][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:44.9271] select * from zgykdx_evaluating_topic where eval_id = 33
+[2016-04-08 13:36:13][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:44.3189] select * from zgykdx_evaluating_item where eval_id = 33 order by item_order
+[2016-04-08 13:36:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:102.32090950012] connect db
+[2016-04-08 13:36:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.3560] select * from zgykdx_evaluating_topic where topic_id = 8
+[2016-04-08 13:36:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.3931] select * from zgykdx_evaluating_item where topic_id = 8
+[2016-04-08 13:36:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:93.371152877808] connect db
+[2016-04-08 13:36:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.2881] UPDATE `zgykdx_evaluating_topic` SET `eval_id` = '33',`topic_type` = '1',`topic_point` = null,`topic_title` = '测试001',`topic_tip` = '测试001',`topic_content` = null,`item_count` = 4,`last_update_time` = '2016-04-08 13:36:45',`create_time` = '2016-04-08 13:36:45' WHERE topic_id=8
+[2016-04-08 13:36:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.5909] delete from zgykdx_evaluating_item where topic_id=8
+[2016-04-08 13:36:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.8310] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('8','33','4','D','4',null,'2016-04-08 13:36:45','2016-04-08 13:36:45')
+[2016-04-08 13:36:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.8818] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('8','33','3','C','333',null,'2016-04-08 13:36:45','2016-04-08 13:36:45')
+[2016-04-08 13:36:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.7459] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('8','33','2','B','2',null,'2016-04-08 13:36:45','2016-04-08 13:36:45')
+[2016-04-08 13:36:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.6629] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES ('8','33','1','A','u8',null,'2016-04-08 13:36:45','2016-04-08 13:36:45')
+[2016-04-08 13:36:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:97.476959228516] connect db
+[2016-04-08 13:36:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.5178] select * from zgykdx_evaluating_topic where eval_id = 33
+[2016-04-08 13:36:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.1570] select * from zgykdx_evaluating_item where eval_id = 33 order by item_order
+[2016-04-08 13:36:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:87.727069854736] connect db
+[2016-04-08 13:36:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.1998] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 13:36:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.2839] SELECT FOUND_ROWS()
+[2016-04-08 13:37:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:109.06887054443] connect db
+[2016-04-08 13:37:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0449] INSERT INTO `zgykdx_evaluating`  (`eval_name`,`eval_descript`,`eval_starttime`,`eval_endtime`,`eval_type`,`eval_status`,`eval_max_topic`,`last_update_time`,`create_time`) VALUES ('打分测试','test001','2015-04-06','2015-04-10','1','1',null,'2016-04-08 13:37:21','2016-04-08 13:37:21')
+[2016-04-08 13:37:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:111.79399490356] connect db
+[2016-04-08 13:37:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.7542] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 13:37:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2181] SELECT FOUND_ROWS()
+[2016-04-08 13:37:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:89.659929275513] connect db
+[2016-04-08 13:37:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.6839] select * from zgykdx_evaluating_topic where eval_id = 35
+[2016-04-08 13:37:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.9500] select * from zgykdx_evaluating where eval_id = 35
+[2016-04-08 13:38:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:94.945907592773] connect db
+[2016-04-08 13:38:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.0701] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 13:38:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.6181] SELECT FOUND_ROWS()
+[2016-04-08 13:39:07][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:118.97897720337] connect db
+[2016-04-08 13:39:07][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.7350] UPDATE `zgykdx_evaluating` SET `eval_name` = '打分测试',`eval_descript` = 'test001',`eval_starttime` = '2015-04-06 00:00:00',`eval_endtime` = '2015-04-10 00:00:00',`eval_type` = '2',`eval_status` = '1',`eval_max_topic` = '1' WHERE eval_id=35
+[2016-04-08 13:39:09][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:96.988201141357] connect db
+[2016-04-08 13:39:09][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.9589] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 13:39:09][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.2659] SELECT FOUND_ROWS()
+[2016-04-08 13:39:12][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:91.434001922607] connect db
+[2016-04-08 13:39:12][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.7268] select * from zgykdx_evaluating_topic where eval_id = 35
+[2016-04-08 13:39:12][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.9059] select * from zgykdx_evaluating where eval_id = 35
+[2016-04-08 13:39:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:133.05902481079] connect db
+[2016-04-08 13:39:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.8989] INSERT INTO `zgykdx_evaluating_topic`  (`eval_id`,`topic_type`,`topic_point`,`topic_title`,`topic_tip`,`topic_content`,`item_count`,`last_update_time`,`create_time`) VALUES ('35','3','10','测试001','测试001',null,null,'2016-04-08 13:39:24','2016-04-08 13:39:24')
+[2016-04-08 13:39:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.7909] select count(1) from zgykdx_evaluating_topic where eval_id=35
+[2016-04-08 13:39:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.1010] update zgykdx_evaluating set topic_count=1 where eval_id=35
+[2016-04-08 13:39:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:120.27215957642] connect db
+[2016-04-08 13:39:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.1880] select * from zgykdx_evaluating_topic where eval_id = 35
+[2016-04-08 13:39:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.9631] select * from zgykdx_evaluating_item where eval_id = 35 order by item_order
+[2016-04-08 13:39:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.3010] select * from zgykdx_evaluating where eval_id = 35
+[2016-04-08 13:40:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:102.81705856323] connect db
+[2016-04-08 13:40:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.8290] INSERT INTO `zgykdx_evaluating_topic`  (`eval_id`,`topic_type`,`topic_point`,`topic_title`,`topic_tip`,`topic_content`,`item_count`,`last_update_time`,`create_time`) VALUES ('35','4','23','测试001','测试001',null,4,'2016-04-08 13:40:36','2016-04-08 13:40:36')
+[2016-04-08 13:40:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:85.119962692261] connect db
+[2016-04-08 13:40:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.3340] INSERT INTO `zgykdx_evaluating_topic`  (`eval_id`,`topic_type`,`topic_point`,`topic_title`,`topic_tip`,`topic_content`,`item_count`,`last_update_time`,`create_time`) VALUES ('35','4','23','测试001','测试001',null,4,'2016-04-08 13:40:54','2016-04-08 13:40:54')
+[2016-04-08 13:41:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:115.98896980286] connect db
+[2016-04-08 13:41:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.1709] INSERT INTO `zgykdx_evaluating_topic`  (`eval_id`,`topic_type`,`topic_point`,`topic_title`,`topic_tip`,`topic_content`,`item_count`,`last_update_time`,`create_time`) VALUES ('35','4','23','测试001','测试001',null,4,'2016-04-08 13:41:36','2016-04-08 13:41:36')
+[2016-04-08 13:44:07][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:113.47079277039] connect db
+[2016-04-08 13:44:07][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.1589] INSERT INTO `zgykdx_evaluating_topic`  (`eval_id`,`topic_type`,`topic_point`,`topic_title`,`topic_tip`,`topic_content`,`item_count`,`last_update_time`,`create_time`) VALUES ('35','4','23','测试001','测试001',null,4,'2016-04-08 13:44:07','2016-04-08 13:44:07')
+[2016-04-08 13:44:07][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9779] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES (13,'35','1','A','21','0','2016-04-08 13:44:07','2016-04-08 13:44:07')
+[2016-04-08 13:44:08][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9138] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES (13,'35','2','B','春','10','2016-04-08 13:44:07','2016-04-08 13:44:07')
+[2016-04-08 13:44:08][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.7290] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES (13,'35','3','C','胡','23','2016-04-08 13:44:08','2016-04-08 13:44:08')
+[2016-04-08 13:44:08][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0499] INSERT INTO `zgykdx_evaluating_item`  (`topic_id`,`eval_id`,`item_order`,`item_key`,`item_name`,`item_point`,`last_update_time`,`create_time`) VALUES (13,'35','4','D','有','21','2016-04-08 13:44:08','2016-04-08 13:44:08')
+[2016-04-08 13:44:08][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.1118] select count(1) from zgykdx_evaluating_topic where eval_id=35
+[2016-04-08 13:44:08][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8048] update zgykdx_evaluating set topic_count=5 where eval_id=35
+[2016-04-08 13:44:09][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:95.097064971924] connect db
+[2016-04-08 13:44:09][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.8059] select * from zgykdx_evaluating_topic where eval_id = 35
+[2016-04-08 13:44:09][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.4831] select * from zgykdx_evaluating_item where eval_id = 35 order by item_order
+[2016-04-08 13:44:09][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.5510] select * from zgykdx_evaluating where eval_id = 35
+[2016-04-08 13:44:25][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:112.72621154785] connect db
+[2016-04-08 13:44:25][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.2349] select * from zgykdx_evaluating_topic where topic_id = 9
+[2016-04-08 13:44:25][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.3160] select * from zgykdx_evaluating_item where topic_id = 9
+[2016-04-08 13:53:06][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:102.85210609436] connect db
+[2016-04-08 13:53:06][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.9728] select * from zgykdx_evaluating_topic where topic_id = 13
+[2016-04-08 13:53:06][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.8979] select * from zgykdx_evaluating_item where topic_id = 13
+[2016-04-08 17:27:06][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:123.46696853638] connect db
+[2016-04-08 17:27:07][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.3351] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 17:27:07][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.7530] SELECT FOUND_ROWS()
+[2016-04-08 17:27:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:92.446088790894] connect db
+[2016-04-08 17:27:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.0952] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 17:27:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.3271] SELECT FOUND_ROWS()
+[2016-04-08 17:48:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:105.09610176086] connect db
+[2016-04-08 17:48:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.4902] SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,10
+[2016-04-08 17:48:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.9040] SELECT FOUND_ROWS()

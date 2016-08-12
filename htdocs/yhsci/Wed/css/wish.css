@@ -1,0 +1,227 @@
+@CHARSET "UTF-8";
+/* CSS Document */
+/*
+** HTML5移动重置样式表
+*/
+/* ============================ 重置css样式 ============================ */
+/* 清除内外边距 */
+*{
+    font-family: "微软雅黑";
+}
+body,html,header,footer,section,span,p,h1,h2,h3,h4,ul,ol,li,select,input,button,textarea,aside,article{
+    margin: 0;
+    padding: 0;
+}
+/* 设置默认字体 */
+body,button,input,select,textarea{ font: 62.5%/1 "微软雅黑", Tahoma, Helvetica, Arial,"迷你简魏碑" sans-serif;}
+/* 重置列表元素 */
+ul, ol { list-style: none; }
+img{
+    border:none;
+    vertical-align:middle;
+}
+html,body{
+    width:100%;
+    background: #ffffff;
+    height: 100%;
+}
+#wrap{
+    padding: 5%;
+}
+.main{}
+.main h2{
+    font-size:22px;
+    text-align: center;
+    color: #f08200;
+    font-weight: 100;
+}
+.main ul{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #a2a2a2;
+    margin-top: 5%;
+}
+.main ul li{
+    border-bottom: 1px solid #a2a2a2;
+    padding: 3%;
+    overflow: hidden;
+}
+.main ul li .icon{
+    width: 20%;
+    padding: 0 5% 0 2%;
+    vertical-align: middle;
+}
+.main ul li:last-child{
+    border: none;
+}
+.text_inp{
+   border: none;
+    width: 80%;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #505050;
+    height: 30px;
+    line-height: 30px;
+}
+
+.default_select{
+   border: none;
+    width: 80%;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #c1c1c1;
+    height: 30px;
+    line-height: 30px;
+}
+.cont{
+    margin-top: 3%;
+}
+.yanzm{
+    overflow: hidden;
+}
+.yzm_inp{
+    float: left;
+    width: 60%;
+}
+.yzm_inp .inp{
+    width: 90%;
+    padding: 3.5% 3%;
+    border-radius: 5px;
+    border: 1px solid #a2a2a2;
+    font-size: 14px;
+    -webkit-appearance:none
+}
+.yzm_btn{
+    float: right;
+    width: 37%;
+}
+.yzm_btn .button{
+    padding: 8% 0;
+}
+.text_wb{
+    margin-top: 3%;
+}
+.text_wb .tex1{
+    font-size: 14px;
+    color: #c1c1c1;
+}
+.text_wb .tex1 a{
+    color: #3c406d;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.text_wb .red_text{
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 3%;
+}
+.button{
+    background: blue;
+    border-radius: 5px;
+    padding: 5% 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    -webkit-appearance:none;
+}
+/*弹层*/
+.tc,.sysm{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.conter,.syong{
+    width: 70%;
+    padding: 5%;
+    background: #ffffff;
+    border-radius: 5px;
+    margin: 30% auto;
+}
+.conter h2,.syong h2{
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f08200;
+    font-weight: 100;
+    margin-top: 8%;
+}
+.btn{
+    margin-top: 5%;
+    text-align: center;
+}
+.btc{
+    width: 50%;
+    background: #a2a2a2;
+}
+.syong{
+    margin: 20% auto;
+    width: 80%;
+    position: relative;
+}
+.syong h2{
+    margin-top: 2%;
+}
+.sm_text{
+    font-size: 14px;
+    color: #6b6b6b;
+    margin-top: 2%;
+    line-height: 24px;
+    text-indent: 24px;
+}
+.close{
+    position: absolute;
+    right: -30px;
+    top: -27px;
+}
+.footer{
+    margin-top: 5%;
+}
+
+/*======注册成功=====*/
+#wrap .logo{
+    text-align: center;
+    margin-top: 25%;
+}
+#wrap h2{
+    text-align: center;
+    /*margin-top: 8%;*/
+    font-size: 18px;
+    color: #f08200;
+}
+#wrap h3{
+    font-size: 16px;
+    margin-top: 5%;
+    color: #f08200;
+    text-align: center;
+    cursor: pointer;
+}
+
+.m-map { width:100%; height:60%; position:relative; background:#fff; 
+	-webkit-transition:all 0.4s;
+	-ms-transition:all 0.4s;
+	-o-transition:all 0.4s;
+	-moz-transition:all 0.4s;
+	transition:all 0.4s;
+
+}
+.m-map .tit p a span { background-position: 0 -61px; }
+
+.m-map .ylMap { height:100%; width:100%; }
+
+.m-map .tit { position:absolute; left:0; bottom:0; height:70px; width:100%; overflow: hidden; background:rgba(0,0,0,0.5); }
+
+.m-map .tit p { margin-right:100px; }
+
+.m-map .tit p a { display:block; position: relative; font-size:24px; color:#fff; height:70px; line-height:70px; padding-left:70px; }
+
+.m-map .tit p a span  { display: inline-block; width: 42px; height: 42px; position: absolute; top: 14px; left:15px; }
+
+.m-map .tit .close_map { display: none; position: absolute; bottom: 10px; right: 10px; width: 42px; height: 42px; }
+

@@ -1,0 +1,158 @@
+@CHARSET "UTF-8";
+/*----*/
+.dhLb {
+	/* float: left; */
+	overflow: hidden;
+	width: 100%;
+	padding: 10px 0;
+}
+
+.cloudPannel {
+	position: relative;
+}
+
+.he .cloud {
+	float: left;
+	margin: 0 0 0 15px;
+	max-width: 85%;
+	min-width: 50px;
+}
+
+.he .cloudText .cloudBody {
+	background-color: #B2CF73;
+	border: 1px solid #7AA23F;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 1px 0 #DBDBDB;
+}
+
+.he .cloudText .cloudContent {
+	border-bottom: 1px solid #B9CF8B;
+	border-radius: 5px 5px 5px 5px;
+	border-right: 1px solid #CCDEA3;
+	border-top: 1px solid #DCE6C8;
+	color: #030303;
+	padding: 7px 10px;
+	text-shadow: none;
+	min-height: 15px;
+}
+
+.he .cloudText .cloudArrow {
+	background: url(../images/b_l.png) no-repeat scroll 0 0
+		transparent;
+	height: 24px;
+	left: -6px;
+	position: absolute;
+	top: 11px;
+	width: 13px;
+}
+
+.jp-audio {
+	height: 20px;
+}
+
+.me .cloud {
+	float: right;
+	margin: 0 15px 0 0;
+	max-width: 85%;
+	min-width: 50px;
+}
+
+/*文字气泡*/
+.me .cloudText .cloudBody {
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-color: transparent;
+	border: 1px solid #AFAFAF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0px 1px 0px #D5D5D5;
+	border: 1px solid #9f9f9f\9;
+	background: #ECECEC\9;
+	border-radius: 6px\9;
+	margin-left: 8px;
+}
+
+.me .cloudContent {
+	border: 1px solid #eee\9;
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #F2F2F2;
+	padding: 13px\9;
+	border-radius: 13px\9;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	overflow: hidden;
+	color: #000;
+	text-shadow: none;
+	background-color: #ECECEC;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F4F4F4),
+		to(#E5E5E5), color-stop(0.1, #F3F3F3), color-stop(0.3, #F1F1F1),
+		color-stop(0.5, #ECECEC), color-stop(0.7, #E9E9E9),
+		color-stop(0.9, #E6E6E6), color-stop(1.0, #E5E5E5) );
+	background-image: -moz-linear-gradient(top, #F3F3F3 10%, #F1F1F1 30%, #ECECEC 50%, #E9E9E9
+		70%, #E6E6E6 90%, #E5E5E5 100%);
+}
+
+.me .cloudText .cloudArrow {
+	background: url("../images/b_r.png") no-repeat scroll 0 0 transparent;
+	height: 24px;
+	position: absolute;
+	right: -10px;
+	top: 11px;
+	width: 13px;
+}
+
+.me .cloudText .cloudContent {
+	background-color: #E5E5E5;
+	padding: 7px 10px;
+	vertical-align: top;
+	word-wrap: break-word;
+}
+
+.cloudContent .mini_img {
+	min-width: 50px;
+	min-height: 50px;
+	max-width: 150px;
+	_width: 70px;
+	*width: 70px;
+	border-radius: 2px;
+	cursor: url("../images/big.cur"), auto;
+}
+/*--音频样式--*/
+.he .jp-play {
+	background: url("../images/he_me_p.png") no-repeat scroll 0 -1px transparent;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	height: 20px;
+	width: 25px;
+}
+
+.he .jp-pause {
+	background: url("../images/he_dp.gif") no-repeat scroll left 0 transparent;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	height: 20px;
+	width: 25px;
+}
+
+.me .jp-play {
+	background: url("../images/he_me_p.png") no-repeat scroll -24px -1px transparent;
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	height: 20px;
+	width: 25px;
+}
+
+.me .jp-pause {
+	background: url("../images/me_dp.gif") no-repeat scroll right 0 transparent;
+	display: inline-block;
+	float: right;
+	height: 20px;
+	width: 25px;
+}

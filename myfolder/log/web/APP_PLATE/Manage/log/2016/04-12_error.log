@@ -1,0 +1,127 @@
+[error][2016-04-12 16:01:32] action file not exist : E:\www\yhsci\myfolder\Lib/Action/Manage/CustomMenuAction.class.phpEOF;
+[error][2016-04-12 16:01:32] _run error: action not exist, action: CustomMenu, method: index
+<<var data>> : array (
+  'a' => 'CustomMenu',
+  'm' => 'index',
+)EOF;
+[error][2016-04-12 16:11:48] action file not exist : E:\www\yhsci\myfolder\Lib/Action/Manage/WxMaterialAction.class.phpEOF;
+[error][2016-04-12 16:11:48] _run error: action not exist, action: WxMaterial, method: index
+<<var data>> : array (
+  'a' => 'WxMaterial',
+  'm' => 'index',
+)EOF;
+[error][2016-04-12 16:11:57] model file not exist : E:\www\yhsci\myfolder\Lib/Model/Manage/Admin/MaterialModel.class.phpEOF;
+[info][2016-04-12 18:33:06] ------------------同步菜单参数
+<<var data>> : WX_Menu::__set_state(array(
+   'button' => 
+  array (
+    0 => 
+    array (
+      'name' => 'menu01',
+      'sub_button' => 
+      array (
+        0 => 
+        array (
+          'type' => 'view',
+          'name' => '外链',
+          'url' => 'http://www.baidu.com',
+        ),
+        1 => 
+        array (
+          'type' => 'click',
+          'name' => '直接返回',
+          'key' => '20',
+        ),
+      ),
+    ),
+    1 => 
+    array (
+      'name' => '菜单二',
+      'sub_button' => 
+      array (
+        0 => 
+        array (
+          'type' => 'click',
+          'name' => '测试素材',
+          'key' => '21',
+        ),
+      ),
+    ),
+  ),
+))EOF;
+[info][2016-04-12 18:34:25] ------------------同步菜单参数
+<<var data>> : WX_Menu::__set_state(array(
+   'button' => 
+  array (
+    0 => 
+    array (
+      'name' => 'menu01',
+      'sub_button' => 
+      array (
+        0 => 
+        array (
+          'type' => 'view',
+          'name' => '外链',
+          'url' => 'http://www.baidu.com',
+        ),
+        1 => 
+        array (
+          'type' => 'click',
+          'name' => '直接返回',
+          'key' => '20',
+        ),
+      ),
+    ),
+    1 => 
+    array (
+      'name' => '菜单二',
+      'sub_button' => 
+      array (
+        0 => 
+        array (
+          'type' => 'click',
+          'name' => '测试素材',
+          'key' => '21',
+        ),
+      ),
+    ),
+  ),
+))EOF;
+[info][2016-04-12 18:37:45] ------------------同步菜单参数
+<<var data>> : WX_Menu::__set_state(array(
+   'button' => 
+  array (
+    0 => 
+    array (
+      'name' => 'menu01',
+      'sub_button' => 
+      array (
+        0 => 
+        array (
+          'type' => 'view',
+          'name' => '外链',
+          'url' => 'http://www.baidu.com',
+        ),
+        1 => 
+        array (
+          'type' => 'click',
+          'name' => '直接返回',
+          'key' => '20',
+        ),
+      ),
+    ),
+    1 => 
+    array (
+      'name' => '菜单二',
+      'sub_button' => 
+      array (
+        0 => 
+        array (
+          'type' => 'click',
+          'name' => '测试素材',
+          'key' => '21',
+        ),
+      ),
+    ),
+  ),
+))EOF;

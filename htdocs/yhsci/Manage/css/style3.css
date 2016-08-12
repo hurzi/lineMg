@@ -1,0 +1,755 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	font-family:"微软雅黑";
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.dashed-line{
+	height:0;
+	overflow:hidden;
+	border-bottom:1px dashed #ccc;
+	margin:10px 0;
+}
+
+.table>tbody>tr>td{
+	vertical-align:middle;
+	word-wrap:break-word;
+}
+.table>thead>tr>th{
+	text-align:center;
+}
+/*--------  首页  -----------------------------------------*/
+.page-logo .logo-default{
+	font-size:24px;
+	font-weight:bold;
+	color:#FFF;
+	line-height:68px;
+	text-align:center;
+	width:130px;
+}
+.page-header.navbar .page-logo .logo-default{
+	margin-top:0;
+}
+.page-container-bg-solid .page-title{
+	font-family:"微软雅黑";
+}
+/*.index-rmain,.page-bar-top{
+	margin-top:40px;
+}*/
+.portlet-body{
+	border:1px solid #ddd; 
+	background:#FFF;
+}
+.company-infor, .app-body{
+	border:0;
+	min-height:175px;
+}
+.app-body{
+	min-height:193px;
+}
+.company-infor dd{
+	margin-left:15px;
+	padding-top:15px;
+	line-height:2;
+}
+.company-infor span{
+	margin:10px 0 5px;
+	display:inline-block;
+	width:40%;
+}
+.app-body font{
+	display:block;
+	padding-top:30px;
+	font-size:30px;
+	text-align:center;
+	vertical-align:middle;
+}
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-inbox > .dropdown-menu .dropdown-menu-list > li .subject{
+	margin-left:0;
+}
+
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-inbox > .dropdown-menu .dropdown-menu-list > li .message{
+	margin-left:0;
+}
+.company-infor img{
+	border:1px solid #ddd;
+}
+/*--------  list page  -----------------------------------------*/
+.page-bar{
+	margin-bottom:10px;
+}
+.page-bar-top .btn-group .btn{
+	float:right; 
+	line-height:24px;
+}
+.page-bar-top .btn-group .btn i{
+	font-size:18px;
+}
+.page-bar-top .btn-group .form-control{
+	margin-right:-40px; 
+	margin-top:2px;
+	float:right; 
+	width:200px;
+	border-radius:35px!important;
+}
+.table-scrollable{
+	margin:0!important;
+	border-left:0;
+	border-right:0;
+}
+.pagination{
+	margin:10px 10px 5px;
+}
+.highlight{
+	width:260px;
+}
+.table-advance tr td.highlight:first-child a{
+	margin:5px 5px 5px 0;
+}
+/*弹出层*/
+.modal-body .find-teacher{
+	padding:0;
+}
+.find-teacher textarea{
+	margin-top:10px;
+}
+.history-list{
+	margin-bottom:10px;
+	line-height:2;
+	border-bottom:1px dashed #ccc;
+}
+.history-list i{
+	margin-right:20px;
+}
+.portlet > .portlet-title > .nav-tabs{
+	float:left;
+}
+/* form */
+.form-group{
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.portlet-body .input-group span{
+	display:table-cell;
+	width:1%;
+}
+.city-tit{
+	margin-right:10px;
+	line-height:33px;
+	font-weight:700;
+}
+div.radio, div.checker{
+	margin-top:-8px;
+}
+/*--------  热点图管理  -----------------------------------------*/
+.hot-img img{
+	float:left;
+	margin:10px 25px 25px 0;
+	width:150px;
+	height:150px;
+	box-shadow:5px 5px 0px #cfcfcf;
+}
+.up-img{
+	position:relative;
+	margin-top:10px;
+	width:150px;
+	height:150px;
+	overflow:hidden;
+	box-shadow: 5px 5px 0px #cfcfcf;
+}
+.add-img{
+	position:absolute;
+	top:0;
+	left:0;
+	display:inline-block;
+	width:150px;
+	height:150px;
+	border:1px dashed #ddd;
+	color:#cecece;
+	text-align:center;
+	vertical-align:middle;
+	z-index:10px;
+	overflow:hidden;
+}
+.add-img .fa-plus{
+	font-size:50px;
+	line-height:150px;
+}
+.file-up{
+	position:absolute;
+	top:0;
+	right:0;
+	height:150px;
+	border:1px solid #ddd;
+	opacity:0;
+	z-index:11px;
+	cursor:pointer;
+}
+.hot-img-point{
+	color:#E87E04;
+}
+/*--------  课酬体系  -----------------------------------------*/
+.class-system-screening form{
+	margin:10px 0 0 10px;
+}
+#step-rule input[type="text"]{
+	border:0;
+	background:none; 
+	color:#900;
+}
+#class-system h5{
+	margin-top:0;
+	margin-bottom:15px;
+	font-weight:700;
+}
+.fit-city font,.more-city font{
+	padding:5px 10px;
+	margin-right:5px;
+	margin-bottom:5px;
+	display:inline-block;
+	border:1px solid #ddd;
+	cursor:pointer;
+}
+.more-city{
+	margin-bottom:15px;
+	display:none;
+}
+.more-city font{
+	background:#eee;
+	border:0;
+	cursor:pointer;
+}
+#class-system .table font{
+	font-weight:700;
+}
+/*--------  可排课时管理  -----------------------------------------*/
+.class-tit{
+	margin-top:0;
+	margin-bottom:15px;
+	padding:10px;
+	border-bottom:1px dashed #eee;	
+	font-size:16px;
+	font-weight:700;
+	background:#efefef;
+}
+.class-hour-set {
+	margin-bottom:15px;
+}
+.class-hour-set font{
+	display:inline-block;
+	margin-right:5px;
+	width:12px;
+	height:12px;
+	border-radius:12px;
+	background:#F60;
+}
+.class-hour-set .font-white{
+	background:#FFF;
+	border:1px solid #ccc;
+}
+.class-hour-set .font-green{
+	background:#26a69a;
+}
+.class-hour-set span{
+	padding-right:15px;
+}
+.class-hours-body .table .font-yellow{
+	background:#F60;
+	color:#fff!important;
+}
+.class-hours-body .table .font-green{
+	background:#26a69a;
+	color:#fff!important;
+}
+.class-hours-body .table td{
+	height:50px;
+	cursor:pointer;
+}
+/*--------  教师标签管理  -----------------------------------------*/
+#tags{
+	padding:10px;
+}
+#tags a{ 
+	display:inline-block; 
+	padding:5px 10px;
+	margin:10px 5px;
+	color:#fff;
+} 
+#tags .tags0{
+	background:#2386ca; 
+	font-size:18px;
+	font-weight:700;
+} 
+#tags .tags1{
+	background:#1f897f; 
+	font-size:22px;
+} 
+#tags .tags2{
+	background:#8e5fa2;
+	font-size:14px; 
+	font-weight:700;
+} 
+#tags .tags3{
+	background:#F3565D;
+	font-size:18px;
+} 
+#tags .tags4{ 
+	background:#c49f47;
+	font-size:22px;
+	font-weight:700;
+} 
+#tags .tags5{
+	background:#78a300; 
+	font-size:14px;
+} 
+#tags .tags6{
+	background:#ff66b5;
+	font-weight:700;
+	font-size:18px;
+} 
+#tags .tags7{
+	background:#f70; 
+	font-weight:700; 
+	font-size:12px;
+} 
+#tags .tags8{
+	background:#6a5a8c; 
+	font-weight:700;
+} 
+#tags .tags9{
+	background:#9cc2cb; 
+	font-weight:700;
+	font-size:18px;
+} 
+#tags .tags10{
+	background:#73716e; 
+	font-weight:700;
+	font-size:12px;
+} 
+#tags .tags11{
+	background:#666; 
+	font-size:18px;
+} 
+#tags .tags12{
+	background:#d54e21; 
+	font-weight:700;
+} 
+#tags .tags13{
+	background:#0e76a8; 
+	font-size:22px;
+} 
+#tags a:hover{ 
+	background:#000; 
+	text-decoration:underline;
+} 
+/*--------  教师基础管理  -----------------------------------------*/
+.teacher-infor .row{
+	margin:0;
+}
+.teacher-infor .col-md-4{
+	padding-right:0;
+	padding-left:0;
+	width:20%;
+}
+.teacher-infor .col-md-8{
+	padding-right:0;
+	width:80%;
+}
+.teacher-infor input[type="text"]{
+	margin-right:10px;
+	display:inline-block;
+	background:none; 
+	border:0;
+	border-bottom:1px solid #eee;
+}
+.teacher-infor h3{
+	margin-top:10px;
+}
+.edit-teacher-infor{
+	margin-right:20px;
+	float:right;
+}
+.form-group h4{
+	font-weight:700;
+}
+.teacher-infor .city-tit{
+	font-weight:400;
+}
+.teacher-infor font{
+	padding:5px 10px;
+	margin-right:5px;
+	margin-bottom:5px;
+	display:inline-block;
+	border:1px solid #ddd;
+	cursor:pointer;
+}
+.teacher-infor .close{
+	float:none;
+}
+.teacher-lable{
+	margin-top:300px;
+	width:350px;
+	box-shadow:0 0px 5px #ccc;
+}
+.life-photo img{
+	width:100px;
+	height:100px;
+	box-shadow:3px 3px 0px #cfcfcf;
+}
+.photo-img, .upload-document{
+	position:relative;
+	float:left;
+	margin-right:15px;
+	background:#ccc;
+	width:100px;
+	height:100px;
+}
+.photo-img .close{
+	position:absolute;
+	top:-8px;
+	right:-10px;
+}
+.life-photo .up-img, .life-photo .add-img {
+	margin-top:0;
+	width:100px;
+	height:100px;
+	overflow:hidden;
+}
+.life-photo .file-up{
+	height:100px;
+}
+.life-photo .fa-plus{
+	line-height:100px;
+}
+.upload-document{
+	margin-top:10px;
+	margin-right:0;
+	margin-left:10px;
+	width:12px;
+	height:18px;
+	background:none;
+	overflow:hidden;
+}
+.upload-document .file-up{
+	right:0;
+	height:18px;
+}
+/*  认证设置 */
+.certification-infor{
+	border-bottom:1px dashed #ccc;
+	padding-bottom:15px;
+}
+.certification-infor .col-md-4{
+	text-align:center;
+	margin-top:50px;
+}
+/*  授课设置 */
+.identity-authentication{
+	position:relative;
+	padding-top:15px;
+	width:40%;
+	height:220px;
+	overflow:hidden;
+}
+.identity-authentication .file-up{
+	margin-top:15px;
+	right:0;
+	height:220px;
+	width:100%;
+}
+.more-sub, .grade-more, .campus-more{
+	display:none;
+}
+.sub-class .row{
+	margin-bottom:15px;
+	padding-bottom:15px;
+	border-bottom:1px dashed #ccc;
+}
+.class-fees select{
+	margin-right:10px;
+}
+.class-fees input[type="text"]{
+	border:1px solid #ccc;
+}
+.class-fees .form-group{
+	margin-top:10px;
+}
+
+.portlet.calendar .mobile .fc-content{
+	margin-top:0;
+}
+.portlet.calendar .mobile .fc-button{
+	padding-bottom:3px;
+	padding-top:3px;
+	top:0px;
+	height:inherit;
+	background:none;
+}
+
+.portlet.calendar .mobile .fc-button.fc-state-hover,
+.portlet.calendar .mobile .fc-button.fc-state-active{
+	background:none;
+}
+.calendar .portlet-body{
+	border:0;
+}
+.fc-toolbar .fc-left {
+	float: left;
+	margin-top: -20px;
+}
+.fc-toolbar .fc-right {
+	float: right;
+	margin-top: -20px;
+}
+#courses-management{
+	position:absolute;
+	top:30px;
+	margin:30px auto;
+	z-index:10050
+}
+.fc-toolbar{
+	margin-top:20px;
+}
+.fc-event{
+	border:0;
+}
+#calendar td > a{
+	display:block;
+	background:#f6f6f6;
+	color:#444;
+}
+.course-infor-pop{
+	margin-top:200px;
+	width:500px;
+}
+.fc button{
+	margin-top:10px;
+	margin-left:0;
+	background:none;
+	border:0;
+	height:auto;
+}
+.fc .fc-toolbar>*>*{
+	margin-left:0;
+}
+/*--------  我的问答社区  -----------------------------------------*/
+.question-body{
+	padding-bottom:0;
+}
+.querstion-list{
+	padding-bottom:10px;
+	text-align:right
+}
+.answer-box{
+	display:none;
+	margin-bottom:10px;
+}
+.answer-box textarea, .initiate-question input[type="text"]{
+	margin-bottom:10px;
+}
+.question-lists{
+	font-size:14px;
+	line-height:2;
+}
+.question-lists span{
+	color:#ccc;
+	text-align:right;
+}
+.question-lists font{
+	margin-right:50px;
+	color:#444;
+}
+.question-lists .col-md-9{
+	padding-left:0;
+}
+/*--------  我的小组管理  -----------------------------------------*/
+.group-body{
+	margin-bottom:20px;
+}
+.group-body h4{
+	margin-top:0;
+}
+.group-list{
+	position:relative;
+	margin-bottom:10px;
+	margin-right:15px;
+	box-shadow:5px 5px 0 #cfcfcf;
+}
+.group-list img{
+	width:150px;
+	height:150px;
+}
+.group-list p{
+	position:absolute;
+	bottom:0;
+	margin-bottom:0;
+	background:url(../img/opacity_bg.png);
+	width:150px;
+}
+.group-list p span, .group-list p > a{
+	display:block;
+	padding:3px 5px;
+	color:#fff;
+}
+.group-list input[type="text"]{
+	display:none;
+	background:none;
+	color:#fff;
+}
+.group-close{
+	margin-left:5px;
+}
+.group-body .up-img{
+	margin-top:0;
+}
+.add-group a{
+	display:block;
+}
+.group-pic{
+	position:relative;
+	margin:15px 0;
+	width:150px;
+	height:150px;
+	overflow:hidden;
+}
+.group-pic img{
+	width:150px;
+	height:150px;
+}
+.group-btn{
+	margin-left:80px;
+}
+.group-pic span{
+	position:absolute;
+	bottom:0;
+	display:none;
+	padding:5px;
+	width:150px;
+	background:url(../img/opacity_bg.png);
+	color:#fff;
+	text-align:center;
+}
+.group-pic:hover span{
+	display:block;
+}
+.group-members{
+	color:#fff;
+}
+/*--------  座位管理  -----------------------------------------*/
+.seat-pop-body h4{
+	padding:8px 0;
+	margin:0;
+	background:#069;
+	color:#fff;
+	text-align:center;
+}
+.seat-pop-body .col-md-2{
+	padding:0;	
+}
+.seat-pop-body .col-md-10{
+	padding-right:0;
+}
+.seat-pop-body .classroom-name > a{
+	padding:8px 0;
+	display:block;
+	text-align:center;
+}
+#add-classroom .teacher-lable, 
+#add-classroom-deck .teacher-lable{
+	margin-top:150px;
+}
+.seat-pop-body .nav-tabs{
+	border-bottom:0;
+}
+.seat-pop-body .nav-tabs>li{
+	float:none;
+	background:#f6f6f6;
+	margin-bottom:1px;
+	text-align:center;
+	border:0;
+}
+.seat-pop-body .nav-tabs > li.active, 
+.seat-pop-body .nav-tabs > li.active a,
+.seat-pop-body .nav-tabs > li:hover, 
+.seat-pop-body .nav-tabs > li.active:hover a, 
+.seat-pop-body .nav-tabs>li:hover a{
+	border-color:#68b4f1;
+	background:#68b4f1;
+	color:#fff;
+}
+.seat-pop-body .nav-tabs > li{
+	margin-right:0;
+}
+.seat-pop-body .tab-content{
+	border:0;
+}
+.classroom-deck h4{
+	margin-bottom:10px;
+}
+.classroom-deck ul li.col-md-2{
+	padding:8px 0;
+	margin-right:15px;
+	margin-bottom:10px;
+	float:left;
+	display:block;
+	background:#f6f6f6;
+	list-style:none;
+	text-align:center;
+}
+.classroom-deck ul{
+	padding:0;
+}
+.classroom-deck .bg-yellow a{
+	color:#fff;
+}
+.classroom-deck a.col-md-2{
+	text-align:center;
+	padding:8px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

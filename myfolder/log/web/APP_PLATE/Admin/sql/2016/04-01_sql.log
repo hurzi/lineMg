@@ -1,0 +1,131 @@
+[2016-04-01 10:30:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:106.80508613586] connect db
+[2016-04-01 10:30:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0900] SELECT * FROM `wx_material` WHERE 1 AND id = 19 
+[2016-04-01 10:30:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9429] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-01 10:30:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:138.41104507446] connect db
+[2016-04-01 10:30:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.1799] SELECT * FROM `wx_material` WHERE 1 AND id = 19 
+[2016-04-01 10:30:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.7039] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-01 10:30:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.4400] UPDATE `wx_material` SET `articles` = 'a:1:{i:0;a:6:{s:5:\"title\";s:6:\"ÊµãËØï\";s:6:\"author\";s:7:\"asdfËùá\";s:11:\"description\";s:18:\"ÊµãËØïÂú®Êúâ‰∏Ä‰∏Ä\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603311854228301.jpg\";s:14:\"show_cover_pic\";s:1:\"0\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}',`type` = 'news' WHERE  id = 19
+[2016-04-01 10:30:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.5030] DELETE FROM `wx_material_news` WHERE material_id = 19
+[2016-04-01 10:30:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.9112] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`,`author`, `description`, `picurl`,`show_cover_pic`, `url`, `news_text`, `create_time`) VALUES (19, '1', 'ÊµãËØï', 'asdfËùá', 'ÊµãËØïÂú®Êúâ‰∏Ä‰∏Ä', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603311854228301.jpg',0, 'http://www.baidu.com', '<p>Â∞òÊö¥ÊòØÊö¥ÁÇíË±™ÂçéÊôã‰ª£rg</p>', '2016-04-01 10:30:11')
+[2016-04-01 10:30:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:125.52189826965] connect db
+[2016-04-01 10:30:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.6019] SELECT * FROM `wx_material` WHERE 1 AND id = 19 
+[2016-04-01 10:30:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.2200] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-01 14:32:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:125.84495544434] connect db
+[2016-04-01 14:32:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:29.8610] INSERT INTO `wx_sys_alarm`  (`system_name`,`alarm_name`,`level`,`action_name`,`method_name`,`alarm_desc`,`param_log`,`need_email`,`need_phone`,`create_time`,`update_time`) VALUES ('weixindemo','ÊµãËØïÁ≥ªÁªüÂëäË≠¶',5,'SysAlarm','index','ÊµãËØï‰∏Ä‰∏ã','{\"requestParam\":{\"a\":\"SysAlarm\"},\"codelog\":{\"param\":{\"a\":\"SysAlarm\"}}}',0,0,1459492349,1459492349)
+[2016-04-01 14:32:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.2742] SELECT COUNT(*) FROM `wx_adsit_sys_alarm`  WHERE 1=1
+[2016-04-01 14:32:29][qdm216841497.my3w.com][qdm216841497_db][error][runtime:20.2742] query error : Table 'qdm216841497_db.wx_adsit_sys_alarm' doesn't exist
+  sql : SELECT COUNT(*) FROM `wx_adsit_sys_alarm`  WHERE 1=1
+[2016-04-01 14:32:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:123.59499931335] connect db
+[2016-04-01 14:32:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.5169] SELECT COUNT(*) FROM `wx_adsit_sys_alarm`  WHERE 1=1
+[2016-04-01 14:32:50][qdm216841497.my3w.com][qdm216841497_db][error][runtime:23.5169] query error : Table 'qdm216841497_db.wx_adsit_sys_alarm' doesn't exist
+  sql : SELECT COUNT(*) FROM `wx_adsit_sys_alarm`  WHERE 1=1
+[2016-04-01 14:33:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:118.52097511292] connect db
+[2016-04-01 14:33:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.4418] SELECT COUNT(*) FROM `wx_adsit_sys_alarm`  WHERE 1=1
+[2016-04-01 14:33:16][qdm216841497.my3w.com][qdm216841497_db][error][runtime:19.4418] query error : Table 'qdm216841497_db.wx_adsit_sys_alarm' doesn't exist
+  sql : SELECT COUNT(*) FROM `wx_adsit_sys_alarm`  WHERE 1=1
+[2016-04-01 14:33:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:138.97109031677] connect db
+[2016-04-01 14:33:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:29.6462] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-04-01 14:33:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.8210] SELECT * FROM wx_material WHERE id = 7
+[2016-04-01 14:33:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.1319] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-04-01 14:33:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:29.0689] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-04-01 14:33:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:133.82697105408] connect db
+[2016-04-01 14:33:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.8070] SELECT COUNT(*) FROM `wx_adsit_sys_alarm`  WHERE 1=1
+[2016-04-01 14:33:24][qdm216841497.my3w.com][qdm216841497_db][error][runtime:24.8070] query error : Table 'qdm216841497_db.wx_adsit_sys_alarm' doesn't exist
+  sql : SELECT COUNT(*) FROM `wx_adsit_sys_alarm`  WHERE 1=1
+[2016-04-01 14:34:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:118.98493766785] connect db
+[2016-04-01 14:34:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.1000] SELECT COUNT(*) FROM `wx_adsit_sys_alarm`  WHERE 1=1
+[2016-04-01 14:34:00][qdm216841497.my3w.com][qdm216841497_db][error][runtime:21.1000] query error : Table 'qdm216841497_db.wx_adsit_sys_alarm' doesn't exist
+  sql : SELECT COUNT(*) FROM `wx_adsit_sys_alarm`  WHERE 1=1
+[2016-04-01 14:34:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:134.55104827881] connect db
+[2016-04-01 14:34:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.8900] SELECT COUNT(*) FROM `wx_adsit_sys_alarm`  WHERE 1=1
+[2016-04-01 14:34:18][qdm216841497.my3w.com][qdm216841497_db][error][runtime:26.8900] query error : Table 'qdm216841497_db.wx_adsit_sys_alarm' doesn't exist
+  sql : SELECT COUNT(*) FROM `wx_adsit_sys_alarm`  WHERE 1=1
+[2016-04-01 14:35:08][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:118.69692802429] connect db
+[2016-04-01 14:35:08][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.0551] SELECT COUNT(*) FROM `wx_adsit_sys_alarm`  WHERE 1=1
+[2016-04-01 14:35:08][qdm216841497.my3w.com][qdm216841497_db][error][runtime:20.0551] query error : Table 'qdm216841497_db.wx_adsit_sys_alarm' doesn't exist
+  sql : SELECT COUNT(*) FROM `wx_adsit_sys_alarm`  WHERE 1=1
+[2016-04-01 14:36:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:115.45300483704] connect db
+[2016-04-01 14:36:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.9901] SELECT COUNT(*) FROM `wx_sys_alarm`  WHERE 1=1
+[2016-04-01 14:36:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.7350] SELECT * FROM `wx_sys_alarm`  WHERE 1=1 ORDER BY `id` DESC   LIMIT 0, 10
+[2016-04-01 14:36:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:113.56997489929] connect db
+[2016-04-01 14:36:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.0389] SELECT * FROM `wx_sys_alarm` where id= 27
+[2016-04-01 14:36:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:99.912881851196] connect db
+[2016-04-01 14:36:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.3161] SELECT COUNT(*) FROM `wx_sys_alarm`  WHERE 1=1
+[2016-04-01 14:36:33][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.4841] SELECT * FROM `wx_sys_alarm`  WHERE 1=1 ORDER BY `id` DESC   LIMIT 0, 10
+[2016-04-01 14:36:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:124.67288970947] connect db
+[2016-04-01 14:36:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:38.0981] SELECT * FROM `wx_sys_alarm` where id= 27
+[2016-04-01 14:38:13][qdm216841497.my3w.com][qdm216841497_db][error][runtime:21017.8821] connect errorÔºÅ ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+  sql : SELECT COUNT(*) FROM `wx_sys_alarm`  WHERE 1=1
+[2016-04-01 14:38:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:116.1630153656] connect db
+[2016-04-01 14:38:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.6300] SELECT COUNT(*) FROM `wx_sys_alarm`  WHERE 1=1
+[2016-04-01 14:38:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.3939] SELECT * FROM `wx_sys_alarm`  WHERE 1=1 ORDER BY `id` DESC   LIMIT 0, 10
+[2016-04-01 14:38:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:141.68405532837] connect db
+[2016-04-01 14:38:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:234.7012] SELECT * FROM `wx_sys_alarm` where id= 27
+[2016-04-01 14:38:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:91.778993606567] connect db
+[2016-04-01 14:38:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.1728] SELECT COUNT(*) FROM `wx_sys_alarm`  WHERE 1=1
+[2016-04-01 14:38:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.3050] SELECT * FROM `wx_sys_alarm`  WHERE 1=1 ORDER BY `id` DESC   LIMIT 0, 10
+[2016-04-01 14:38:25][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:154.52790260315] connect db
+[2016-04-01 14:38:25][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.6160] SELECT * FROM `wx_sys_alarm` where id= 27
+[2016-04-01 14:38:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:117.08807945251] connect db
+[2016-04-01 14:38:27][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.9570] SELECT COUNT(*) FROM `wx_sys_alarm`  WHERE 1=1
+[2016-04-01 14:38:27][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.4898] SELECT * FROM `wx_sys_alarm`  WHERE 1=1 ORDER BY `id` DESC   LIMIT 0, 10
+[2016-04-01 14:38:53][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:116.34302139282] connect db
+[2016-04-01 14:38:53][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.7142] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-04-01 14:38:53][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.7012] SELECT * FROM wx_material WHERE id = 7
+[2016-04-01 14:38:53][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.8791] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-04-01 14:38:53][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.0909] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-04-01 14:38:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:225.87990760803] connect db
+[2016-04-01 14:38:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:31.6770] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-01 14:38:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:44.8079] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-04-01 14:38:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:30.3800] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-01 14:38:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:143.91589164734] connect db
+[2016-04-01 14:38:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:44.2679] SELECT * FROM `wx_material` WHERE 1 AND id = 19 
+[2016-04-01 14:38:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.0041] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-01 14:39:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:134.11808013916] connect db
+[2016-04-01 14:39:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:34.2910] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-04-01 14:39:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.7838] SELECT * FROM wx_material WHERE id = 7
+[2016-04-01 14:39:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.5058] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-04-01 14:39:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.3140] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-04-01 14:40:44][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:113.66891860962] connect db
+[2016-04-01 14:40:44][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.2021] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-04-01 14:40:44][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.8738] SELECT * FROM wx_material WHERE id = 7
+[2016-04-01 14:40:44][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.0830] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-04-01 14:40:44][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.8491] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-04-01 14:41:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:98.819971084595] connect db
+[2016-04-01 14:41:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.0480] SELECT COUNT(*) FROM `wx_sys_alarm`  WHERE 1=1
+[2016-04-01 14:41:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.4169] SELECT * FROM `wx_sys_alarm`  WHERE 1=1 ORDER BY `id` DESC   LIMIT 0, 10
+[2016-04-01 14:41:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:122.95699119568] connect db
+[2016-04-01 14:41:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.9270] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-04-01 14:41:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.4580] SELECT * FROM wx_material WHERE id = 7
+[2016-04-01 14:41:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0659] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-04-01 14:41:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.8410] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-04-01 14:42:09][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:449.294090271] connect db
+[2016-04-01 14:42:09][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.8860] SELECT COUNT(*) FROM `wx_sys_alarm`  WHERE 1=1
+[2016-04-01 14:42:10][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.7211] SELECT * FROM `wx_sys_alarm`  WHERE 1=1 ORDER BY `id` DESC   LIMIT 0, 10
+[2016-04-01 14:42:13][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:112.66684532166] connect db
+[2016-04-01 14:42:13][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.5448] SELECT * FROM `wx_sys_alarm` where id= 27
+[2016-04-01 14:42:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:133.65483283997] connect db
+[2016-04-01 14:42:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:39.3670] SELECT COUNT(*) FROM `wx_sys_alarm`  WHERE 1=1
+[2016-04-01 14:42:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.7530] SELECT * FROM `wx_sys_alarm`  WHERE 1=1 ORDER BY `id` DESC   LIMIT 0, 10
+[2016-04-01 14:43:10][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:1201.0848522186] connect db
+[2016-04-01 14:43:10][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:125.0510] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-04-01 14:43:10][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:46.7589] SELECT * FROM wx_material WHERE id = 7
+[2016-04-01 14:43:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:48.1009] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-04-01 14:43:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:151.5720] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-04-01 14:43:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:271.91710472107] connect db
+[2016-04-01 14:43:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.4329] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-01 14:43:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:206.0511] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-04-01 14:43:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:60.4460] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-04-01 15:27:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:113.85011672974] connect db
+[2016-04-01 15:27:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.8540] SELECT COUNT(*) FROM `wx_sys_alarm`  WHERE 1=1
+[2016-04-01 15:27:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.1781] SELECT * FROM `wx_sys_alarm`  WHERE 1=1 ORDER BY `id` DESC   LIMIT 0, 10
+[2016-04-01 15:27:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:151.51906013489] connect db
+[2016-04-01 15:27:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:45.8550] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-04-01 15:27:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:36.8671] SELECT * FROM wx_material WHERE id = 7
+[2016-04-01 15:27:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:29.4199] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-04-01 15:27:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:329.6239] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-04-01 15:27:44][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:96.478939056396] connect db
+[2016-04-01 15:27:44][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.7950] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-04-01 15:27:44][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.9770] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-04-01 15:27:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.6910] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 

@@ -1,0 +1,25 @@
+.tj_ul{
+
+	}
+.tj_ul li{
+	float:left;
+	margin:20px 10px;
+	padding-left:30px;
+	text-align:center;
+	border-left:1px solid #BFBFBF;
+	}
+.tj_ul li:first-child{
+	border:none;
+	}
+.tj_ul p{
+	font-size:14px;
+	font-weight:bold;
+	}	
+.tj_ul h2{
+	font-size:28px;
+	color:#4892CF;
+	}
+.tj_ul span{
+	font-size:14px;
+	}	
+				

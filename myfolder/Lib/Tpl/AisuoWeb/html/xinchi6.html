@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>爱锁</title>
+    <meta content="爱锁" name="keywords" />
+    <meta content="爱锁" name="description" />
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+<div class="tab"><p><a href="#">公共信池</a><a href="#" class="current">我的收藏</a></p></div>   
+<div class="topic"><img src="images/temp4.png" alt=""><strong>范晓兵</strong><img class="head-pic" src="images/temp1.png" alt=""></div> 
+<!-- 消息框 -->
+<div class="msgbox"><div class="new-msg"><img src="images/temp1.png" width="30" height="30" alt=""><a href="#">1条新消息</a></div></div>
+
+<div class="msglist">
+    <ul>
+        <li>
+            <img src="images/temp1.png" width="40" height="40" alt="">
+            <div class="msg-detail">
+                <h2>固封魔浪尖</h2>
+                <p>当您解锁后，即使再次与原锁定方锁定，其双方原日记内容将彻底删除，请您谨慎选择！</p>
+                <div class="msg-tool">
+                    <span>2014.4.28</span><a href="#" class="del">删除</a><i class="write-msg"></i>
+                    <div class="btn-tool">
+                        <a href="javascript:void(0)" class="zan"><i class="on"></i>赞</a><a href="javascript:void(0)" class="pl"><i></i>评论</a><a href="javascript:void(0)" class="sc"><i></i>收藏</a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="msg-plbox">
+                    <i class="arrow"></i>
+                    <div class="zan-list"><i class="zan-icon"></i><strong>西瓜</strong>、<strong>花生</strong></div>
+                    <dl class="pllist">
+                        <dd><a href="#">西瓜</a>：今天天气不错</dd>
+                        <dd><a href="#">你大爷</a>回复<a href="#">十三姨</a>：周末郊游去？</dd>
+                    </dl>
+                </div>
+            </div>
+        </li>
+       <li>
+            <img src="images/temp1.png" width="40" height="40" alt="">
+            <div class="msg-detail">
+                <h2>固封魔浪尖</h2>
+                <p>当您解锁后，即使再次与原锁定方锁定，其双方原日记内容将彻底删除，请您谨慎选择！</p>
+                <div class="msg-tool">
+                    <span>2014.4.28</span><a href="#" class="del">删除</a><i class="write-msg"></i>
+                    <div class="btn-tool">
+                        <a href="javascript:void(0)" class="zan"><i class="on"></i>赞</a><a href="javascript:void(0)" class="pl"><i></i>评论</a><a href="javascript:void(0)" class="sc"><i></i>收藏</a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="msg-plbox">
+                    <i class="arrow"></i>
+                    <dl class="pllist">
+                        <dd><a href="#">西瓜</a>：今天天气不错</dd>
+                        <dd><a href="#">你大爷</a>回复<a href="#">十三姨</a>：周末郊游去？</dd>
+                    </dl>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="loading-more"><i class="loading-img"></i>正在加载...</div>   
+</div>
+<div class="write-msg-btn">
+    <a href="#"><i class="icon-write"></i>写公开信</a>
+</div>
+
+<div class="send-div">
+    <div class="sendmsg-box">
+        <textarea placeholder="说几句吧..."></textarea>
+        <div class="send-btns">
+            <label><input type="radio" />公开</label><label><input type="radio" />匿名</label>
+            <input type="button" class="sbtn" value="取消" /><input type="button" class="sbtn" value="发布">
+        </div>
+    </div>
+</div>
+<div class="mask"></div>
+<script>
+    function maskInit(){
+        var height = ($(document).height()>$(window).height())?$(document).height():$(window).height();
+        $(".mask").css("height",height);
+    }
+</script>
+</body>
+</html>

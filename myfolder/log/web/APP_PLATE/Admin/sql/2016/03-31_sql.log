@@ -1,0 +1,478 @@
+[2016-03-31 13:54:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:128.87692451477] connect db
+[2016-03-31 13:54:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.6509]  SELECT `openid` FROM wx_user WHERE `remark` = 'hzqjerish' 
+[2016-03-31 13:54:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.7792]  SELECT `openid` FROM wx_user WHERE `nickname` = 'hzqjerish' 
+[2016-03-31 13:55:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:104.78091239929] connect db
+[2016-03-31 13:55:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.9701] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 13:55:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.3299] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 13:55:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8720] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 13:55:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:108.75201225281] connect db
+[2016-03-31 13:55:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.4460] SELECT * FROM wx_material WHERE 1 AND id = 7 
+[2016-03-31 13:55:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2770] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 13:55:35][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:98.38080406189] connect db
+[2016-03-31 13:55:35][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.9080]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 13:55:35][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.8649]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 13:56:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:89.699029922485] connect db
+[2016-03-31 13:56:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.1142] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 13:56:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.0349] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 13:56:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.2221] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 13:56:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:115.45205116272] connect db
+[2016-03-31 13:56:25][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.7951] SELECT * FROM wx_material WHERE 1 AND id = 7 
+[2016-03-31 13:56:25][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.6049] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 13:56:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:109.10582542419] connect db
+[2016-03-31 13:56:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.6728]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 13:56:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.9241]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 14:12:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:192.57712364197] connect db
+[2016-03-31 14:12:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:31.2910] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 14:12:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:32.1229] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 14:12:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:32.2931] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 14:12:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:107.60617256165] connect db
+[2016-03-31 14:12:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.4961] SELECT * FROM wx_material WHERE 1 AND id = 7 
+[2016-03-31 14:12:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.6249] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 14:12:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:113.06715011597] connect db
+[2016-03-31 14:12:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.5260]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 14:12:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.8949]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 14:12:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.5141] INSERT INTO `wx_material`  (`articles`,`type`,`create_time`) VALUES ('a:1:{i:0;a:4:{s:5:\"title\";s:4:\"imya\";s:11:\"description\";s:12:\"jsiadofjwetq\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}','news','2016-03-31 14:12:52')
+[2016-03-31 14:12:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.4950] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (8, '1', 'imya', 'jsiadofjwetq', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqt</p>', '2016-03-31 14:12:52')
+[2016-03-31 14:12:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.5179] SELECT LAST_INSERT_ID()
+[2016-03-31 14:12:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.1030] SELECT * FROM wx_material WHERE 1 AND id = 8 
+[2016-03-31 14:12:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.6108] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 8 
+[2016-03-31 14:12:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.3920] DELETE FROM `wx_material` WHERE id=8
+[2016-03-31 14:12:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.2542] UPDATE `wx_material_news` SET `is_deleted` = -1 WHERE material_id=8
+[2016-03-31 14:17:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:159.84201431274] connect db
+[2016-03-31 14:17:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.3471] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 14:17:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.8220] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 14:17:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.6989] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 14:17:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:103.16205024719] connect db
+[2016-03-31 14:17:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.0090] SELECT * FROM wx_material WHERE 1 AND id = 7 
+[2016-03-31 14:17:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.2300] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 14:17:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:119.98891830444] connect db
+[2016-03-31 14:17:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.4280]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 14:17:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.3431]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 14:17:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.4370] INSERT INTO `wx_material`  (`articles`,`type`,`create_time`) VALUES ('a:1:{i:0;a:4:{s:5:\"title\";s:4:\"imya\";s:11:\"description\";s:12:\"jsiadofjwetq\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}','news','2016-03-31 14:17:23')
+[2016-03-31 14:17:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.2469] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (9, '1', 'imya', 'jsiadofjwetq', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqt</p>', '2016-03-31 14:17:24')
+[2016-03-31 14:17:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.4530] SELECT LAST_INSERT_ID()
+[2016-03-31 14:17:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.5190] SELECT * FROM wx_material WHERE 1 AND id = 9 
+[2016-03-31 14:17:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.5569] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 9 
+[2016-03-31 14:17:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.7138] DELETE FROM `wx_material` WHERE id=9
+[2016-03-31 14:17:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.6041] UPDATE `wx_material_news` SET `is_deleted` = -1 WHERE material_id=9
+[2016-03-31 14:18:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:117.58399009705] connect db
+[2016-03-31 14:18:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.5909] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 14:18:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0931] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 14:18:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0981] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 14:18:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:109.6019744873] connect db
+[2016-03-31 14:18:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:244.0832] SELECT * FROM wx_material WHERE 1 AND id = 7 
+[2016-03-31 14:18:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.7441] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 14:18:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:103.97291183472] connect db
+[2016-03-31 14:18:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.2790]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 14:18:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.9689]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 14:18:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.3650] INSERT INTO `wx_material`  (`articles`,`type`,`create_time`) VALUES ('a:1:{i:0;a:4:{s:5:\"title\";s:4:\"imya\";s:11:\"description\";s:12:\"jsiadofjwetq\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}','news','2016-03-31 14:18:37')
+[2016-03-31 14:18:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.4221] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (10, '1', 'imya', 'jsiadofjwetq', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqt</p>', '2016-03-31 14:18:37')
+[2016-03-31 14:18:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.0701] SELECT LAST_INSERT_ID()
+[2016-03-31 14:18:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.9399] SELECT * FROM wx_material WHERE 1 AND id = 10 
+[2016-03-31 14:18:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2212] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 10 
+[2016-03-31 14:18:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.5519] DELETE FROM `wx_material` WHERE id=10
+[2016-03-31 14:18:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.1449] UPDATE `wx_material_news` SET `is_deleted` = -1 WHERE material_id=10
+[2016-03-31 14:19:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:131.21700286865] connect db
+[2016-03-31 14:19:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.9569] SELECT * FROM wx_material WHERE 1 AND id = 7 
+[2016-03-31 14:19:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.0971] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 14:19:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.8129] UPDATE `wx_material` SET `articles` = 'a:1:{i:0;a:4:{s:5:\"title\";s:4:\"imya\";s:11:\"description\";s:12:\"jsiadofjwetq\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}',`type` = 'news' WHERE  id = 7
+[2016-03-31 14:19:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.7670] DELETE FROM `wx_material_news` WHERE material_id = 7
+[2016-03-31 14:19:02][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.3990] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (7, '1', 'imya', 'jsiadofjwetq', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqt</p>', '2016-03-31 14:19:02')
+[2016-03-31 14:19:07][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:117.07711219788] connect db
+[2016-03-31 14:19:07][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.7462] SELECT * FROM wx_material WHERE 1 AND id = 7 
+[2016-03-31 14:19:07][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.7571] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 14:19:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:110.55493354797] connect db
+[2016-03-31 14:19:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:39.0291] SELECT * FROM wx_material WHERE 1 AND id = 7 
+[2016-03-31 14:19:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:44.2901] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 14:19:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:44.8380] UPDATE `wx_material` SET `articles` = 'a:1:{i:0;a:4:{s:5:\"title\";s:4:\"imya\";s:11:\"description\";s:15:\"jsiadofjwetq若\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}',`type` = 'news' WHERE  id = 7
+[2016-03-31 14:19:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:43.3161] DELETE FROM `wx_material_news` WHERE material_id = 7
+[2016-03-31 14:19:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.5151] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (7, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 14:19:22')
+[2016-03-31 14:19:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:101.73416137695] connect db
+[2016-03-31 14:19:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.4780] SELECT * FROM wx_material WHERE 1 AND id = 7 
+[2016-03-31 14:19:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.2890] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 14:19:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:112.8978729248] connect db
+[2016-03-31 14:19:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2960]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 14:19:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.6441]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 14:19:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.6820] INSERT INTO `wx_material`  (`articles`,`type`,`create_time`) VALUES ('a:1:{i:0;a:4:{s:5:\"title\";s:4:\"imya\";s:11:\"description\";s:15:\"jsiadofjwetq若\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}','news','2016-03-31 14:19:39')
+[2016-03-31 14:19:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.7481] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (11, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 14:19:39')
+[2016-03-31 14:19:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.5859] SELECT LAST_INSERT_ID()
+[2016-03-31 14:19:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.2290] SELECT * FROM wx_material WHERE 1 AND id = 11 
+[2016-03-31 14:19:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.3820] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 11 
+[2016-03-31 14:19:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.3709] DELETE FROM `wx_material` WHERE id=11
+[2016-03-31 14:19:39][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2820] UPDATE `wx_material_news` SET `is_deleted` = -1 WHERE material_id=11
+[2016-03-31 14:52:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:107.97595977783] connect db
+[2016-03-31 14:52:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.7422]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 14:52:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.2009]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 14:52:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.6930] INSERT INTO `wx_material`  (`articles`,`type`,`create_time`) VALUES ('a:1:{i:0;a:4:{s:5:\"title\";s:4:\"imya\";s:11:\"description\";s:15:\"jsiadofjwetq若\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}','news','2016-03-31 14:52:38')
+[2016-03-31 14:52:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.0120] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (12, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 14:52:38')
+[2016-03-31 14:52:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.2360] SELECT LAST_INSERT_ID()
+[2016-03-31 14:52:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.4960] SELECT * FROM wx_material WHERE 1 AND id = 12 
+[2016-03-31 14:52:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.8589] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 12 
+[2016-03-31 14:52:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.6740] DELETE FROM `wx_material` WHERE id=12
+[2016-03-31 14:52:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.4970] UPDATE `wx_material_news` SET `is_deleted` = -1 WHERE material_id=12
+[2016-03-31 14:57:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:106.8389415741] connect db
+[2016-03-31 14:57:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.4139]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 14:57:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.5400]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 14:57:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.9210] INSERT INTO `wx_material`  (`articles`,`type`,`create_time`) VALUES ('a:1:{i:0;a:4:{s:5:\"title\";s:4:\"imya\";s:11:\"description\";s:15:\"jsiadofjwetq若\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}','news','2016-03-31 14:57:50')
+[2016-03-31 14:57:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.1341] INSERT INTO `wx_material_news_preview` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (13, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 14:57:50')
+[2016-03-31 14:57:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.1881] SELECT LAST_INSERT_ID()
+[2016-03-31 14:57:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.5240] SELECT * FROM wx_material WHERE 1 AND id = 13 
+[2016-03-31 14:57:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.7931] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 13 
+[2016-03-31 14:57:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.4420] DELETE FROM `wx_material` WHERE id=13
+[2016-03-31 14:57:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.4749] UPDATE `wx_material_news` SET `is_deleted` = -1 WHERE material_id=13
+[2016-03-31 14:58:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:118.78609657288] connect db
+[2016-03-31 14:58:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.0670]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 14:58:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.4839]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 14:58:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.2180] INSERT INTO `wx_material`  (`articles`,`type`,`create_time`) VALUES ('a:1:{i:0;a:4:{s:5:\"title\";s:4:\"imya\";s:11:\"description\";s:15:\"jsiadofjwetq若\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}','news','2016-03-31 14:58:45')
+[2016-03-31 14:58:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:42.4359] INSERT INTO `wx_material_news_preview` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (14, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 14:58:45')
+[2016-03-31 14:58:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.4041] SELECT LAST_INSERT_ID()
+[2016-03-31 14:58:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.8619] SELECT * FROM `wx_material_news_preview` WHERE 1 AND id = 14 
+[2016-03-31 14:58:45][qdm216841497.my3w.com][qdm216841497_db][error][runtime:19.8619] query error : Unknown column 'id' in 'where clause'
+  sql : SELECT * FROM `wx_material_news_preview` WHERE 1 AND id = 14 
+[2016-03-31 14:58:46][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.7489] DELETE FROM `wx_material` WHERE id=14
+[2016-03-31 14:58:46][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.6790] UPDATE `wx_material_news` SET `is_deleted` = -1 WHERE material_id=14
+[2016-03-31 15:08:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:114.00604248047] connect db
+[2016-03-31 15:08:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.6729]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 15:08:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.0341]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 15:08:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:48.2309] INSERT INTO `wx_material`  (`articles`,`type`,`create_time`) VALUES ('a:1:{i:0;a:4:{s:5:\"title\";s:4:\"imya\";s:11:\"description\";s:15:\"jsiadofjwetq若\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}','news','2016-03-31 15:08:34')
+[2016-03-31 15:08:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.9151] INSERT INTO `wx_material_news_preview` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (15, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 15:08:34')
+[2016-03-31 15:08:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.6272] SELECT LAST_INSERT_ID()
+[2016-03-31 15:08:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.4542] SELECT * FROM `wx_material_news_preview` WHERE 1 AND id = 15 
+[2016-03-31 15:08:34][qdm216841497.my3w.com][qdm216841497_db][error][runtime:23.4542] query error : Unknown column 'id' in 'where clause'
+  sql : SELECT * FROM `wx_material_news_preview` WHERE 1 AND id = 15 
+[2016-03-31 15:08:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.7578] DELETE FROM `wx_material` WHERE id=15
+[2016-03-31 15:08:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.3959] UPDATE `wx_material_news` SET `is_deleted` = -1 WHERE material_id=15
+[2016-03-31 15:09:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:141.19911193848] connect db
+[2016-03-31 15:09:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.1102]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 15:09:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:38.6779]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 15:09:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:42.6550] INSERT INTO `wx_material`  (`articles`,`type`,`create_time`) VALUES ('a:1:{i:0;a:4:{s:5:\"title\";s:4:\"imya\";s:11:\"description\";s:15:\"jsiadofjwetq若\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}','news','2016-03-31 15:09:24')
+[2016-03-31 15:09:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.1478] INSERT INTO `wx_material_news_preview` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (16, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 15:09:24')
+[2016-03-31 15:09:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:33.3800] SELECT LAST_INSERT_ID()
+[2016-03-31 15:09:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:45.7432] SELECT * FROM `wx_material_news_preview` WHERE 1 AND material_id = 16 
+[2016-03-31 15:09:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:35.0230] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 16 
+[2016-03-31 15:09:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:42.9890] DELETE FROM `wx_material` WHERE id=16
+[2016-03-31 15:09:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:43.3419] UPDATE `wx_material_news` SET `is_deleted` = -1 WHERE material_id=16
+[2016-03-31 15:28:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:123.4929561615] connect db
+[2016-03-31 15:28:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.0449]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 15:28:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.8001]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 15:28:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.2060] INSERT INTO `wx_material`  (`articles`,`type`,`create_time`) VALUES ('a:1:{i:0;a:4:{s:5:\"title\";s:4:\"imya\";s:11:\"description\";s:15:\"jsiadofjwetq若\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}','news','2016-03-31 15:28:21')
+[2016-03-31 15:28:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.5239] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (17, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 15:28:21')
+[2016-03-31 15:28:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.5810] SELECT LAST_INSERT_ID()
+[2016-03-31 15:28:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.5058] SELECT * FROM `wx_material` WHERE 1 AND id = 17 
+[2016-03-31 15:28:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.0670] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 17 
+[2016-03-31 15:28:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.6739] DELETE FROM `wx_material` WHERE id=17
+[2016-03-31 15:28:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.0700] UPDATE `wx_material_news` SET `is_deleted` = -1 WHERE material_id=17
+[2016-03-31 15:33:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:137.90082931519] connect db
+[2016-03-31 15:33:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.5812]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 15:33:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.6730]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 15:34:10][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:125.16808509827] connect db
+[2016-03-31 15:34:10][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.8611] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 15:34:10][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.2489] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 15:34:10][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.2881] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:34:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:102.74791717529] connect db
+[2016-03-31 15:34:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.4260] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 15:34:12][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2569] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:34:20][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:225.30198097229] connect db
+[2016-03-31 15:34:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:45.8651]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 15:34:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:42.8591]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 15:34:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:44.2989] INSERT INTO `wx_material_news_preview` (`m_id`, `index`, `title`, `description`, `picurl`, `url`, `news_text`,`author`,`pic_to_text`, `create_time`) VALUES ('56fcd2fd3c416.1', '', '', '', '', '', '','','','2016-03-31 15:34:21'), ('56fcd2fd3c416.1', '', '', '', '', '', '', '','','2016-03-31 15:34:21')
+[2016-03-31 15:34:21][qdm216841497.my3w.com][qdm216841497_db][error][runtime:44.2989] query error : Unknown column 'm_id' in 'field list'
+  sql : INSERT INTO `wx_material_news_preview` (`m_id`, `index`, `title`, `description`, `picurl`, `url`, `news_text`,`author`,`pic_to_text`, `create_time`) VALUES ('56fcd2fd3c416.1', '', '', '', '', '', '','','','2016-03-31 15:34:21'), ('56fcd2fd3c416.1', '', '', '', '', '', '', '','','2016-03-31 15:34:21')
+[2016-03-31 15:35:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:1118.3700561523] connect db
+[2016-03-31 15:35:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:247.5719] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 15:35:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.8961] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 15:35:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:43.9541] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:35:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:122.71094322205] connect db
+[2016-03-31 15:35:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.8550] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 15:35:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.0400] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:35:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:125.88787078857] connect db
+[2016-03-31 15:35:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.0071]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 15:35:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.0321]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 15:35:34][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0091] INSERT INTO `wx_material_news_preview` (`m_id`, `index`, `title`, `description`, `picurl`, `url`, `news_text`,`author`,`pic_to_text`, `create_time`) VALUES ('56fcd34650a47.1', '', '', '', '', '', '','','','2016-03-31 15:35:34'), ('56fcd34650a47.1', '', '', '', '', '', '', '','','2016-03-31 15:35:34')
+[2016-03-31 15:35:34][qdm216841497.my3w.com][qdm216841497_db][error][runtime:22.0091] query error : Unknown column 'm_id' in 'field list'
+  sql : INSERT INTO `wx_material_news_preview` (`m_id`, `index`, `title`, `description`, `picurl`, `url`, `news_text`,`author`,`pic_to_text`, `create_time`) VALUES ('56fcd34650a47.1', '', '', '', '', '', '','','','2016-03-31 15:35:34'), ('56fcd34650a47.1', '', '', '', '', '', '', '','','2016-03-31 15:35:34')
+[2016-03-31 15:37:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:109.35091972351] connect db
+[2016-03-31 15:37:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.5719] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 15:37:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8382] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 15:37:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0089] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:37:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:104.59613800049] connect db
+[2016-03-31 15:37:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9500] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 15:37:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9281] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:37:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:181.59198760986] connect db
+[2016-03-31 15:37:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.9841]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 15:37:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.8050]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 15:37:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.2720] INSERT INTO `wx_material_news_preview` (`m_id`, `index`, `title`, `description`, `picurl`, `url`, `news_text`,`author`,`pic_to_text`, `create_time`) VALUES ('56fcd3cca779a.1', '', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>','','','2016-03-31 15:37:48')
+[2016-03-31 15:37:48][qdm216841497.my3w.com][qdm216841497_db][error][runtime:23.2720] query error : Unknown column 'm_id' in 'field list'
+  sql : INSERT INTO `wx_material_news_preview` (`m_id`, `index`, `title`, `description`, `picurl`, `url`, `news_text`,`author`,`pic_to_text`, `create_time`) VALUES ('56fcd3cca779a.1', '', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>','','','2016-03-31 15:37:48')
+[2016-03-31 15:39:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:169.5339679718] connect db
+[2016-03-31 15:39:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:30.3659] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 15:39:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.8110] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 15:39:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.5600] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:39:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:132.30681419373] connect db
+[2016-03-31 15:39:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.5000] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 15:39:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.3178] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:39:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:95.74294090271] connect db
+[2016-03-31 15:39:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.4180]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 15:39:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.1639]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 15:39:21][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.2991] INSERT INTO `wx_material_news_preview` (`m_id`, `index`, `title`, `description`, `picurl`, `url`, `news_text`,`author`,`pic_to_text`, `create_time`) VALUES (56fcd429a3cf3.1, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 15:39:21')
+[2016-03-31 15:39:21][qdm216841497.my3w.com][qdm216841497_db][error][runtime:18.2991] query error : Column count doesn't match value count at row 1
+  sql : INSERT INTO `wx_material_news_preview` (`m_id`, `index`, `title`, `description`, `picurl`, `url`, `news_text`,`author`,`pic_to_text`, `create_time`) VALUES (56fcd429a3cf3.1, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 15:39:21')
+[2016-03-31 15:40:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:101.90606117249] connect db
+[2016-03-31 15:40:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.0880] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 15:40:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.9540] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 15:40:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.1271] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:40:19][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:102.99682617188] connect db
+[2016-03-31 15:40:19][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.0660] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 15:40:19][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.1771] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:40:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:103.66702079773] connect db
+[2016-03-31 15:40:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.8301]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 15:40:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.7839]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 15:40:27][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:682.5240] INSERT INTO `wx_material_news_preview` (`m_id`, `index`, `title`, `description`, `picurl`, `url`, `news_text`,`author`,`pic_to_text`, `create_time`) VALUES (56fcd46ad7c91.1, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 15:40:26')
+[2016-03-31 15:40:27][qdm216841497.my3w.com][qdm216841497_db][error][runtime:682.5240] query error : Column count doesn't match value count at row 1
+  sql : INSERT INTO `wx_material_news_preview` (`m_id`, `index`, `title`, `description`, `picurl`, `url`, `news_text`,`author`,`pic_to_text`, `create_time`) VALUES (56fcd46ad7c91.1, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 15:40:26')
+[2016-03-31 15:41:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:330.05905151367] connect db
+[2016-03-31 15:41:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.5869] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 15:41:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.1171] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 15:41:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.2740] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:41:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:106.29796981812] connect db
+[2016-03-31 15:41:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.1690] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 15:41:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.6429] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:41:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:94.130039215088] connect db
+[2016-03-31 15:41:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.8180]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 15:41:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.3370]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 15:41:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8370] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (56fcd4bc29928.1, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 15:41:48')
+[2016-03-31 15:41:48][qdm216841497.my3w.com][qdm216841497_db][error][runtime:21.8370] query error : Unknown column '56fcd4bc29928.1' in 'field list'
+  sql : INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (56fcd4bc29928.1, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 15:41:48')
+[2016-03-31 15:43:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:133.10813903809] connect db
+[2016-03-31 15:43:49][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8761] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 15:43:49][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.6058] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 15:43:49][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.5110] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:43:56][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:114.95113372803] connect db
+[2016-03-31 15:43:56][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.3201] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 15:43:56][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.4839] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:44:04][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:101.65810585022] connect db
+[2016-03-31 15:44:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.5939]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 15:44:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.1808]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 15:44:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.4409] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES ('56fcd54517e70.1', '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 15:44:05')
+[2016-03-31 15:44:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:107.81502723694] connect db
+[2016-03-31 15:44:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.8869] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 15:44:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.6510] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 15:44:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:28.0070] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:44:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:140.55609703064] connect db
+[2016-03-31 15:44:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.6399] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 15:44:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:32.0640] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:44:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:109.6339225769] connect db
+[2016-03-31 15:44:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.6201]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 15:44:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.4331]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 15:44:50][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2381] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES ('56fcd572de5ed.1', '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 15:44:50')
+[2016-03-31 15:46:08][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:104.03919219971] connect db
+[2016-03-31 15:46:09][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.0760] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 15:46:09][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.5360] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 15:46:09][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.0811] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:46:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:89.612007141113] connect db
+[2016-03-31 15:46:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.1871] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 15:46:11][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.6019] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:46:19][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:98.557949066162] connect db
+[2016-03-31 15:46:19][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.1469]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 15:46:19][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2712]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 15:46:19][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.1091] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES ('56fcd5cb5db47.1', '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 15:46:19')
+[2016-03-31 15:48:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:342.39292144775] connect db
+[2016-03-31 15:48:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.5120]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 15:48:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.8919]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 15:48:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.9522] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES ('56fcd63fe2391.1', '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 15:48:15')
+[2016-03-31 15:49:13][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:135.73908805847] connect db
+[2016-03-31 15:49:13][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.8991] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 15:49:13][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2650] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 15:49:13][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2820] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:49:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:95.820903778076] connect db
+[2016-03-31 15:49:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.3791] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 15:49:15][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.6309] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:49:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:136.76309585571] connect db
+[2016-03-31 15:49:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.1718]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 15:49:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.1949]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 15:49:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.7052] INSERT INTO `wx_material_news_preview` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES ('56fcd6840a69e.1', '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸</p>', '2016-03-31 15:49:24')
+[2016-03-31 15:50:27][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:112.58983612061] connect db
+[2016-03-31 15:50:27][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.0109] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 15:50:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.4040] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 15:50:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.5030] UPDATE `wx_material` SET `articles` = 'a:1:{i:0;a:4:{s:5:\"title\";s:4:\"imya\";s:11:\"description\";s:15:\"jsiadofjwetq若\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}',`type` = 'news' WHERE  id = 7
+[2016-03-31 15:50:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.9510] DELETE FROM `wx_material_news` WHERE material_id = 7
+[2016-03-31 15:50:28][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.7119] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (7, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸修改后的</p>', '2016-03-31 15:50:28')
+[2016-03-31 15:50:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:111.9110584259] connect db
+[2016-03-31 15:50:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.3600] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-03-31 15:50:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.2290] SELECT * FROM wx_material WHERE id = 7
+[2016-03-31 15:50:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.5211] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 7 
+[2016-03-31 15:50:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.4880] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-03-31 15:50:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.3668] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-03-31 15:50:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:152.58002281189] connect db
+[2016-03-31 15:50:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:32.3751] SELECT * FROM wx_custom_menu WHERE id = 21
+[2016-03-31 15:50:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:29.9330] SELECT * FROM wx_material WHERE id = 7
+[2016-03-31 15:50:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:30.1888] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 7 
+[2016-03-31 15:50:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:30.1671] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-03-31 15:50:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:106.4920425415] connect db
+[2016-03-31 15:50:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.4748] SELECT * FROM wx_custom_menu WHERE id = 21
+[2016-03-31 15:50:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2421] SELECT * FROM wx_material WHERE id = 7
+[2016-03-31 15:50:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.9850] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 7 
+[2016-03-31 15:50:42][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.0109] UPDATE `wx_custom_menu` SET `msg_type` = 'news',`name` = '测试素材',`order` = 23,`parent` = 18,`type` = 1,`material_id` = 7,`use_oauth` = 0,`last_update_time` = '2016-03-31 15:50:42' WHERE  id = 21 
+[2016-03-31 15:50:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:110.80098152161] connect db
+[2016-03-31 15:50:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.1488] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-03-31 15:50:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.9021] SELECT * FROM wx_material WHERE id = 7
+[2016-03-31 15:50:44][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.8652] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 7 
+[2016-03-31 15:50:44][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.2718] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-03-31 15:50:44][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.9008] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-03-31 15:51:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:136.44886016846] connect db
+[2016-03-31 15:51:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:29.5300] SELECT * FROM wx_custom_menu WHERE id = 21
+[2016-03-31 15:51:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.8390] SELECT * FROM wx_material WHERE id = 7
+[2016-03-31 15:51:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.5741] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 7 
+[2016-03-31 15:51:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.2000] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-03-31 15:51:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:121.75607681274] connect db
+[2016-03-31 15:51:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.5228] SELECT * FROM wx_custom_menu WHERE id = 21
+[2016-03-31 15:51:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.3319] SELECT * FROM wx_material WHERE id = 7
+[2016-03-31 15:51:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.5521] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 7 
+[2016-03-31 15:51:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.7600] SELECT * FROM wx_custom_menu WHERE 1=1  AND parent = 0 
+[2016-03-31 15:51:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:132.48991966248] connect db
+[2016-03-31 15:51:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.8292] SELECT * FROM wx_custom_menu WHERE 1=1  order by `order` asc 
+[2016-03-31 15:51:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.9370] SELECT * FROM wx_material WHERE id = 7
+[2016-03-31 15:51:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.1759] SELECT * FROM `wx_material_news` WHERE `is_deleted` = 0 AND material_id = 7 
+[2016-03-31 15:51:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.7509] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_synchronous_time'
+[2016-03-31 15:51:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.5489] SELECT set_value   FROM wx_ent_setting WHERE ent_id= 1 and set_key='custom_menu_last_update_time'
+[2016-03-31 18:08:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:110.62288284302] connect db
+[2016-03-31 18:08:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.7930] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 18:08:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2581] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 18:08:43][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.6110] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:08:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:96.225023269653] connect db
+[2016-03-31 18:08:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.6520] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 18:08:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.6369] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:08:54][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:121.33812904358] connect db
+[2016-03-31 18:08:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.0369] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 18:08:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.7500] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 18:08:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.0790] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:08:56][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:100.64101219177] connect db
+[2016-03-31 18:08:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.9441] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 18:08:57][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.2619] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:11:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:152.68206596375] connect db
+[2016-03-31 18:11:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.4420] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 18:11:58][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.6458] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:13:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:107.69104957581] connect db
+[2016-03-31 18:13:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.4800] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 18:13:18][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.6130] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:21:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:110.79216003418] connect db
+[2016-03-31 18:21:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.3180] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 18:21:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.6789] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:22:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:112.94007301331] connect db
+[2016-03-31 18:22:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9359] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 18:22:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.4578] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:22:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9641] UPDATE `wx_material` SET `articles` = 'a:1:{i:0;a:4:{s:5:\"title\";s:4:\"imya\";s:11:\"description\";s:15:\"jsiadofjwetq若\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}',`type` = 'news' WHERE  id = 7
+[2016-03-31 18:22:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.6229] DELETE FROM `wx_material_news` WHERE material_id = 7
+[2016-03-31 18:22:22][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.4438] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`, `description`, `picurl`, `url`, `news_text`, `create_time`) VALUES (7, '1', 'imya', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸修改后的sadf</p>', '2016-03-31 18:22:22')
+[2016-03-31 18:22:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:109.04598236084] connect db
+[2016-03-31 18:22:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.6940] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 18:22:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.4000] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 18:22:24][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.7819] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:22:27][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:99.721193313599] connect db
+[2016-03-31 18:22:27][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.3260] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 18:22:27][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.9251] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:32:12][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:89.914083480835] connect db
+[2016-03-31 18:32:12][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.4910] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 18:32:12][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.6910] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 18:32:12][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.4280] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:32:13][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:87.785005569458] connect db
+[2016-03-31 18:32:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.6018] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 18:32:14][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.6901] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:32:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:153.72586250305] connect db
+[2016-03-31 18:32:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.9770] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 18:32:29][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.1182] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:32:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.6561] UPDATE `wx_material` SET `articles` = 'a:1:{i:0;a:6:{s:5:\"title\";s:4:\"imya\";s:6:\"author\";s:6:\"小何\";s:11:\"description\";s:15:\"jsiadofjwetq若\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg\";s:14:\"show_cover_pic\";s:1:\"1\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}',`type` = 'news' WHERE  id = 7
+[2016-03-31 18:32:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.3810] DELETE FROM `wx_material_news` WHERE material_id = 7
+[2016-03-31 18:32:30][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.6740] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`,`author`, `description`, `picurl`,`show_cover_pic` `url`, `news_text`, `create_time`) VALUES (7, '1', 'imya', '小何', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg','1', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸修改后的sadfadfaf</p>', '2016-03-31 18:32:30')
+[2016-03-31 18:32:30][qdm216841497.my3w.com][qdm216841497_db][error][runtime:23.6740] query error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`url`, `news_text`, `create_time`) VALUES (7, '1', 'imya', '小何', 'jsiadofjwe' at line 1
+  sql : INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`,`author`, `description`, `picurl`,`show_cover_pic` `url`, `news_text`, `create_time`) VALUES (7, '1', 'imya', '小何', 'jsiadofjwetq若', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603301528077754.jpg','1', 'http://www.baidu.com', '<p>asdfqkwjrtoqowut4oqjeajskljkdljfowq4qqtnn吸修改后的sadfadfaf</p>', '2016-03-31 18:32:30')
+[2016-03-31 18:35:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:104.48002815247] connect db
+[2016-03-31 18:35:59][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.1210] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 18:36:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.2661] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 18:36:00][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.3640] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:38:13][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:100.57401657104] connect db
+[2016-03-31 18:38:13][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.9039] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 18:38:13][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.0512] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 18:38:13][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.8549] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:38:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:103.69896888733] connect db
+[2016-03-31 18:38:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.5591] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 18:38:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0821] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 18:38:23][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.5878] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:40:53][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:104.35700416565] connect db
+[2016-03-31 18:40:53][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.7250] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 18:40:53][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.4300] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 18:40:53][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9049] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:42:41][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:119.53186988831] connect db
+[2016-03-31 18:42:41][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.6812] SELECT * FROM `wx_material` WHERE 1 AND id = 7 
+[2016-03-31 18:42:41][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.3159] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 7 
+[2016-03-31 18:45:44][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:104.896068573] connect db
+[2016-03-31 18:45:45][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.6230] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 18:46:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:109.48300361633] connect db
+[2016-03-31 18:46:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.6779]  SELECT `openid` FROM wx_user WHERE `remark` = '何钟强' 
+[2016-03-31 18:46:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9750]  SELECT `openid` FROM wx_user WHERE `nickname` = '何钟强' 
+[2016-03-31 18:46:32][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.2199] INSERT INTO `wx_material_news_preview` (`material_id`, `news_index`, `title`,`author`, `description`, `picurl`,`show_cover_pic`, `url`, `news_text`, `create_time`) VALUES ('56fd000865084.1', '1', 'asdfljet', '上何', '测试一下啊', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603311845562538.jpg', 1, 'http://www.baidu.com', '<p>asdfadf测试啊</p>', '2016-03-31 18:46:32')
+[2016-03-31 18:46:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:120.12887001038] connect db
+[2016-03-31 18:46:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.3959] INSERT INTO `wx_material`  (`articles`,`type`,`create_time`) VALUES ('a:1:{i:0;a:6:{s:5:\"title\";s:8:\"asdfljet\";s:6:\"author\";s:6:\"上何\";s:11:\"description\";s:15:\"测试一下啊\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603311845562538.jpg\";s:14:\"show_cover_pic\";s:1:\"1\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}','news','2016-03-31 18:46:36')
+[2016-03-31 18:46:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.6451] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`,`author`, `description`, `picurl`,`show_cover_pic`, `url`, `news_text`, `create_time`) VALUES (18, '1', 'asdfljet','上何', '测试一下啊', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603311845562538.jpg', 1, 'http://www.baidu.com', '<p>asdfadf测试啊</p>', '2016-03-31 18:46:36')
+[2016-03-31 18:46:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.0989] SELECT LAST_INSERT_ID()
+[2016-03-31 18:46:37][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:103.97505760193] connect db
+[2016-03-31 18:46:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.5789] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 18:46:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.5938] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 18:46:38][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8451] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 18 
+[2016-03-31 18:46:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:94.829082489014] connect db
+[2016-03-31 18:46:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:19.7461] SELECT * FROM `wx_material` WHERE 1 AND id = 18 
+[2016-03-31 18:46:41][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.0181] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 18 
+[2016-03-31 18:47:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:106.68516159058] connect db
+[2016-03-31 18:47:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.8890] SELECT * FROM `wx_material` WHERE 1 AND id = 18 
+[2016-03-31 18:47:36][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.1560] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 18 
+[2016-03-31 18:47:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:108.77704620361] connect db
+[2016-03-31 18:47:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9431] SELECT * FROM `wx_material` WHERE 1 AND id = 18 
+[2016-03-31 18:47:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.1950] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 18 
+[2016-03-31 18:47:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.3330] UPDATE `wx_material` SET `articles` = 'a:1:{i:0;a:6:{s:5:\"title\";s:8:\"asdfljet\";s:6:\"author\";s:8:\"asdfwedd\";s:11:\"description\";s:15:\"测试一下啊\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603311845562538.jpg\";s:14:\"show_cover_pic\";s:1:\"1\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}',`type` = 'news' WHERE  id = 18
+[2016-03-31 18:47:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.4230] DELETE FROM `wx_material_news` WHERE material_id = 18
+[2016-03-31 18:47:47][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.4450] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`,`author`, `description`, `picurl`,`show_cover_pic` `url`, `news_text`, `create_time`) VALUES (18, '1', 'asdfljet', 'asdfwedd', '测试一下啊', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603311845562538.jpg',1, 'http://www.baidu.com', '<p>asdfadf测试啊</p>', '2016-03-31 18:47:47')
+[2016-03-31 18:47:47][qdm216841497.my3w.com][qdm216841497_db][error][runtime:22.4450] query error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`url`, `news_text`, `create_time`) VALUES (18, '1', 'asdfljet', 'asdfwedd', '测' at line 1
+  sql : INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`,`author`, `description`, `picurl`,`show_cover_pic` `url`, `news_text`, `create_time`) VALUES (18, '1', 'asdfljet', 'asdfwedd', '测试一下啊', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603311845562538.jpg',1, 'http://www.baidu.com', '<p>asdfadf测试啊</p>', '2016-03-31 18:47:47')
+[2016-03-31 18:47:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:116.58620834351] connect db
+[2016-03-31 18:47:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.2720] SELECT * FROM `wx_material` WHERE 1 AND id = 18 
+[2016-03-31 18:47:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.6031] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 18 
+[2016-03-31 18:54:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:104.28404808044] connect db
+[2016-03-31 18:54:05][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:20.3860] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 18:54:46][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:93.286037445068] connect db
+[2016-03-31 18:54:46][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.5409] INSERT INTO `wx_material`  (`articles`,`type`,`create_time`) VALUES ('a:1:{i:0;a:6:{s:5:\"title\";s:6:\"测试\";s:6:\"author\";s:6:\"小何\";s:11:\"description\";s:18:\"测试在有一一\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603311854228301.jpg\";s:14:\"show_cover_pic\";s:1:\"1\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}','news','2016-03-31 18:54:46')
+[2016-03-31 18:54:46][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.3841] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`,`author`, `description`, `picurl`,`show_cover_pic`, `url`, `news_text`, `create_time`) VALUES (19, '1', '测试','小何', '测试在有一一', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603311854228301.jpg', 1, 'http://www.baidu.com', '<p>尘暴是暴炒豪华晋代rg</p>', '2016-03-31 18:54:46')
+[2016-03-31 18:54:46][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.1580] SELECT LAST_INSERT_ID()
+[2016-03-31 18:54:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:137.01105117798] connect db
+[2016-03-31 18:54:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:25.9268] SELECT COUNT(*) FROM wx_material WHERE type = 'news'
+[2016-03-31 18:54:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.9580] SELECT * FROM wx_material WHERE 1 AND type = 'news'   ORDER BY `create_time` DESC, `id` DESC  limit 0,10 
+[2016-03-31 18:54:48][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.1599] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-03-31 18:54:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:87.660789489746] connect db
+[2016-03-31 18:54:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.2490] SELECT * FROM `wx_material` WHERE 1 AND id = 19 
+[2016-03-31 18:54:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.4951] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-03-31 18:55:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:112.32709884644] connect db
+[2016-03-31 18:55:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.7702] SELECT * FROM `wx_material` WHERE 1 AND id = 19 
+[2016-03-31 18:55:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.0739] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-03-31 18:55:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.7671] UPDATE `wx_material` SET `articles` = 'a:1:{i:0;a:6:{s:5:\"title\";s:6:\"测试\";s:6:\"author\";s:4:\"asdf\";s:11:\"description\";s:18:\"测试在有一一\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603311854228301.jpg\";s:14:\"show_cover_pic\";s:1:\"0\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}',`type` = 'news' WHERE  id = 19
+[2016-03-31 18:55:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.9639] DELETE FROM `wx_material_news` WHERE material_id = 19
+[2016-03-31 18:55:01][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.8760] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`,`author`, `description`, `picurl`,`show_cover_pic`, `url`, `news_text`, `create_time`) VALUES (19, '1', '测试', 'asdf', '测试在有一一', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603311854228301.jpg',0, 'http://www.baidu.com', '<p>尘暴是暴炒豪华晋代rg</p>', '2016-03-31 18:55:01')
+[2016-03-31 18:55:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:104.89511489868] connect db
+[2016-03-31 18:55:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.7302] SELECT * FROM `wx_material` WHERE 1 AND id = 19 
+[2016-03-31 18:55:16][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.0950] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-03-31 19:02:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:88.014125823975] connect db
+[2016-03-31 19:02:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.3458] SELECT * FROM `wx_material` WHERE 1 AND id = 19 
+[2016-03-31 19:02:55][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.4770] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-03-31 19:03:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:87.713956832886] connect db
+[2016-03-31 19:03:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.0628] SELECT * FROM `wx_material` WHERE 1 AND id = 19 
+[2016-03-31 19:03:17][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:18.4751] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-03-31 19:04:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:105.94415664673] connect db
+[2016-03-31 19:04:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:21.9409] SELECT * FROM `wx_material` WHERE 1 AND id = 19 
+[2016-03-31 19:04:31][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:22.2442] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-03-31 19:04:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:119.71211433411] connect db
+[2016-03-31 19:04:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.4210] SELECT * FROM `wx_material` WHERE 1 AND id = 19 
+[2016-03-31 19:04:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.6949] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 
+[2016-03-31 19:04:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:24.2770] UPDATE `wx_material` SET `articles` = 'a:1:{i:0;a:6:{s:5:\"title\";s:6:\"测试\";s:6:\"author\";s:4:\"asdf\";s:11:\"description\";s:18:\"测试在有一一\";s:6:\"picurl\";s:72:\"http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603311854228301.jpg\";s:14:\"show_cover_pic\";s:1:\"1\";s:3:\"url\";s:20:\"http://www.baidu.com\";}}',`type` = 'news' WHERE  id = 19
+[2016-03-31 19:04:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.8230] DELETE FROM `wx_material_news` WHERE material_id = 19
+[2016-03-31 19:04:40][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:23.7789] INSERT INTO `wx_material_news` (`material_id`, `news_index`, `title`,`author`, `description`, `picurl`,`show_cover_pic`, `url`, `news_text`, `create_time`) VALUES (19, '1', '测试', 'asdf', '测试在有一一', 'http://wx.hysci.com.cn/yhsci/Common/weixin/upload/201603311854228301.jpg',1, 'http://www.baidu.com', '<p>尘暴是暴炒豪华晋代rg</p>', '2016-03-31 19:04:40')
+[2016-03-31 19:04:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:135.96391677856] connect db
+[2016-03-31 19:04:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:26.8900] SELECT * FROM `wx_material` WHERE 1 AND id = 19 
+[2016-03-31 19:04:52][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:27.2369] SELECT * FROM `wx_material_news` WHERE 1 AND material_id = 19 

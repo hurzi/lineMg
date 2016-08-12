@@ -1,0 +1,236 @@
+[15-Apr-2016 10:27:54 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 10:27:59 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'action not exist, action: WxMaterial, method: index' in E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php:69
+Stack trace:
+#0 E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php(39): AbcPHP::_run()
+#1 E:\www\yhsci\htdocs\yhsci\Manage\index.php(9): AbcPHP::run()
+#2 {main}
+  thrown in E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php on line 69
+[15-Apr-2016 10:30:15 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'action not exist, action: WxMaterial, method: index' in E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php:69
+Stack trace:
+#0 E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php(39): AbcPHP::_run()
+#1 E:\www\yhsci\htdocs\yhsci\Manage\index.php(9): AbcPHP::run()
+#2 {main}
+  thrown in E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php on line 69
+[15-Apr-2016 10:30:17 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 10:30:19 PRC] PHP Warning:  include_once(E:\www\yhsci\myfolder\Lib\Tpl\Manage/WxMaterialNews/index.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 25
+[15-Apr-2016 10:30:19 PRC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'E:\www\yhsci\myfolder\Lib\Tpl\Manage/WxMaterialNews/index.php' for inclusion (include_path='.;C:\php\pear') in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 25
+[15-Apr-2016 10:31:17 PRC] PHP Warning:  include_once(E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/header_1.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 10:31:17 PRC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/header_1.php' for inclusion (include_path='.;C:\php\pear') in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 10:31:17 PRC] PHP Warning:  include_once(E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/footer_1.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 10:31:17 PRC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/footer_1.php' for inclusion (include_path='.;C:\php\pear') in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 10:36:47 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 10:36:47 PRC] PHP Notice:  Undefined variable: isThread in E:\www\yhsci\myfolder\Lib\Tpl\Manage\WxMaterialNews\index.php on line 34
+[15-Apr-2016 10:39:51 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 10:39:55 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 10:41:22 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 10:41:27 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 10:41:27 PRC] PHP Notice:  Undefined variable: isThread in E:\www\yhsci\myfolder\Lib\Tpl\Manage\WxMaterialNews\index.php on line 34
+[15-Apr-2016 10:45:12 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 10:45:12 PRC] PHP Notice:  Undefined variable: isThread in E:\www\yhsci\myfolder\Lib\Tpl\Manage\WxMaterialNews\index.php on line 34
+[15-Apr-2016 10:51:14 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 10:51:14 PRC] PHP Notice:  Undefined variable: isThread in E:\www\yhsci\myfolder\Lib\Tpl\Manage\WxMaterialNews\index.php on line 34
+[15-Apr-2016 10:51:41 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 10:51:41 PRC] PHP Notice:  Undefined variable: isThread in E:\www\yhsci\myfolder\Lib\Tpl\Manage\WxMaterialNews\index.php on line 34
+[15-Apr-2016 10:51:46 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 10:51:46 PRC] PHP Notice:  Undefined variable: isThread in E:\www\yhsci\myfolder\Lib\Tpl\Manage\WxMaterialNews\index.php on line 34
+[15-Apr-2016 10:54:16 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 10:54:16 PRC] PHP Notice:  Undefined variable: isThread in E:\www\yhsci\myfolder\Lib\Tpl\Manage\WxMaterialNews\index.php on line 34
+[15-Apr-2016 10:56:08 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 10:56:12 PRC] PHP Warning:  include_once(E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/header_1.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 10:56:12 PRC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/header_1.php' for inclusion (include_path='.;C:\php\pear') in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 10:56:12 PRC] PHP Warning:  include_once(E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/footer_1.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 10:56:12 PRC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/footer_1.php' for inclusion (include_path='.;C:\php\pear') in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:02 PRC] PHP Warning:  include_once(E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/header_1.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:02 PRC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/header_1.php' for inclusion (include_path='.;C:\php\pear') in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:02 PRC] PHP Warning:  include_once(E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/footer_1.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:02 PRC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/footer_1.php' for inclusion (include_path='.;C:\php\pear') in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:03 PRC] PHP Warning:  include_once(E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/header_1.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:03 PRC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/header_1.php' for inclusion (include_path='.;C:\php\pear') in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:03 PRC] PHP Warning:  include_once(E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/footer_1.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:03 PRC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/footer_1.php' for inclusion (include_path='.;C:\php\pear') in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:04 PRC] PHP Warning:  include_once(E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/header_1.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:04 PRC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/header_1.php' for inclusion (include_path='.;C:\php\pear') in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:04 PRC] PHP Warning:  include_once(E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/footer_1.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:04 PRC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/footer_1.php' for inclusion (include_path='.;C:\php\pear') in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:05 PRC] PHP Warning:  include_once(E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/header_1.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:05 PRC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/header_1.php' for inclusion (include_path='.;C:\php\pear') in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:05 PRC] PHP Warning:  include_once(E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/footer_1.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:05 PRC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'E:\www\yhsci\myfolder\Lib\Tpl\Manage/Common/footer_1.php' for inclusion (include_path='.;C:\php\pear') in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 35
+[15-Apr-2016 11:08:59 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:10:31 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:11:40 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:17:42 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:18:08 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:24:58 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:25:31 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:25:57 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:28:09 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:28:13 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:28:17 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:28:19 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:28:25 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:28:28 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:28:31 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:29:40 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:29:45 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:29:46 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:37:08 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:39:54 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:41:12 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:42:36 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:47:38 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:49:31 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:49:56 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:50:32 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:51:36 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:51:53 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:56:42 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 11:59:34 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:02:21 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:03:28 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:05:48 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:20:07 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:20:09 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:20:15 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:20:16 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:23:15 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:24:52 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:25:47 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:26:58 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:27:05 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:33:45 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:35:37 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:37:32 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:39:15 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:39:45 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:41:44 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:43:05 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:43:50 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:44:15 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:44:34 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:54:00 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:55:52 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:56:14 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:56:45 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 12:59:18 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:02:27 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:03:48 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:03:57 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:04:03 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:04:27 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:10:36 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:13:13 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:16:35 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:17:20 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:22:54 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:24:06 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:25:04 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:31:44 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:33:28 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:33:41 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:36:17 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:36:57 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:37:06 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'action not exist, action: MaterialNews, method: edit' in E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php:69
+Stack trace:
+#0 E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php(39): AbcPHP::_run()
+#1 E:\www\yhsci\htdocs\yhsci\Manage\index.php(9): AbcPHP::run()
+#2 {main}
+  thrown in E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php on line 69
+[15-Apr-2016 13:37:46 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'action not exist, action: MaterialNews, method: edit' in E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php:69
+Stack trace:
+#0 E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php(39): AbcPHP::_run()
+#1 E:\www\yhsci\htdocs\yhsci\Manage\index.php(9): AbcPHP::run()
+#2 {main}
+  thrown in E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php on line 69
+[15-Apr-2016 13:37:49 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:37:51 PRC] PHP Warning:  include_once(E:\www\yhsci\myfolder\Lib\Tpl\Manage/MaterialNews/add.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 25
+[15-Apr-2016 13:37:51 PRC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'E:\www\yhsci\myfolder\Lib\Tpl\Manage/MaterialNews/add.php' for inclusion (include_path='.;C:\php\pear') in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 25
+[15-Apr-2016 13:38:39 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:39:14 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:39:38 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:44:21 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:45:23 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:48:18 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:48:21 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:48:54 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:48:56 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:53:49 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:55:10 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:56:24 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 13:58:03 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:00:20 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:01:01 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:01:15 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:01:42 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:02:01 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:03:01 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:08:10 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:08:50 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:09:00 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:09:09 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:10:55 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:12:24 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:14:38 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:14:49 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:16:34 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:16:43 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:18:17 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:18:20 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:19:16 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:19:23 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:20:32 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:20:39 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:20:48 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:20:59 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:21:21 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:22:51 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:25:27 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:25:56 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:26:06 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:27:15 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:27:26 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:27:32 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:27:53 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:29:07 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:31:04 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:33:20 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:33:48 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:34:02 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:34:13 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:34:30 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:34:30 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:35:05 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:36:56 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:39:17 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:40:04 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:40:22 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:47:05 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:47:08 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:47:13 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:47:59 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:48:21 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:48:40 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:50:34 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 14:50:46 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:21:57 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:23:13 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:23:24 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:23:28 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:23:35 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:24:15 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:24:18 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:24:21 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:24:36 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:24:39 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:24:48 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:24:54 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:25:09 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:25:13 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:25:27 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:25:42 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:25:45 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:25:47 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:51:47 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:51:52 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:51:56 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10
+[15-Apr-2016 18:52:01 PRC] PHP Notice:  Use of undefined constant TITLE - assumed 'TITLE' in E:\www\yhsci\myfolder\Lib\Tpl\Manage\Common\header.php on line 10

@@ -1,0 +1,105 @@
+[error][2016-04-01 14:31:38] action file not exist : E:\www\yhsci\myfolder\Lib/Action/Admin/SysAlermAction.class.phpEOF;
+[error][2016-04-01 14:31:38] _run error: action not exist, action: SysAlerm, method: index
+<<var data>> : array (
+  'a' => 'SysAlerm',
+)EOF;
+[error][2016-04-01 14:32:07] action file not exist : E:\www\yhsci\myfolder\Lib/Action/Admin/SysAlermAction.class.phpEOF;
+[error][2016-04-01 14:32:07] _run error: action not exist, action: SysAlerm, method: index
+<<var data>> : array (
+  'a' => 'SysAlerm',
+)EOF;
+[error][2016-04-01 14:32:24] action file not exist : E:\www\yhsci\myfolder\Lib/Action/Admin/SysAlermAction.class.phpEOF;
+[error][2016-04-01 14:32:24] _run error: action not exist, action: SysAlerm, method: index
+<<var data>> : array (
+  'a' => 'SysAlerm',
+)EOF;
+[error][2016-04-01 14:32:29] 获取系统告警列表总数失败： 
+<<var data>> : 'query error : Table \'qdm216841497_db.wx_adsit_sys_alarm\' doesn\'t exist
+#0 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(277): DB->error(\'query error : T...\')
+#1 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(130): DB->query(\'SELECT COUNT(*)...\')
+#2 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(94): DB->getOne(\'SELECT COUNT(*)...\')
+#3 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(51): SysAlarmModel->getAlarmCount(\'\')
+#4 E:\\www\\yhsci\\myfolder\\Lib\\Action\\Admin\\SysAlarmAction.class.php(39): SysAlarmModel->getSystemAlarmList(Array)
+#5 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(75): SysAlarmAction->index(Array)
+#6 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(39): AbcPHP::_run()
+#7 E:\\www\\yhsci\\htdocs\\yhsci\\Admin\\index.php(6): AbcPHP::run()
+#8 {main}'EOF;
+[error][2016-04-01 14:32:50] 获取系统告警列表总数失败： 
+<<var data>> : 'query error : Table \'qdm216841497_db.wx_adsit_sys_alarm\' doesn\'t exist
+#0 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(277): DB->error(\'query error : T...\')
+#1 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(130): DB->query(\'SELECT COUNT(*)...\')
+#2 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(94): DB->getOne(\'SELECT COUNT(*)...\')
+#3 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(51): SysAlarmModel->getAlarmCount(\'\')
+#4 E:\\www\\yhsci\\myfolder\\Lib\\Action\\Admin\\SysAlarmAction.class.php(39): SysAlarmModel->getSystemAlarmList(Array)
+#5 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(75): SysAlarmAction->index(Array)
+#6 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(39): AbcPHP::_run()
+#7 E:\\www\\yhsci\\htdocs\\yhsci\\Admin\\index.php(6): AbcPHP::run()
+#8 {main}'EOF;
+[error][2016-04-01 14:33:16] 获取系统告警列表总数失败： 
+<<var data>> : 'query error : Table \'qdm216841497_db.wx_adsit_sys_alarm\' doesn\'t exist
+#0 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(277): DB->error(\'query error : T...\')
+#1 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(130): DB->query(\'SELECT COUNT(*)...\')
+#2 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(94): DB->getOne(\'SELECT COUNT(*)...\')
+#3 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(51): SysAlarmModel->getAlarmCount(\'\')
+#4 E:\\www\\yhsci\\myfolder\\Lib\\Action\\Admin\\SysAlarmAction.class.php(39): SysAlarmModel->getSystemAlarmList(Array)
+#5 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(75): SysAlarmAction->index(Array)
+#6 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(39): AbcPHP::_run()
+#7 E:\\www\\yhsci\\htdocs\\yhsci\\Admin\\index.php(6): AbcPHP::run()
+#8 {main}'EOF;
+[error][2016-04-01 14:33:24] 获取系统告警列表总数失败： 
+<<var data>> : 'query error : Table \'qdm216841497_db.wx_adsit_sys_alarm\' doesn\'t exist
+#0 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(277): DB->error(\'query error : T...\')
+#1 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(130): DB->query(\'SELECT COUNT(*)...\')
+#2 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(94): DB->getOne(\'SELECT COUNT(*)...\')
+#3 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(51): SysAlarmModel->getAlarmCount(\'\')
+#4 E:\\www\\yhsci\\myfolder\\Lib\\Action\\Admin\\SysAlarmAction.class.php(39): SysAlarmModel->getSystemAlarmList(Array)
+#5 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(75): SysAlarmAction->index(Array)
+#6 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(39): AbcPHP::_run()
+#7 E:\\www\\yhsci\\htdocs\\yhsci\\Admin\\index.php(6): AbcPHP::run()
+#8 {main}'EOF;
+[error][2016-04-01 14:34:00] 获取系统告警列表总数失败： 
+<<var data>> : 'query error : Table \'qdm216841497_db.wx_adsit_sys_alarm\' doesn\'t exist
+#0 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(277): DB->error(\'query error : T...\')
+#1 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(130): DB->query(\'SELECT COUNT(*)...\')
+#2 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(94): DB->getOne(\'SELECT COUNT(*)...\')
+#3 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(51): SysAlarmModel->getAlarmCount(\'\')
+#4 E:\\www\\yhsci\\myfolder\\Lib\\Action\\Admin\\SysAlarmAction.class.php(39): SysAlarmModel->getSystemAlarmList(Array)
+#5 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(75): SysAlarmAction->index(Array)
+#6 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(39): AbcPHP::_run()
+#7 E:\\www\\yhsci\\htdocs\\yhsci\\Admin\\index.php(6): AbcPHP::run()
+#8 {main}'EOF;
+[error][2016-04-01 14:34:18] 获取系统告警列表总数失败： 
+<<var data>> : 'query error : Table \'qdm216841497_db.wx_adsit_sys_alarm\' doesn\'t exist
+#0 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(277): DB->error(\'query error : T...\')
+#1 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(130): DB->query(\'SELECT COUNT(*)...\')
+#2 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(94): DB->getOne(\'SELECT COUNT(*)...\')
+#3 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(51): SysAlarmModel->getAlarmCount(\'\')
+#4 E:\\www\\yhsci\\myfolder\\Lib\\Action\\Admin\\SysAlarmAction.class.php(39): SysAlarmModel->getSystemAlarmList(Array)
+#5 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(75): SysAlarmAction->index(Array)
+#6 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(39): AbcPHP::_run()
+#7 E:\\www\\yhsci\\htdocs\\yhsci\\Admin\\index.php(6): AbcPHP::run()
+#8 {main}'EOF;
+[error][2016-04-01 14:35:08] 获取系统告警列表总数失败： 
+<<var data>> : 'query error : Table \'qdm216841497_db.wx_adsit_sys_alarm\' doesn\'t exist
+#0 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(277): DB->error(\'query error : T...\')
+#1 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(130): DB->query(\'SELECT COUNT(*)...\')
+#2 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(94): DB->getOne(\'SELECT COUNT(*)...\')
+#3 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(51): SysAlarmModel->getAlarmCount(\'\')
+#4 E:\\www\\yhsci\\myfolder\\Lib\\Action\\Admin\\SysAlarmAction.class.php(39): SysAlarmModel->getSystemAlarmList(Array)
+#5 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(75): SysAlarmAction->index(Array)
+#6 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(39): AbcPHP::_run()
+#7 E:\\www\\yhsci\\htdocs\\yhsci\\Admin\\index.php(6): AbcPHP::run()
+#8 {main}'EOF;
+[error][2016-04-01 14:38:13] 获取系统告警列表总数失败： 
+<<var data>> : 'connect error！ �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+#0 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(54): DB->error(\'connect error??...\', Array)
+#1 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(268): DB->connect()
+#2 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(130): DB->query(\'SELECT COUNT(*)...\')
+#3 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(94): DB->getOne(\'SELECT COUNT(*)...\')
+#4 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\SysAlarmModel.class.php(51): SysAlarmModel->getAlarmCount(\'\')
+#5 E:\\www\\yhsci\\myfolder\\Lib\\Action\\Admin\\SysAlarmAction.class.php(39): SysAlarmModel->getSystemAlarmList(Array)
+#6 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(75): SysAlarmAction->index(Array)
+#7 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(39): AbcPHP::_run()
+#8 E:\\www\\yhsci\\htdocs\\yhsci\\Admin\\index.php(6): AbcPHP::run()
+#9 {main}'EOF;

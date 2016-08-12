@@ -1,0 +1,4 @@
+[2016-04-01 11:31:31][runtime:24.4598][format:json][[{"http param":{"s":"31"}}]]
+[2016-04-01 11:31:34][runtime:115.2022][format:json][[{"http param":{"logfile":"E:\\www\\yhsci\\htdocs\\yhsci\\WebLog/../../../myfolder/log\\web\\APP_PLATE\\Admin\\sql\\2016\\03-31_sql.log"}}]]
+[2016-04-01 11:31:37][runtime:5.7249][format:json][[{"http param":{"logfile":"E:\\www\\yhsci\\htdocs\\yhsci\\WebLog/../../../myfolder/log\\web\\APP_PLATE\\Common\\log\\2016\\04-01_error.log"}}]]
+[2016-04-01 11:31:40][runtime:59.4051][format:json][[{"http param":{"url":"http://test.yh.yueyanggo.com/yhsci//Test/index.php?a=WxPay&shopId=1&extId=2&ywType=0"}}]]

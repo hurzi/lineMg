@@ -1,0 +1,58 @@
+[error][2016-03-31 14:58:45] E:\www\yhsci\myfolder\Lib\Model\Admin\MaterialNewsModel.class.php . MaterialNewsModel::getNewsById  260  
+<<var data>> : 'query error : Unknown column \'id\' in \'where clause\'
+#0 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(277): DB->error(\'query error : U...\')
+#1 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(104): DB->query(\'SELECT * FROM `...\')
+#2 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\MaterialNewsModel.class.php(258): DB->getRow(\'SELECT * FROM `...\')
+#3 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\MaterialNewsModel.class.php(456): MaterialNewsModel->getNewsById(14)
+#4 E:\\www\\yhsci\\myfolder\\Lib\\Action\\Admin\\MaterialNewsAction.class.php(169): MaterialNewsModel->sendPreview(\'?????????\', Array)
+#5 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(75): MaterialNewsAction->send(Array)
+#6 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(39): AbcPHP::_run()
+#7 E:\\www\\yhsci\\htdocs\\yhsci\\Admin\\index.php(6): AbcPHP::run()
+#8 {main}'EOF;
+[error][2016-03-31 15:08:34] E:\www\yhsci\myfolder\Lib\Model\Admin\MaterialNewsModel.class.php . MaterialNewsModel::getNewsById  260  
+<<var data>> : 'query error : Unknown column \'id\' in \'where clause\'
+#0 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(277): DB->error(\'query error : U...\')
+#1 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(104): DB->query(\'SELECT * FROM `...\')
+#2 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\MaterialNewsModel.class.php(258): DB->getRow(\'SELECT * FROM `...\')
+#3 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\MaterialNewsModel.class.php(456): MaterialNewsModel->getNewsById(15)
+#4 E:\\www\\yhsci\\myfolder\\Lib\\Action\\Admin\\MaterialNewsAction.class.php(169): MaterialNewsModel->sendPreview(\'?????????\', Array)
+#5 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(75): MaterialNewsAction->send(Array)
+#6 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(39): AbcPHP::_run()
+#7 E:\\www\\yhsci\\htdocs\\yhsci\\Admin\\index.php(6): AbcPHP::run()
+#8 {main}'EOF;
+[error][2016-03-31 15:40:27] MaterialNewsModel::insertPreview db error:query error : Column count doesn't match value count at row 1
+<<var data>> : '#0 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(277): DB->error(\'query error : C...\')
+#1 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\MaterialNewsModel.class.php(531): DB->query(\'INSERT INTO `wx...\')
+#2 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\MaterialNewsModel.class.php(450): MaterialNewsModel->insertPreview(Array)
+#3 E:\\www\\yhsci\\myfolder\\Lib\\Action\\Admin\\MaterialNewsAction.class.php(169): MaterialNewsModel->sendPreview(\'?????????\', Array)
+#4 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(75): MaterialNewsAction->send(Array)
+#5 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(39): AbcPHP::_run()
+#6 E:\\www\\yhsci\\htdocs\\yhsci\\Admin\\index.php(6): AbcPHP::run()
+#7 {main}'EOF;
+[error][2016-03-31 15:41:48] MaterialNewsModel::insertPreview db error:query error : Unknown column '56fcd4bc29928.1' in 'field list'
+<<var data>> : '#0 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(277): DB->error(\'query error : U...\')
+#1 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\MaterialNewsModel.class.php(532): DB->query(\'INSERT INTO `wx...\')
+#2 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\MaterialNewsModel.class.php(450): MaterialNewsModel->insertPreview(Array)
+#3 E:\\www\\yhsci\\myfolder\\Lib\\Action\\Admin\\MaterialNewsAction.class.php(169): MaterialNewsModel->sendPreview(\'?????????\', Array)
+#4 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(75): MaterialNewsAction->send(Array)
+#5 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(39): AbcPHP::_run()
+#6 E:\\www\\yhsci\\htdocs\\yhsci\\Admin\\index.php(6): AbcPHP::run()
+#7 {main}'EOF;
+[error][2016-03-31 18:32:30] E:\www\yhsci\myfolder\Lib\Model\Admin\MaterialNewsModel.class.php . MaterialNewsModel::update  366  
+<<var data>> : 'query error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'`url`, `news_text`, `create_time`) VALUES (7, \'1\', \'imya\', \'小何\', \'jsiadofjwe\' at line 1
+#0 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(277): DB->error(\'query error : Y...\')
+#1 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\MaterialNewsModel.class.php(359): DB->query(\'INSERT INTO `wx...\')
+#2 E:\\www\\yhsci\\myfolder\\Lib\\Action\\Admin\\MaterialNewsAction.class.php(132): MaterialNewsModel->update(7, Array)
+#3 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(75): MaterialNewsAction->update(Array)
+#4 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(39): AbcPHP::_run()
+#5 E:\\www\\yhsci\\htdocs\\yhsci\\Admin\\index.php(6): AbcPHP::run()
+#6 {main}'EOF;
+[error][2016-03-31 18:47:47] E:\www\yhsci\myfolder\Lib\Model\Admin\MaterialNewsModel.class.php . MaterialNewsModel::update  367  
+<<var data>> : 'query error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'`url`, `news_text`, `create_time`) VALUES (18, \'1\', \'asdfljet\', \'asdfwedd\', \'测\' at line 1
+#0 E:\\www\\yhsci\\myfolder\\AbcPHP\\DB\\DB.class.php(277): DB->error(\'query error : Y...\')
+#1 E:\\www\\yhsci\\myfolder\\Lib\\Model\\Admin\\MaterialNewsModel.class.php(359): DB->query(\'INSERT INTO `wx...\')
+#2 E:\\www\\yhsci\\myfolder\\Lib\\Action\\Admin\\MaterialNewsAction.class.php(132): MaterialNewsModel->update(18, Array)
+#3 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(75): MaterialNewsAction->update(Array)
+#4 E:\\www\\yhsci\\myfolder\\AbcPHP\\AbcPHP.class.php(39): AbcPHP::_run()
+#5 E:\\www\\yhsci\\htdocs\\yhsci\\Admin\\index.php(6): AbcPHP::run()
+#6 {main}'EOF;

@@ -1,0 +1,6 @@
+[error][2016-04-06 10:52:14] model file not exist : E:\www\yhsci\myfolder\Lib/Model/Admin/EvaluatingModel.class.phpEOF;
+[error][2016-04-06 10:52:14] EvaluatingModel::getList db error:query error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1; sql:SELECT SQL_CALC_FOUND_ROWS * FROM `zgykdx_evaluating`  ORDER BY eval_id DESC LIMIT 0,EOF;
+[error][2016-04-06 10:54:19] model file not exist : E:\www\yhsci\myfolder\Lib/Model/Admin/EvaluatingModel.class.phpEOF;
+[error][2016-04-06 10:54:51] model file not exist : E:\www\yhsci\myfolder\Lib/Model/Admin/EvaluatingModel.class.phpEOF;
+[error][2016-04-06 10:56:34] model file not exist : E:\www\yhsci\myfolder\Lib/Model/Admin/EvaluatingModel.class.phpEOF;
+[error][2016-04-06 10:57:41] model file not exist : E:\www\yhsci\myfolder\Lib/Model/Admin/EvaluatingModel.class.phpEOF;

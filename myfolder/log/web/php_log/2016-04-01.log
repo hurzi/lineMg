@@ -1,0 +1,62 @@
+[01-Apr-2016 14:31:38 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'action not exist, action: SysAlerm, method: index' in E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php:69
+Stack trace:
+#0 E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php(39): AbcPHP::_run()
+#1 E:\www\yhsci\htdocs\yhsci\Admin\index.php(6): AbcPHP::run()
+#2 {main}
+  thrown in E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php on line 69
+[01-Apr-2016 14:32:07 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'action not exist, action: SysAlerm, method: index' in E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php:69
+Stack trace:
+#0 E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php(39): AbcPHP::_run()
+#1 E:\www\yhsci\htdocs\yhsci\Admin\index.php(6): AbcPHP::run()
+#2 {main}
+  thrown in E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php on line 69
+[01-Apr-2016 14:32:24 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'action not exist, action: SysAlerm, method: index' in E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php:69
+Stack trace:
+#0 E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php(39): AbcPHP::_run()
+#1 E:\www\yhsci\htdocs\yhsci\Admin\index.php(6): AbcPHP::run()
+#2 {main}
+  thrown in E:\www\yhsci\myfolder\AbcPHP\AbcPHP.class.php on line 69
+[01-Apr-2016 14:32:29 PRC] PHP Warning:  include_once(E:\www\yhsci\myfolder\Lib\Tpl\Admin/SysAlarm/index.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 25
+[01-Apr-2016 14:32:29 PRC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'E:\www\yhsci\myfolder\Lib\Tpl\Admin/SysAlarm/index.php' for inclusion (include_path='.;C:\php\pear') in E:\www\yhsci\myfolder\AbcPHP\Common\Template.class.php on line 25
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 1
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 5
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 7
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 7
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 9
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 9
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 14
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 14
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 16
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 18
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 23
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 25
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 33
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 42
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 50
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 52
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 61
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 65
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 70
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 77
+[01-Apr-2016 14:36:30 PRC] PHP Notice:  Undefined variable: SysAdsitAlarm in E:\www\yhsci\myfolder\Lib\Tpl\Admin\SysAlarm\showLog.php on line 10
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 1
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 5
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 7
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 7
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 9
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 9
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 14
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 14
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 16
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 18
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 23
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 25
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 33
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 42
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 50
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 52
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 61
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 65
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 70
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: action in E:\www\yhsci\myfolder\Lib\Tpl\Admin\Common\header_head.php on line 77
+[01-Apr-2016 14:36:42 PRC] PHP Notice:  Undefined variable: SysAdsitAlarm in E:\www\yhsci\myfolder\Lib\Tpl\Admin\SysAlarm\showLog.php on line 10

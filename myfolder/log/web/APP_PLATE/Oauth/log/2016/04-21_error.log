@@ -1,0 +1,22 @@
+[error][2016-04-21 17:23:58] -----------test oauth logEOF;
+[info][2016-04-21 17:23:58] param
+<<var data>> : array (
+  'app_id' => 'wx2d373f6d7988cbfa',
+  'url' => 'http://test.yh.yueyanggo.com/yhsci/WebYkdx/index.php?a=Login&m=wxCallback&callback=http%253A%252F%252Ftest.yh.yueyanggo.com%252Fyhsci%252FWebYkdx%252Findex.php%253Fa%253DUserEval%2526m%253Dindex',
+  'timestamp' => '1459160779',
+  'scope' => 'snsapi_base',
+  'response_type' => 'userinfoall',
+  'sig' => '973a2eb1e33206d2a6aa36a7a3fc78da',
+)EOF;
+[debug][2016-04-21 17:23:58] m=index;api_key= wx_oauth_url:https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx2d373f6d7988cbfa&redirect_uri=http%3A%2F%2Ftest.yh.yueyanggo.com%2Fyhsci%2F%2FOauth%2Findex.php%3Fa%3DIndex%26m%3Dcallback%26app_id%3Dwx2d373f6d7988cbfa%26url%3Dhttp%253A%252F%252Ftest.yh.yueyanggo.com%252Fyhsci%252FWebYkdx%252Findex.php%253Fa%253DLogin%2526m%253DwxCallback%2526callback%253Dhttp%2525253A%2525252F%2525252Ftest.yh.yueyanggo.com%2525252Fyhsci%2525252FWebYkdx%2525252Findex.php%2525253Fa%2525253DUserEval%25252526m%2525253Dindex%26response_type%3Dopenid&response_type=code&scope=snsapi_base&state=abc#wechat_redirectEOF;
+[error][2016-04-21 17:28:18] -----------test oauth logEOF;
+[info][2016-04-21 17:28:18] param
+<<var data>> : array (
+  'app_id' => 'wx2d373f6d7988cbfa',
+  'url' => 'http://test.yh.yueyanggo.com/yhsci/WebYkdx/index.php?a=Login&m=wxCallback&callback=http%253A%252F%252Ftest.yh.yueyanggo.com%252Fyhsci%252FWebYkdx%252Findex.php%253Fa%253DUserEval%2526m%253Dindex',
+  'timestamp' => '1459160779',
+  'scope' => 'snsapi_base',
+  'response_type' => 'userinfoall',
+  'sig' => '973a2eb1e33206d2a6aa36a7a3fc78da',
+)EOF;
+[debug][2016-04-21 17:28:18] m=index;api_key= wx_oauth_url:https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx2d373f6d7988cbfa&redirect_uri=http%3A%2F%2Ftest.yh.yueyanggo.com%2Fyhsci%2F%2FOauth%2Findex.php%3Fa%3DIndex%26m%3Dcallback%26app_id%3Dwx2d373f6d7988cbfa%26url%3Dhttp%253A%252F%252Ftest.yh.yueyanggo.com%252Fyhsci%252FWebYkdx%252Findex.php%253Fa%253DLogin%2526m%253DwxCallback%2526callback%253Dhttp%2525253A%2525252F%2525252Ftest.yh.yueyanggo.com%2525252Fyhsci%2525252FWebYkdx%2525252Findex.php%2525253Fa%2525253DUserEval%25252526m%2525253Dindex%26response_type%3Dopenid&response_type=code&scope=snsapi_base&state=abc#wechat_redirectEOF;

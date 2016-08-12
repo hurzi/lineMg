@@ -1,0 +1,72 @@
+[info][2016-04-11 10:14:50] ------
+<<var data>> : array (
+  'item_order' => '1',
+  'item_key' => 'A',
+  'item_name' => '柑',
+  'item_point' => '45',
+  'topic_id' => '10',
+  'eval_id' => '35',
+)EOF;
+[info][2016-04-11 10:14:50] ------
+<<var data>> : array (
+  'item_order' => '2',
+  'item_key' => 'B',
+  'item_name' => '3',
+  'item_point' => '3',
+  'topic_id' => '10',
+  'eval_id' => '35',
+)EOF;
+[info][2016-04-11 10:14:50] ------
+<<var data>> : array (
+  'item_order' => '3',
+  'item_key' => 'C',
+  'item_name' => '左',
+  'item_point' => '2',
+  'topic_id' => '10',
+  'eval_id' => '35',
+)EOF;
+[info][2016-04-11 10:14:50] ------
+<<var data>> : array (
+  'item_order' => '4',
+  'item_key' => 'D',
+  'item_name' => '左',
+  'item_point' => '2',
+  'topic_id' => '10',
+  'eval_id' => '35',
+)EOF;
+[info][2016-04-11 10:15:07] ------
+<<var data>> : array (
+  'item_order' => '1',
+  'item_key' => 'A',
+  'item_name' => '柑',
+  'item_point' => '45',
+  'topic_id' => '10',
+  'eval_id' => '35',
+)EOF;
+[info][2016-04-11 10:15:07] ------
+<<var data>> : array (
+  'item_order' => '2',
+  'item_key' => 'B',
+  'item_name' => '3',
+  'item_point' => '3',
+  'topic_id' => '10',
+  'eval_id' => '35',
+)EOF;
+[info][2016-04-11 10:15:07] ------
+<<var data>> : array (
+  'item_order' => '3',
+  'item_key' => 'C',
+  'item_name' => '左',
+  'item_point' => '2',
+  'topic_id' => '10',
+  'eval_id' => '35',
+)EOF;
+[info][2016-04-11 10:15:07] ------
+<<var data>> : array (
+  'item_order' => '4',
+  'item_key' => 'D',
+  'item_name' => '左',
+  'item_point' => '2',
+  'topic_id' => '10',
+  'eval_id' => '35',
+)EOF;

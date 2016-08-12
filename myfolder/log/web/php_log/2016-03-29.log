@@ -1,0 +1,8 @@
+[29-Mar-2016 11:17:05 PRC] PHP Parse error:  syntax error, unexpected T_EXIT, expecting ',' or ';' in E:\www\yhsci\myfolder\Lib\Action\Oauth\IndexAction.class.php on line 13
+[29-Mar-2016 16:46:52 PRC] PHP Notice:  Undefined index: HTTP_RAW_POST_DATA in E:\www\yhsci\myfolder\Lib\Action\WxPay\WxPayNotifyAction.class.php on line 19
+[29-Mar-2016 16:46:52 PRC] PHP Notice:  Undefined variable: return_code in E:\www\yhsci\myfolder\AbcPHP\API\WxPay\WxPay.Notify.php on line 79
+[29-Mar-2016 16:47:44 PRC] PHP Notice:  Undefined index: HTTP_RAW_POST_DATA in E:\www\yhsci\myfolder\Lib\Action\WxPay\WxPayNotifyAction.class.php on line 19
+[29-Mar-2016 16:47:44 PRC] PHP Notice:  Undefined variable: return_code in E:\www\yhsci\myfolder\AbcPHP\API\WxPay\WxPay.Notify.php on line 79
+[29-Mar-2016 16:49:28 PRC] PHP Notice:  Undefined index: HTTP_RAW_POST_DATA in E:\www\yhsci\myfolder\Lib\Action\WxPay\WxPayNotifyAction.class.php on line 19
+[29-Mar-2016 16:49:29 PRC] PHP Notice:  Undefined variable: return_code in E:\www\yhsci\myfolder\AbcPHP\API\WxPay\WxPay.Notify.php on line 79
+[29-Mar-2016 17:46:27 PRC] PHP Fatal error:  Call to undefined function cutstr_dis() in E:\www\yhsci\myfolder\Lib\Common\MessageTools.class.php on line 934

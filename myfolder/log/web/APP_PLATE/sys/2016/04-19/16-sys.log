@@ -1,0 +1,8 @@
+[2016-04-19 16:08:42][runtime:263.6139][format:json][[{"http param":{"a":"ZgykdxEvaluating","m":"index"}}]]
+[2016-04-19 16:09:19][runtime:247.0751][format:json][[{"http param":{"a":"ZgykdxEvaluating","m":"index"}}]]
+[2016-04-19 16:09:47][runtime:220.9339][format:json][[{"http param":{"a":"ZgykdxEvaluating","m":"index"}}]]
+[2016-04-19 16:10:15][runtime:9.0549][format:json][[{"http param":{"a":"ZgykdxEvaluating","m":"add"}}]]
+[2016-04-19 16:10:42][runtime:195.9519][format:json][[{"http param":{"a":"ZgykdxEvaluating","m":"ajax_addEvaluating","eval_name":"考试题","eval_descript":"测试一下","eval_starttime":"2016-04-01","eval_endtime":"2016-04-30","eval_type":"3","eval_status":"1","eval_max_topic":"0"}}]]
+[2016-04-19 16:10:44][runtime:195.8070][format:json][[{"http param":{"a":"ZgykdxEvaluating","m":"index"}}]]
+[2016-04-19 16:10:48][runtime:231.4229][format:json][[{"http param":{"eval_id":"36","a":"ZgykdxEvaluating","m":"indexTopicList"}}]]
+[2016-04-19 16:10:50][runtime:9.1701][format:json][[{"http param":{"eval_id":"36","a":"ZgykdxEvaluating","m":"addTopic"}}]]

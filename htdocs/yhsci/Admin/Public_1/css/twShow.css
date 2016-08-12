@@ -1,0 +1,30 @@
+.ImgWord {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 1px 1px 1px #E5EAED;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+}
+.ImgWord h1 {
+    border-left: 10px solid #B0CCC6;
+    color: #202020;
+    display: block;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.ImgWord .IWbg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 400px auto;
+    height: 150px;
+}
+.ImgWord p {
+    margin: 0 !important;
+    padding: 5px 0 !important;
+    text-indent: 0 !important;
+}

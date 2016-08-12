@@ -1,0 +1,32 @@
+          .suggest_wrapper{
+              position:absolute;
+          }
+          .suggest_list{
+			  background-color:#FFFFFF;
+              position:absolute;
+              z-index:100;
+              list-style: none;
+              margin:0;
+              padding:0;
+              border:1px solid #ccc;
+              border-bottom:0 none;
+          }
+          .suggest_list li a{
+              display: block;
+              color: #000;
+	      font-family:arial;
+              border-bottom:1px solid #ccc;
+              line-height:30px;
+              text-decoration: none;
+          }
+	  .suggest_li_selected{
+	      background:#D3D3D3;
+	  }
+	  .suggest_nodata_div{
+ 	      display: block;
+              color: #000;
+	      font-family:arial;
+              border-bottom:1px solid #ccc;
+              line-height:30px;
+              text-decoration: none;
+	  }
