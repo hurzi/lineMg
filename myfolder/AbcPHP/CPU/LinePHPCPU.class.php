@@ -57,9 +57,9 @@ class LinePHPCPU
 	public static function run()
 	{	
 		$msgStr = trim(file_get_contents('php://input'));
-		Logger::info("receiver line msg",$msgStr);
-		$botApi = new LINEBot(LineConfig::$base, new LineHTTPClient(LineConfig::$base));
 		$msgArr = json_decode($msgStr,true);
+		Logger::info("receiver line msg:".$msgStr,$msgArr);
+		$botApi = new LINEBot(LineConfig::$base, new LineHTTPClient(LineConfig::$base));
 		$result = $botApi->sendText([$msgArr['result']['content']['from']], 'hello!'.$msgArr['result']['content']['text']);
 		Logger::info('callback result:',$result);
 		echo "------------------test start----------</br>";
