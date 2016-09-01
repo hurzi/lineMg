@@ -60,7 +60,7 @@ class LinePHPCPU
 		$msgArr = json_decode($msgStr,true);
 		Logger::info("receiver line msg:".$msgStr,$msgArr);
 		$botApi = new LINEBot(LineConfig::$base, new LineHTTPClient(LineConfig::$base));
-		$result = $botApi->sendText([$msgArr['result']['content']['from']], 'hello!'.$msgArr['result']['content']['text']);
+		$result = $botApi->sendText([$msgArr['result'][0]['content']['from']], 'hello!'.$msgArr['result'][0]['content']['text']);
 		Logger::info('callback result:',$result);
 		echo "------------------test start----------</br>";
 		var_dump($_REQUEST);
