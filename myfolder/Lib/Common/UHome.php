@@ -11,11 +11,13 @@ class UHome
 	private static $C_PATH = '/';
 	const C_USER_ID = 'C_U_ID';
 	const C_USER_NAME = 'C_U_NAME';
+	const C_USER_LEVEL = 'C_U_LEVEL';
 	const C_EXPIRE = 0;
 
 	private static $USER_ID;
 	
 	private static $USER_NAME;
+	private static $USER_LEVEL;
 	
 	private static $IS_LOGIN = false;
 
@@ -26,19 +28,24 @@ class UHome
 	public static function getUserName(){
 		return self::$USER_NAME;
 	}
-	
+
+	public static function getUserLevel()
+	{
+		return self::$USER_LEVEL;
+	}
 	public static function isLogin(){
 		return self::$IS_LOGIN;
 	}
 	
 	
 	public static function setUser($user){
-			if(!$user->userId || !$user->userName){
-					return;
-			}
-			self::$USER_ID=$user->userId;
-			self::$USER_NAME=$user->userName;
-			self::setUserToCookie();
+		if(!$user->userId || !$user->userName){
+				return;
+		}
+		self::$USER_ID=$user->userId;
+		self::$USER_NAME=$user->userName;
+		self::$USER_LEVEL = $user->userLevel;
+		self::setUserToCookie();
 	}
 	
 	//初始化
@@ -69,18 +76,21 @@ class UHome
 	private static function setUserToCookie(){
 		self::setCookie(self::C_USER_ID, self::$USER_ID);
 		self::setCookie(self::C_USER_NAME, self::$USER_NAME);
+		self::setCookie(self::C_USER_LEVEL, self::$USER_LEVEL);
 	}	
 	
 	//初始化cookie信息
 	private static function initData(){
 		self::$USER_ID = (int) self::getCookie(self::C_USER_ID);
 		self::$USER_NAME = self::getCookie(self::C_USER_NAME);
+		self::$USER_LEVEL = self::getCookie(self::C_USER_LEVEL);
 	}
 
 	//退出，清除cookie
 	public static function logout(){
 		self::setCookie(self::C_USER_ID, null, - 100);
 		self::setCookie(self::C_USER_NAME, null, - 100);
+		self::setCookie(self::C_USER_LEVEL, null, - 100);
 
 	}
 	
@@ -99,6 +109,7 @@ class UHome
 class UHome_User{
 	public $userId; //当前系统用户id
 	public $userName; //当前系统用户名
+	public $userLevel; //当前用户等级
 }
 
 

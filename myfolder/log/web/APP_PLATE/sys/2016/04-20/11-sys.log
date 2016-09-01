@@ -1,5 +1,0 @@
-[2016-04-20 11:03:01][runtime:559.1359][format:json][[{"http param":{"a":"WxCustomMenu","m":"index"}}]]
-[2016-04-20 11:12:13][runtime:252.6488][format:json][[{"http param":{"a":"ZgykdxEvaluating","m":"index"}}]]
-[2016-04-20 11:16:44][runtime:193.7399][format:json][[{"http param":{"eval_id":"36","a":"ZgykdxEvaluating","m":"update"}}]]
-[2016-04-20 11:28:00][runtime:252.7041][format:json][[{"http param":{"eval_id":"34","a":"ZgykdxEvaluating","m":"indexTopicList"}}]]
-[2016-04-20 11:28:02][runtime:278.7151][format:json][[{"http param":{"topic_id":"2","eval_id":"34","a":"ZgykdxEvaluating","m":"updateTopic"}}]]

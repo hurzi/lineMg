@@ -1,4 +1,0 @@
-[2016-03-31 14:36:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:192.27004051208] connect db
-[2016-03-31 14:36:26][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:30.7691] SELECT * FROM `wx_material_news` WHERE `material_id` = '' AND `news_index` = 0 AND `is_deleted` = 0
-[2016-03-31 14:48:25][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:119.09103393555] connect db
-[2016-03-31 14:48:25][qdm216841497.my3w.com][qdm216841497_db][sql][runtime:17.8230] SELECT * FROM `wx_material_news_preview` WHERE `material_id` = '11' AND `news_index` = 1

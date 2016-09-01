@@ -65,17 +65,17 @@ return array(
 	'PLUGINS' => include(LIB_PATH.'/Config/Plugin.Config.php'),
 		
 	//数据库配置(默认数据库) DB CONFIG'
-	'DB_HOST' => 'qdm216841497.my3w.com',
-	'DB_USER' => 'qdm216841497',
-	'DB_PASSWORD' => 'yhsciroot',
-	'DB_NAME' => 'qdm216841497_db',
+	'DB_HOST' => 'localhost',
+	'DB_USER' => 'root',
+	'DB_PASSWORD' => 'root',
+	'DB_NAME' => 'lineMg',
 	//数据库配置(其它辅助数据库)
 	'DB_CONFIGS' => array(
 			'tanxingdb' => array(
-				'DB_HOST' => 'rdsl4w179a0jj12tt06n.mysql.rds.aliyuncs.com',
-				'DB_USER' => 'ry42wn65tuuwl725',
-				'DB_PASSWORD' => 'yhsciroot',
-				'DB_NAME' => 'ry42wn65tuuwl725',
+				'DB_HOST' => '..',
+				'DB_USER' => '',
+				'DB_PASSWORD' => '',
+				'DB_NAME' => '',
 			),
 	),
 );

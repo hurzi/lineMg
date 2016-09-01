@@ -19,6 +19,13 @@
 						<a target="mainFrame" href="index.php?a=MaterialNews&amp;m=index">图文素材</a>
 				</li>
 		</ul>
+		<h3 class="mut gd_t"><i class="ic kf"></i>用户管理</h3>
+		<ul class="menu_ul">
+				</li>
+				<li id="operatorgroup-index">
+						<a target="mainFrame" href="index.php?a=SeUser&amp;m=index">用户管理</a>
+				</li>
+		</ul>
 		<h3 class="mut gd_t"><i class="ic kf"></i>自定义菜单管理</h3>
 		<ul class="menu_ul">
 				<li id="user-index" >

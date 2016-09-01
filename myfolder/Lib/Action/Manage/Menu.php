@@ -32,6 +32,12 @@ return array(
             	'icon' => 'fa fa-credit-card',
                 'method' => array("ZgykdxEvaluating.index","ZgykdxEvaluating.add","ZgykdxEvaluating.update"),
             	'ignore_method' => array()
+            ),array(
+                'url' => url('SeUser', 'index'),
+                'name' => '管理员管理',
+            	'icon' => 'fa fa-credit-card',
+                'method' => array("SeUser.index","SeUser.add","SeUser.update"),
+            	'ignore_method' => array()
             ),
         )
     )

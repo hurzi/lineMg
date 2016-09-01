@@ -1,8 +1,0 @@
-[2016-04-13 19:00:15][runtime:339.3872][format:json][[{"http param":{"a":"WxCustomMenu","m":"edit","is_thread":"0","id":"19"}}]]
-[2016-04-13 19:02:34][runtime:405.1290][format:json][[{"http param":{"a":"WxCustomMenu","m":"edit","is_thread":"0","id":"19"}}]]
-[2016-04-13 19:02:39][runtime:511.8570][format:json][[{"http param":{"a":"WxMaterialNews","m":"showMaterial","p":"1","callback":"materialSelecter.loadNewsData"}}]]
-[2016-04-13 19:02:53][runtime:306.8609][format:json][[{"http param":{"a":"WxMaterialNews","m":"showMaterial","p":"1","callback":"materialSelecter.loadNewsData"}}]]
-[2016-04-13 19:03:48][runtime:225.1859][format:json][[{"http param":{"a":"WxCustomMenu","m":"edit","is_thread":"0","id":"19"}}]]
-[2016-04-13 19:03:53][runtime:388.6471][format:json][[{"http param":{"a":"WxMaterialNews","m":"showMaterial","p":"1","callback":"materialSelecter.loadNewsData"}}]]
-[2016-04-13 19:03:58][runtime:357.7850][format:json][[{"http param":{"a":"WxMaterialNews","m":"showMaterial","p":"1","callback":"materialSelecter.loadNewsData"}}]]
-[2016-04-13 19:04:14][runtime:337.0800][format:json][[{"http param":{"a":"WxMaterialNews","m":"showMaterial","p":"1","callback":"materialSelecter.loadNewsData"}}]]
