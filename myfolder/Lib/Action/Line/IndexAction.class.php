@@ -9,7 +9,7 @@ class IndexAction extends BaseAction{
 	private $_model;
 	public function __construct()
 	{
-		parent::__construct();
+		//parent::__construct();
 		//$this->_model = loadModel('Index');
 	}
 	/**
@@ -26,7 +26,7 @@ class IndexAction extends BaseAction{
     public function test(){
     	echo "aaabb";
     	$botApi = new LINEBot(LineConfig::$base, new LineHTTPClient(LineConfig::$base));
-    	$result = $botApi->sendText(['2334'], 'hello!');
+    	$result = $botApi->sendText(['u82a358394d656c974a04e5d78d444af5'], 'hello!');
     	var_dump($result);
     	echo "Line test index";exit;
     }
