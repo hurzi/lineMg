@@ -58,12 +58,12 @@ class LinePHPCPU
 	{	
 		$msgStr = trim(file_get_contents('php://input'));
 		Logger::info("receiver line msg",$msgStr);
-		$botApi = new LINEBot(LineConfig::$base, new LineHTTPClient(LineConfig::$base));
+		//$botApi = new LINEBot(LineConfig::$base, new LineHTTPClient(LineConfig::$base));
 		
 		echo "------------------test start----------</br>";
 		var_dump($_REQUEST);
 		echo "</br>------------------test end------------</br>";
-		var_dump($botApi->createReceivesFromJSON($msgStr));
+		//var_dump($botApi->createReceivesFromJSON($msgStr));
 		
 		exit;
 		$token = C('APP_WEIXIN_API_TOKEN');
