@@ -1,4 +1,6 @@
 <?php
+use LINE\LINEBot;
+use LINE\LINEBot\HTTPClient\LineHTTPClient;
 /**
  * 这里是消息流核心处理类文件
  */
@@ -54,9 +56,15 @@ class LinePHPCPU
 	 */
 	public static function run()
 	{	
+		$msgStr = trim(file_get_contents('php://input'));
+		Logger::info("receiver line msg",$msgStr);
+		$botApi = new LINEBot(LineConfig::$base, new LineHTTPClient(LineConfig::$base));
+		
 		echo "------------------test start----------</br>";
 		var_dump($_REQUEST);
 		echo "</br>------------------test end------------</br>";
+		var_dump($botApi->createReceivesFromJSON($msgStr));
+		
 		exit;
 		$token = C('APP_WEIXIN_API_TOKEN');
 		//验证来源是否是微信
