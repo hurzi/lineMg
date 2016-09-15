@@ -1,0 +1,2 @@
+SDK必须要求是高级访问权限
+你的iBot Cloud账号通过实名认证后，可发邮件至support@xiaoi.com申请或加入QQ群153342929向管理员申请

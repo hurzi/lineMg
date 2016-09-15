@@ -59,8 +59,20 @@ class LinePHPCPU
 		$msgStr = trim(file_get_contents('php://input'));
 		$msgArr = json_decode($msgStr,true);
 		Logger::info("receiver line msg:".$msgStr,$msgArr);
+		//收到的文本
+		$msg = $msgArr['result'][0]['content']['text'];
+		//通过小i机器人获得回答
+		include_once LIB_PATH . '/../AbcPHP/Org/iBotCloud/XiaoiBot.php';
+		$bot = new XiaoiBot( [ 'app_key' => 'QCrCl92wojmX', 'app_secret' => 'HX8klwdrbOJTPYaQukbj' ] );
+		//自支应答
+		$askResult = $bot->ask($msg);
+		$botResult = "我暂时还无法回答您";
+		if($askResult && $askResult[0]==200){
+			$botResult = $askResult[1];
+		}
+		
 		$botApi = new LINEBot(LineConfig::$base, new LineHTTPClient(LineConfig::$base));
-		$result = $botApi->sendText([$msgArr['result'][0]['content']['from']], 'hello!'.$msgArr['result'][0]['content']['text']);
+		$result = $botApi->sendText([$msgArr['result'][0]['content']['from']], $botResult);
 		Logger::info('callback result:',$result);
 		echo "------------------test start----------</br>";
 		var_dump($_REQUEST);
