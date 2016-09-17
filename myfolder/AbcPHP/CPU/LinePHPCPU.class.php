@@ -61,15 +61,19 @@ class LinePHPCPU
 		Logger::info("receiver line msg:".$msgStr,$msgArr);
 		//收到的文本
 		$msg = $msgArr['result'][0]['content']['text'];
-		//通过小i机器人获得回答
-		include_once LIB_PATH . '/../AbcPHP/Org/iBotCloud/XiaoiBot.php';
-		$bot = new XiaoiBot( [ 'app_key' => 'QCrCl92wojmX', 'app_secret' => 'HX8klwdrbOJTPYaQukbj' ] );
-		//自支应答
-		$askResult = $bot->ask($msg);
-		$botResult = "我暂时还无法回答您";
-		if($askResult && $askResult[0]==200){
-			$botResult = $askResult[1];
-		}
+		
+		$botResult = $this->getKeyReply($msg);
+		if($reply === false){
+			//通过小i机器人获得回答
+			include_once LIB_PATH . '/../AbcPHP/Org/iBotCloud/XiaoiBot.php';
+			$bot = new XiaoiBot( [ 'app_key' => 'QCrCl92wojmX', 'app_secret' => 'HX8klwdrbOJTPYaQukbj' ] );
+			//自支应答
+			$askResult = $bot->ask($msg);
+			$botResult = "我暂时还无法回答您";
+			if($askResult && $askResult[0]==200){
+				$botResult = $askResult[1];
+			}
+		}		
 		
 		$botApi = new LINEBot(LineConfig::$base, new LineHTTPClient(LineConfig::$base));
 		$result = $botApi->sendText([$msgArr['result'][0]['content']['from']], $botResult);
@@ -104,6 +108,21 @@ class LinePHPCPU
 			echo $_GET["echostr"];
 			exit();
 		}
+	}
+	
+	private function getKeyReply($key){
+		$arr = array(array("key"=>array("福皓整合科技","福皓","福皓科技"),"reply"=>"http://www.full2house.com/"),
+				array("key"=>array("产品","產品"),"reply"=>"電子商務平台：http://www.full2house.com/eBusiness.html  消費通路：http://www.full2house.com/channel.html"),
+				array("key"=>array("電話","电话"),"reply"=>"02-87734066"),
+					);
+		$result = false;
+		foreach ($arr as $v){
+			if(in_array($key, $v["key"])){
+				$result = $v['reply'];
+				break;
+			}
+		}
+		return $result;
 	}
 
 	/**
