@@ -62,8 +62,8 @@ class LinePHPCPU
 		//收到的文本
 		$msg = $msgArr['result'][0]['content']['text'];
 		
-		$botResult = $this->getKeyReply($msg);
-		if($reply === false){
+		$botResult = self::getKeyReply($msg);
+		if($botResult === false){
 			//通过小i机器人获得回答
 			include_once LIB_PATH . '/../AbcPHP/Org/iBotCloud/XiaoiBot.php';
 			$bot = new XiaoiBot( [ 'app_key' => 'QCrCl92wojmX', 'app_secret' => 'HX8klwdrbOJTPYaQukbj' ] );
@@ -110,7 +110,7 @@ class LinePHPCPU
 		}
 	}
 	
-	private function getKeyReply($key){
+	private static function getKeyReply($key){
 		$arr = array(array("key"=>array("福皓整合科技","福皓","福皓科技"),"reply"=>"http://www.full2house.com/"),
 				array("key"=>array("产品","產品"),"reply"=>"電子商務平台：http://www.full2house.com/eBusiness.html  消費通路：http://www.full2house.com/channel.html"),
 				array("key"=>array("電話","电话"),"reply"=>"02-87734066"),
